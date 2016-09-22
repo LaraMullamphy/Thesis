@@ -1,46 +1,56 @@
 This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: ThesisWHY.aux
-The style file: plain.bst
-Database file #1: MyLibrary.bib.bib
-You've used 1 entry,
-            2118 wiz_defined-function locations,
-            505 strings with 4344 characters,
-and the built_in function-call counts, 590 in all, are:
-= -- 51
-> -- 48
-< -- 0
-+ -- 19
-- -- 18
-* -- 61
-:= -- 108
-add.period$ -- 3
-call.type$ -- 1
-change.case$ -- 12
+The style file: unsrt.bst
+Database file #1: My_Library.bib.bib
+Warning--empty school in elsener_material_2014
+Warning--empty author and editor in _queensland_1899
+Warning--empty author in _section_2008
+Warning--empty journal in bazan_ultimate_1980
+Warning--empty booktitle in gustafsson_study_1988
+Warning--empty author and editor in _eurocode_1995
+Warning--empty author and editor in _csa_2014
+Warning--empty author and editor in _errata:_2013
+Warning--empty school in fawwaz_structural_2012
+You've used 41 entries,
+            1791 wiz_defined-function locations,
+            645 strings with 9274 characters,
+and the built_in function-call counts, 6890 in all, are:
+= -- 569
+> -- 267
+< -- 3
++ -- 111
+- -- 70
+* -- 370
+:= -- 1084
+add.period$ -- 114
+call.type$ -- 41
+change.case$ -- 19
 chr.to.int$ -- 0
-cite$ -- 1
-duplicate$ -- 11
-empty$ -- 30
-format.name$ -- 18
-if$ -- 108
+cite$ -- 50
+duplicate$ -- 375
+empty$ -- 787
+format.name$ -- 70
+if$ -- 1556
 int.to.chr$ -- 0
-int.to.str$ -- 1
-missing$ -- 1
-newline$ -- 8
-num.names$ -- 2
-pop$ -- 10
+int.to.str$ -- 41
+missing$ -- 49
+newline$ -- 198
+num.names$ -- 35
+pop$ -- 211
 preamble$ -- 1
-purify$ -- 11
+purify$ -- 0
 quote$ -- 0
-skip$ -- 7
+skip$ -- 120
 stack$ -- 0
-substring$ -- 36
-swap$ -- 1
-text.length$ -- 0
+substring$ -- 193
+swap$ -- 44
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 4
-warning$ -- 0
-while$ -- 4
-width$ -- 2
-write$ -- 13
+type$ -- 0
+warning$ -- 9
+while$ -- 49
+width$ -- 43
+write$ -- 408
+(There were 9 warnings)

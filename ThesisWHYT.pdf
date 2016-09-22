@@ -1,0 +1,527 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[latin1]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage{multirow}
+\usepackage{setspace}
+
+
+% Set folder for images
+\graphicspath{ {Figures_and_Images/} }
+
+% Set Margins
+\usepackage{geometry}
+\geometry{, total={145mm,247mm}, left = 40mm, top = 25mm}
+
+% Set Font
+\usepackage{pslatex} %Times font
+
+
+%--------------------------------------------------------------
+%	TITLE PAGE
+%--------------------------------------------------------------
+
+\newcommand*{\titleGP}{\begingroup % Create the command for including the title page in the document
+	\centering % Center all text
+	\vspace*{\baselineskip} % White space at the top of the page
+	
+	
+	{\Large JAMES COOK UNIVERSITY\\ [0.3\baselineskip] } % Title
+	
+	{\Huge COLLEGE OF SCIENCE TECHNOLOGY \&{} ENGINEERING\\ [0.3\baselineskip] } % Title
+	
+	\vspace*{7\baselineskip} % Whitespace between location/year and editors
+	
+	{\Huge EG4011\\ Civil Engineering\\ [0.3\baselineskip] } % Title
+	
+	\vspace*{6\baselineskip} % Whitespace between location/year and editors
+	
+	{\Huge \bf{STRENGTHENING OF CIRCULAR SECTION TIMBER GIRDERS USING FIBRE REINFORCED POLYMERS}\\ [0.3\baselineskip] } % Title
+	
+	
+	\vspace*{2\baselineskip} % Whitespace between location/year and editors
+	
+	{\LARGE LARA MULLAMPHY\par} % Editor list
+
+	
+	\vfill % Whitespace between editor names and publisher logo
+	
+	
+		\scshape % Small caps
+		Proposal submitted to the School of Engineering and Physical Sciences in partial fulfilment of the requirements for the degree of \\
+		{\Large Bachelor of Engineering with Honours\\ (Civil Engineering)} % Tagline(s) or further description
+		\\[\baselineskip] % Tagline(s) or further description
+		29 April 2016\par % Location and year
+	
+	\endgroup}
+
+%--------------------------------------------------------------
+
+\begin{document}
+
+%------------------------- Title Page -------------------------
+	\titleGP % This command includes the title page
+
+	% Set Line Spacing to 1.5
+	\setstretch{1.5}
+	\thispagestyle{empty}
+	\pagenumbering{roman}
+	\pagebreak
+	
+%-------------------- Table of Contents -------------------	 
+	\tableofcontents
+	\pagebreak
+	
+%---------------------- Introduction --------------------------
+	\section{Introduction}
+	\pagenumbering{arabic}
+	\setcounter{page}{1}
+	% State the general topic
+	
+	\noindent
+	Talk about timber being a huge part of structures up until the introduction of concrete. \par
+	
+	\vspace*{\baselineskip}
+	
+	\noindent
+    Timber has been a dominant material in engineering and construction for many centuries, and continues to be a major material used in housing, floors and furniture. 
+    
+    However, the use of timber in structures has decreased majorly over the past century due to the introduction of materials such as concrete. This is predominately due to the environmental disadvantages of timber; very combustible, susceptible to severe weathering, maximum life span of 50years, strength limitations; size limitations and insect infestation.
+	
+	\vspace*{\baselineskip}
+	
+	% Discuss the use of timber in bridges
+	
+	%% Outline the current situation - 2 paragraphs
+	%Discuss the deterioration of the timber due to its lifespan.
+	
+	%% Discuss the unknowns ('gap') surrounding timber analysis 
+	
+	
+	%% Evaluate the current situation - 2 paragraph
+	
+	
+	%% Identify the importance of the proposed research - 1 paragraph
+	
+	
+	\subsection{Objectives}
+	% State the research aims and/or research objectives - 1 paragraph
+	The aim of this research is to determine the structural behaviour of circular section timber girders with different notched angles. Using these results, methods of strengthening the notched girders using FRP can be tested.\par 
+	
+	\vspace*{\baselineskip}
+	
+	% Define the scope of the topic
+	\noindent
+	The overall scope of this experiment is to determine the effectiveness of strengthening timber girders on current bridge structures, using FRP. 
+	
+	
+	\pagebreak
+	
+	\section{Literature Review}
+	
+	\subsection{Timber Bridges}
+	Timber has been a dominant material in construction since prehistoric times, and was most likely the first material used to construct a bridge \cite{ritter_timber_1990}. The use of wood as a structural material was prominent throughout the middle ages to the 20th century, where the use for timber in structures declined in the 1960's due to the introduction of steel and concrete \cite{ritter_timber_1990,_timber_2005}. 
+	
+	\vspace*{\baselineskip}
+	
+	\noindent
+	Timber as a dominant material in structures spanned centuries due to its strength, light-weight, and energy-absorbing properties, which are particularly desirable for bridge construction. Wood has the capability of supporting short-term overloads without any harmful effects to the material. In severe fire exposure, large timber members have fire resistance qualities are equivalent or higher compared to most other materials. Timber is a economically competitive with most other materials as it is naturally grown and lower in cost than materials such as steel and concrete. A major advantage for constructing bridges using timber is its durability in most weather conditions, as long as it is protected from moisture. There is no effect or damage caused to Wood by continuous freezing and thawing, and obtains the ability to resists harmful effects of de-icing agents. This is a huge advantage for the use of timber in bridges as such weather conditions commonly cause deterioration in other bridge materials. The construction of timber bridges is fairly simple and cost effective, as no special equipment is required for installation and can usually be constructed little labour \cite{ritter_timber_1990}. 
+	
+	\vspace*{\baselineskip}
+	
+	\noindent
+	There have been many bridges built during the 19th century that have lasted over 100 years when they were protected from direct exposure to the elements. Covering wood has become a common practice as it increases the lifespan tremendously, however the use of chemicals to preservative wood has come to light and has been more widely used. By using modern application techniques, chemicals can preserve timber bridges and severely reduce deterioration for over 50 years. This is a major benefit as there is little to no maintenance or painting required for wood treated with preservatives \cite{ritter_timber_1990}.
+	
+	\vspace*{\baselineskip}
+	
+	\noindent
+	Overall, timber's short term properties and lifespan are desirable for bridge construction. However, in the long-term the life-span of a timber bridge is severely shortened due to its susceptibility to extreme deterioration caused by rotting, weathering and insect attack \cite{_timber_2005,ritter_timber_1990}. Due to these long-term effects, timber bridges require substantial maintenance throughout their structural life \cite{_timber_2005}. Another major issue faced today is that, there is an increasing difficulty in obtaining large sections of wood and sawn timber as tree plantations reduce and the drive for forest preservation increases \cite{_timber_2005,ritter_timber_1990}. 
+	
+	%% Quick mention of glulam
+	
+	\vspace*{\baselineskip}
+	
+	\noindent
+	Nowadays, the short life-span, high maintenance requirements and limited supply of timber have ultimately caused the preferred material for bridge construction to veer towards combination of steel and pre-stressed concrete. 
+
+	
+	\subsubsection{Structure}
+	
+	
+	\subsubsection{Common Defects and Failures}
+	There are four major defects that are commonly occurring in timber bridges; weathering, rotting, cracking and termite infestation. These defects severely reduce the lifespan of a timber bridge and all eventuate to member failure.
+
+    \vspace*{\baselineskip}
+    
+    \noindent
+    \textbf{Weathering and Rotting}
+
+	\noindent
+	Weathering and rotting occur in timber members due to exposure to moisture. Both weathering and rotting can lead to major deterioration of the member, reducing the capacity to the point of failure \cite{_timber_2005}. 
+    
+    \vspace*{\baselineskip}
+
+	\noindent
+	Weathering is caused by the environment the timber is exposed to, and can differ in the appearance due to the exposure of different elements. Such as, exposure to high wind speeds can cause dints/abrasions from small pebbles or embedded sand particles \cite{harrowfield_analysis_2006}. The image below shows a form of weathering caused by running water or rain on a rail bridge longitudinal girder.\par
+	
+\begin{figure}[h]
+	\begin{center}
+		\includegraphics[scale=0.07]{Weathering}
+	\end{center}
+	\caption{Weathering}
+\end{figure}
+
+	\pagebreak
+	
+	 \noindent
+	 Rotting, on the other hand, commonly occurs in areas that allow moisture to penetrate the wood, such as; the pith or heart (causing core rotting), bolt holes and cut sections (i.e. notches) \cite{_timber_2005,white_bridge_1992}. 
+	 
+	 \begin{center}
+	 	\begin{figure}[h]
+	 		\includegraphics[scale=0.07]{Core_Rotting}
+	 		\includegraphics[scale=0.07]{Notch_Rotting}
+	 		\caption{Core and Notch Rotting}
+	 	\end{figure}
+	 \end{center}  
+	
+	\noindent
+	Rot is decay cause by wood-destroying fungi. The fungi requires adequate moisture, heat and oxygen to prosper and results in two different types of decay, brown rot and white rot. Brown rot is common in softwood, where the fungi attacks only the cellulose creating a brown colour. More common in hardwood, white rot is caused by the fungi attacking both the cellulose and lignin in the wood, creating a white colour. Rotting overall causes a reduction in the strength of the member, colour change, rapid absorption of water, and can make the wood emit an odor similar to anise or wintergreen \cite{white_bridge_1992}
+	
+	%% Discuss why/what causes it to occur
+	%% Discuss conditions this occurs in
+	%% Discuss the amount of time it takes for a member to be critically effected by this defect
+	
+    \vspace*{\baselineskip}
+	    
+    \noindent
+    \textbf{Termites}
+	
+	
+	% Termite Festation
+	%% Pictures!!
+	%% Discuss why/what causes it to occur
+	%% Discuss conditions this occurs in
+	%% Discuss the amount of time it takes for a member to be critically effected by this defect
+	
+    \vspace*{\baselineskip}
+    
+    \noindent
+    \textbf{Cracking}
+    
+    \noindent
+	Cracking usually occurs due to applied loads exceeding the capacity of the member, and thus will always lead to failure. This defect can occur in any conditions, and is purely dependant on the loads that are applied, however the presents of other capacity reducing defects increases the chances of cracking. The two types of cracks that occur are flexural and shear cracking \cite{_timber_2005}. 
+	
+    \vspace*{\baselineskip}	
+	
+	\noindent
+	Flexural cracks appear on the areas of a bridge that have high moments due applied loads. The common location for flexural cracking are at mid-span of the member, over the support and underneath any other permanent loads (dead loads). These areas are depicted in the figure below \cite{_timber_2005}.  
+
+ 	\begin{figure}[h]
+        \begin{center}
+		 	\includegraphics[scale=0.9]{Failure_Location_1}
+	 		\includegraphics[scale=0.9]{Failure_Location_2}
+        \end{center}
+	 		\caption{Locations of Cracking \cite{_timber_2005}}
+	\end{figure}
+
+	Flexural cracks are the results of 
+	
+	% Commonly effected areas
+	%% Pictures and diagrams
+	
+	% Critical areas for defects
+	%% Pictures and diagrams
+	
+
+\subsection{Timber Properties}
+	% discuss the general properties of timber
+	%% Light weight
+	%% Strength abilities
+	%% Flexibility
+	%% Effects of grain size and direction 
+	
+	\subsubsection{Flexural}
+	% Discuss flexual tendencies of timber
+	% Discuss general flexural capacity 
+	% Discuss flexural failure
+	
+	\subsubsection{Shear}
+	% Discuss shear tendencies of timber
+	% Discuss general shear capacity 
+	% Discuss shear failure
+	
+	\subsubsection{Rectangular Section Member Design}
+	% Discuss design aspects of a rectangular section member
+	% Show equations and explain design process and necessary factors
+	% Include all necessary tables and graphs
+	
+	\subsubsection{Circular Section Member Design}
+	% Discuss design aspects of a circular section member
+	% Show equations and explain design process and necessary factors
+	% Include all necessary tables and graphs
+	
+	A typical bending capacity formula for a round girder is as follows. 
+	
+	\begin{equation}
+	\phi M = \phi k_{1} k_{4} k_{6} k_{9} k_{12} k_{20} k_{21} k_{22} f'_{b} Z
+	\end{equation}
+     
+    
+    Where k1, k4, k6, k12 are as for working stress design and \par
+    
+    k9 = Strength Sharing Factor\par
+    
+    k20 = Immaturity Factor\par
+    
+    k21 = Shaving Factor\par
+    
+    k22 = Processing Factor = 1\par
+    
+	\cite{_timber_2005}
+	
+	\subsubsection{Octagonal Section Member Design}
+	% Discuss design aspects of a octagonal section member
+	% Show equations and explain design process and necessary factors
+	% Include all necessary tables and graphs
+		
+	\begin{equation}
+	\phi M = \phi k_{1} k_{4} k_{6} k_{9} k_{12} f'_{b} Z
+	\end{equation}
+	\cite{_timber_2005}
+
+
+	\subsection{Notching}
+	Notching or sniping is when the lower corner of a member is cut to make insertion easier, as well as to increase the stability of the member when sitting on a pier/abutment etc. Figure X below shows an example of a notched member over a pier. 
+	
+	%% Add Figure/picture of notching
+%    \begin{center}
+%    	\begin{figure}[h]
+%    		\includegraphics[scale=0.07]{Cracking}
+%    		\caption{Cracking and Notch Rotting}
+%    	\end{figure}
+%    \end{center}
+	
+	\vspace*{\baselineskip}
+	
+	\noindent
+	One of the major issues faced with notches are they significantly reduce the load-carrying and shear capacities of timber beams. For these reasons, it is suggested that the use of notches be avoided in practice, however in some situations they cannot be \cite{jockwer_state---art_2013,jockwer_structural_2014}.
+	
+	\vspace*{\baselineskip}
+	
+	\noindent
+    Brittle failure of beams resulting from fractures initiated at the notch corner can occur. 
+	
+	% Discuss notching effects on timber 
+	%% Effect on section loss and member capacity
+	%% Possible defects caused by notching (shear splitting)
+	
+	% Discuss the gap that the there is little information on the effect of notching on the strength of the beam and particularly for circular members
+	
+	
+	\subsubsection{Notch Types}
+	There are four main types of notching, rectangular end notch, tapered end notch, rounded end notch and notch in span. 
+	
+	\vspace*{\baselineskip}
+	
+	\begin{center}
+		\begin{figure}[h]
+			\includegraphics[scale=0.9]{Notch_Types}
+			\caption{Notching Types; (a) rectangular end notch; (b) tapered end notch; (c) rounded end notch; (d) notch in span}
+		\end{figure}
+	\end{center}
+	
+	\vspace*{\baselineskip}
+	
+	% Discuss which types of notches are preferred and why
+	\noindent
+	Australian Standard AS1720.1 recommends the use of a flat 1:4 gradient slope and the end of the notch, which theoretically increases the shear capacity of the member by 3 times when compares to a "square" notch. However, all references are based on rectangular sections, and do not cover round or octagonal members as are prominent in most rail and road bridges \cite{_timber_2005}.
+	
+	% Discuss the issues with certain types of notching relating to construction (i.e. whether some notch types are too complex/difficult to construct)
+	
+	\subsubsection{Australian Standards Notch Design}	
+	
+	\begin{equation}
+    \dfrac{6M^*}{bd_n^2} + \dfrac{6V^*}{bd_n} \leq \phi g_{40} k_1 k_4 k_6 k_{12} f'_{sj}
+	\end{equation}
+	
+	% Insert figure
+	
+	\begin{center}
+		\begin{figure}[h]
+			\includegraphics[scale=0.9]{Notching.png}
+			\caption{Notation for Notch}
+			\label{fig:figure2}
+		\end{figure}
+	\end{center}
+	
+	\begin{center}
+		\begin{tabular}{c|c|c} 
+			
+			\hline \hline
+			\multirow{2}{*}{Notch Angle Slope} & \multicolumn{2}{|c}{$g_{40}$} \\
+			\cline{2-3}
+			
+			&$d_{notch} \geq 0.1d$ & $d_{notch} < 0.1d$ \\ [0.5ex] 
+			\hline
+			$l_{notch}/d_{notch}=0$ & $9.0/d^{0.45}$ & $3.2/d^2_{notch}$ \\ [0.5ex]
+			\hline
+			$l_{notch}/d_{notch}=2$ & $9.0/d^{0.33}$ & $4.2/d^2_{notch}$ \\ [0.5ex]
+			\hline
+			$l_{notch}/d_{notch}=4$ & $9.0/d^{0.24}$ & $5.2/d^2_{notch}$ \\ [0.5ex]
+			\hline \hline
+		\end{tabular}
+	\end{center}
+	
+	\subsubsection{Fracture Mechanics}
+	The previous notched member design methods considers predominately the pure effect of the load and does not take into account fracture mechanics. 
+	
+	\vspace*{\baselineskip}
+	
+	\noindent
+	
+	For a beam notched at both ends, Gustafsson proposed a design approach based on fracture energy (Gustafsson 1988). Fracture energy was calculated from the deflection resulting from the moment and shear force action and from an elastic clamping effect, taking into account a lower bending stiffness of the full cross- section at the junction to the notched part of the beam. The resulting additional deflection was assumed to be proportional to the moment acting at the notch corner. By choosing an appropriate value for this clamping effect, a simplification of the resulting expression was possible. Gustafsson looked for a design approach for beams with end notches. Thus, he proposed a verification of shear stresses in the reduced cross-section as given by Eq. (7)
+	
+	\begin{center}
+		\begin{figure}[h]
+			\includegraphics[scale=0.9]{Geom_notched_beam_dowl}
+			\caption{Geometry of notched beam and dowel joint}
+		\end{figure}
+	\end{center}
+	
+	\begin{equation}
+		\dfrac{V_{f}}{b\alpha d} = \dfrac{\sqrt{\frac{G_{c}}{d}}}{\sqrt{0.6\frac{(\alpha-\alpha^{2})}{G_{xy}}}+\beta\sqrt{6\frac{(1/\alpha-\alpha^2)}{E_{x}}}}
+	\end{equation}
+	
+	
+	\noindent
+	Where; \par
+	$G_{xy}$ - shear modulus\par 
+	$ E_{x} $ - modulus of elasticity in beam direction, parallel to the grain\par
+	d - depth of the member\par 
+	$ G_{c} $ - fracture energy\par 
+	$ \beta $, $ \alpha $ and h are depicted in the figure above. \par
+	
+	\vspace*{\baselineskip}
+		
+	\noindent
+	The fracture energy for a notched member can be found using the following equation. 
+	
+	\begin{equation}
+		 G_{c} = \dfrac{1}{2}(P_{f}^{2}/B) \dfrac{dC(a)}{da} 
+	\end{equation}
+	
+	Where;\par
+	C - denotes the compliance of the structure\par
+	da - extension of the length of the crack\par
+	$P_{f}$ - magnitude of load that start propagation of the crack\par
+	B - width of the fracture area (i.e. $B = dA/da$)
+
+	
+	
+	\vspace*{\baselineskip}
+	
+	\noindent
+	The best prediction of tests results was reached when the clamping effect proposed by Gustafsson (1988) was taken to be proportional to $1/\alpha^{3}$ instead of $1/\alpha^{2}$. Furthermore, Smith et al. (1996b) found Eq. (8) to overestimate the load-carrying capacity of notches of small length, because the stress interaction between notch and support is not taken into account in the underlying theory.
+
+
+\subsection{Timber Strengthening}
+
+
+% Identify the gap that there is no strengthening taking into accoung the notching of the beam 
+Many methods of timber strengthening has been tested, however there are no current recorded efforts in testing notched timber members. 
+
+% Briefly mention the methods on how to strengthen timber
+
+\subsection{Fibre Reinforced Polymers (FRP)}
+% Discuss forms of FRP
+%% Externally bonded
+%% Near surface mounted strip (fexural)
+%% Shear Spikes
+%% 
+
+% Discuss types of FRP materials
+%% CFRP
+%% GFRP
+%% AFRP
+%% BFRP
+%% Other types
+
+
+\subsubsection{CFRP}
+
+
+\subsubsection{GFRP}
+
+
+\subsubsection{BFRP}
+
+
+\subsubsection{AFRP}
+
+
+\subsection{Analysis and Modelling}
+% How to model timber material using Finite Element Analysis
+% How to model with FRP
+
+There are two main failures of notched beams due to loading, the first is flexural failure and the second is cracking at the corner of the notch, along the propagation of the timber fibres. Thus, to model the failure of the beam, we consider both forms of failure separately. 
+
+\vspace*{\baselineskip}
+
+\noindent
+Fracture mechanics can be used to determine a theoretical design approach for the notch cracking \cite{jockwer_state---art_2013}
+
+The stress distribution around notches can be described using the continuum theory. The notched beam is modelled as a two-dimensional plate with infinite extension in plane stress or plane strain conditions. Williams (1952) first stated a general approach for the stress distribution at corners of arbitrary angle in isotropic plates. Leicester (1969, 1971) described the extension of the theory to orthotropic material and arbitrary notch angles, resulting in a more complex stress function. Lum and Foschi (1988) gave a general solution of the Airy function for the biharmonic equation, taking into account the different orthogonal stiffness in orthotropic material.
+
+\vspace*{\baselineskip}
+
+In the application of the mean stress method, the
+means of stress components, along a predefined area
+or length xm in the 2D case are calculated. The mean
+values are then used in a traditional stress criterion,
+for example a Tsai-Hill or Norris criterion. In the case
+of mode I fracture in an isotropic material, such as
+high density fibre boards (HDFB), the length xm can
+be calculated by means of integrating the stress field
+in the vicinity of a crack tip, along a possible crack
+growth direction. By setting the mean stress equal to
+the material strength one obtains
+
+\begin{equation}
+	 x_{m} = \dfrac{2}{\pi} \dfrac{EG_{c}}{f_{t}^{2}}
+\end{equation}
+
+Where;
+$f_{t}$ - material strength\par
+E - Young's modulus\par
+
+In the initial crack method, an initial crack is assumed
+to exist at the most stressed point, and oriented in the
+direction of predicted crack propagation. The proper
+length of the initial crack, ai , is, by theoretical justifications, found to be:
+
+\begin{equation}
+	 a_{i} = \dfrac{x_{m}}{2} 
+\end{equation}
+
+\pagebreak
+
+\section{Methodology}
+
+
+
+\pagebreak
+
+\section{Project Management Plan}
+	
+\pagebreak	
+
+\section{Expected Results/Conclusions}
+
+\pagebreak	
+
+\bibliography{My_Library.bib}
+\bibliographystyle{plain}
+\end{document}

@@ -1,0 +1,34 @@
+\contentsline {section}{List of Figures}{iv}
+\contentsline {section}{List of Tables}{v}
+\contentsline {section}{\numberline {1}Introduction}{1}
+\contentsline {subsection}{\numberline {1.1}Objectives}{2}
+\contentsline {subsection}{\numberline {1.2}Scope}{2}
+\contentsline {section}{\numberline {2}Literature Review}{3}
+\contentsline {subsection}{\numberline {2.1}Timber Bridges}{3}
+\contentsline {subsubsection}{\numberline {2.1.1}Wood Types}{4}
+\contentsline {subsubsection}{\numberline {2.1.2}Common Defects and Failures}{5}
+\contentsline {subsection}{\numberline {2.2}Timber Properties}{9}
+\contentsline {subsection}{\numberline {2.3}Australian Member Design}{11}
+\contentsline {subsubsection}{\numberline {2.3.1}Rectangular Section}{12}
+\contentsline {subsubsection}{\numberline {2.3.2}Circular Section}{13}
+\contentsline {subsubsection}{\numberline {2.3.3}Octagonal Section}{13}
+\contentsline {subsection}{\numberline {2.4}Notching}{14}
+\contentsline {subsubsection}{\numberline {2.4.1}Notch Types}{15}
+\contentsline {subsubsection}{\numberline {2.4.2}Notch Design}{16}
+\contentsline {subsection}{\numberline {2.5}Timber Strengthening}{21}
+\contentsline {subsubsection}{\numberline {2.5.1}Strengthening of Notched Beams}{21}
+\contentsline {subsection}{\numberline {2.6}Analysis and Modelling}{23}
+\contentsline {section}{\numberline {3}Material and Methodology}{24}
+\contentsline {subsection}{\numberline {3.1}Test Set-up}{24}
+\contentsline {subsubsection}{\numberline {3.1.1}Altering Notch Angles of Small Scale Members}{26}
+\contentsline {subsection}{\numberline {3.2}Finite Element Analysis}{28}
+\contentsline {subsection}{\numberline {3.3}Materials}{29}
+\contentsline {subsection}{\numberline {3.4}Methodology}{30}
+\contentsline {section}{\numberline {4}Results}{33}
+\contentsline {subsection}{\numberline {4.1}Rectangular Specimens}{33}
+\contentsline {subsection}{\numberline {4.2}Round Specimens}{33}
+\contentsline {subsection}{\numberline {4.3}Predicted Capacities using Standards}{33}
+\contentsline {subsection}{\numberline {4.4}Finite Element Analysis}{33}
+\contentsline {section}{\numberline {5}Discussion}{35}
+\contentsline {section}{\numberline {6}Conclusions}{37}
+\contentsline {section}{Appendix \numberline {A}\textit {Specimen Characteristics}}{}
