@@ -18,17 +18,15 @@
 \contentsline {subsection}{\numberline {2.5}Timber Strengthening}{21}
 \contentsline {subsubsection}{\numberline {2.5.1}Strengthening of Notched Beams}{21}
 \contentsline {subsection}{\numberline {2.6}Analysis and Modelling}{23}
-\contentsline {section}{\numberline {3}Material and Methodology}{24}
-\contentsline {subsection}{\numberline {3.1}Test Set-up}{24}
-\contentsline {subsubsection}{\numberline {3.1.1}Altering Notch Angles of Small Scale Members}{26}
-\contentsline {subsection}{\numberline {3.2}Finite Element Analysis}{28}
-\contentsline {subsection}{\numberline {3.3}Materials}{29}
-\contentsline {subsection}{\numberline {3.4}Methodology}{30}
-\contentsline {section}{\numberline {4}Results}{33}
-\contentsline {subsection}{\numberline {4.1}Rectangular Specimens}{33}
-\contentsline {subsection}{\numberline {4.2}Round Specimens}{33}
-\contentsline {subsection}{\numberline {4.3}Predicted Capacities using Standards}{33}
-\contentsline {subsection}{\numberline {4.4}Finite Element Analysis}{33}
-\contentsline {section}{\numberline {5}Discussion}{35}
-\contentsline {section}{\numberline {6}Conclusions}{37}
+\contentsline {section}{\numberline {3}Materials and Methodology}{24}
+\contentsline {subsection}{\numberline {3.1}Experimental Set-up}{24}
+\contentsline {subsubsection}{\numberline {3.1.1}Altering Notch Angles of Small Scale Members}{30}
+\contentsline {subsection}{\numberline {3.2}Material Properties}{32}
+\contentsline {subsection}{\numberline {3.3}Finite Element Analysis}{33}
+\contentsline {section}{\numberline {4}Results and Discussion}{34}
+\contentsline {subsection}{\numberline {4.1}Rectangular Specimens}{34}
+\contentsline {subsection}{\numberline {4.2}Round Specimens}{36}
+\contentsline {subsection}{\numberline {4.3}Predicted Capacities using Standards}{38}
+\contentsline {subsection}{\numberline {4.4}Finite Element Analysis}{38}
+\contentsline {section}{\numberline {5}Conclusions}{43}
 \contentsline {section}{Appendix \numberline {A}\textit {Specimen Characteristics}}{}

@@ -71,7 +71,7 @@
 	
 	\vspace*{6\baselineskip} % Whitespace between location/year and editors
 	
-	{\Huge \bf{STRENGTHENING OF NOTCHED CIRCULAR TIMBER GIRDERS USING FIBRE REINFORCED POLYMERS}\\ [0.3\baselineskip] } % Title
+	{\Huge \bf{A STUDY OF THE EFFECTS OF NOTCHING ON RECTANGULAR AND ROUND TIMBER GIRDERS}\\ [0.3\baselineskip] } % Title
 	
 	\vspace*{2\baselineskip} % Whitespace between location/year and editors
 	
@@ -156,7 +156,7 @@
 	
 	
 	\subsection{Objectives}
-	The aim of this research is to determine the structural behaviour of circular section timber girders with different notched angles. Using these results, methods of strengthening the notched girders using FRP can be tested. The main objectives of this research are to:\par 
+	The aim of this research was to determine the structural behaviour of rectangular and circular section timber girders with different notched angles. The main objectives were to:\par 
 	
 	\begin{enumerate}
 		\item Determine the effects of different notch types on the flexural and shear capacity of rectangular and circular timber beams
@@ -166,7 +166,7 @@
 	
 	\subsection{Scope}
 	\noindent
-	The overall scope of this research is to determine the effects of notching on rectangular and circular section members. This will be achieved through small-scale experiments where notch angles will be altered on both section types.
+	The overall scope of this research was to determine the effects of notching on rectangular and circular section members, and to determine which methods of notch design yield the most accurate results. This was achieved through small-scale experiments where notch angles were altered on both section types. 
 	
 	\pagebreak
 	
@@ -533,7 +533,7 @@
 	\noindent
 	
 	\subsubsection{Octagonal Section}
-    Queensland Department of Transport and Main Roads (TMR) suggests that the design of such members for bending, is the same as for rectangular sections \cite{_timber_2005}. However there is very little information surrounding octagonal member design and no design methods determined specifically for this shape cross-section.
+    Queensland Department of Transport and Main Roads (TMR) suggests that the design of such members for bending, is the same as for rectangular sections \cite{_timber_2005}. However there is very little information surrounding octagonal member design and no design methods determined specifically for this cross-section.
 
 
 	\subsection{Notching}
@@ -631,7 +631,7 @@
 		\label{tab:g40}
 		\begin{tabularx}{\textwidth}{>{\centering}X|>{\centering}X|>{\centering}X} 
 			\hline \hline
-			\multirow{2}{*}{Notch Angle Slope} & \multicolumn{2}{c}{$g_{40}$} \\
+			\multirow{2}{*}{\textbf{Notch Angle Slope}} & \multicolumn{2}{c}{$g_{40}$} \\
 			\cline{2-3}
 			
 			&$d_{notch} \geq 0.1d$ & $d_{notch} < 0.1d$ \tabularnewline [0.5ex] 
@@ -778,21 +778,21 @@
      $K_{N}$ is the notch factor and can be found using Equation \ref{eq:kn} \cite{jockwer_structural_2014,_csa_2014}. The notch factor is based on studies by Smith and Springer, and takes into account the depth of the beam ($d$), notch ratio $\alpha$ and notch length ratio $\eta$ \cite{smith_consideration_1993}.
      
 	\begin{equation}
-	K_{N} = \bigg\{0.006d \bigg[1.6 \bigg(\dfrac{1}{\alpha}-1 \bigg)+\eta^{2} \bigg(\dfrac{1}{\alpha^{3}}-1\bigg) \bigg] \bigg\}^{1/2} 
+	K_{N} = \bigg\{0.006d \bigg[1.6 \bigg(\dfrac{1}{\alpha}-1 \bigg)+\eta^{2} \bigg(\dfrac{1}{\alpha^{3}}-1\bigg) \bigg] \bigg\}^{-1/2} 
 	\label{eq:kn}
 	\end{equation} 
     
     where\par
     $ d $ = Total depth of member \par
     $ d_{n} $ = Depth of notch \par
-    $ e $ = Length of notch from centre of support \par
+    $ e $ = Length to notch from centre of support \par
     $\alpha = 1 - d_{n}/d$ \par
     $\eta = e/d$ \par
  
     \vspace*{\baselineskip}
 
     \noindent
-    To satisfy CSA O.86 design requirements, the design shear load ($Q_{f}$) must be less than the notch resistance load ($F_{r}$) \cite{_csa_2014,_errata:_2013}.   
+    To satisfy CSA O.86 design requirements, the design shear load ($Q_{f}$) must be less than the notch resistance load ($F_{r}$) \cite{_csa_2014,_errata:_2013}. This method only considers the effects of a rectangular end notch (slope 1:0), and does not account for different notch angles.  
 
 \subsection{Timber Strengthening}
 There are many methods used to strengthen timber structures \cite{plevris_frp-reinforced_1992}. These techniques are based around combining various different forms of reinforcement to the members. Basic forms of reinforcement have been utilised such as steel bars, steel and aluminium plates and externally bonded plywood. There have also been some slightly more complex strengthening efforts. In 1965, Peterson \cite{leicester_size_1969} attempted to prestress glulam timber beams using stressed steel plates. This was achieved by fixing the steel plates to the tension side of the glulam beam using epoxy. Others include pre-stressing glulam using cable and strengthening using steel tension bearing embedded wire. 
@@ -860,80 +860,154 @@ For analysis and modelling purposes, timber can be assumed to have orthotropic p
 \vspace*{\baselineskip}
 \pagebreak
 
-\section{Material and Methodology}
-Notches are widely used throughout timber bridge construction as a method of seating over other members or piers. Due to the section loss caused by notching, horizontal splitting commonly occurs along the grain, which may result in failure. This is caused by high stresses occurring in the notch corners, particularly in shear, combined with a loss of member capacity due to the reduced area. Although there are design methods for notching, they differ between codes and are based on rectangular sections. This is a major issue as members commonly used in timber bridges are of circular section. To achieve a better understanding of notch behaviour, current design methods and how to improve notch strengths in circular members, the following experiments and numerical testing were undertaken. 
+\section{Materials and Methodology}
+Notches are widely used throughout timber bridge construction as a method of seating over other members or piers. Due to the section loss caused by notching, horizontal splitting commonly occurs along the grain, which may result in failure. This is caused by high stresses occurring in the notch corners, particularly in shear, combined with a loss of member capacity due to the reduced area. Although there are design methods for notching, they differ between codes and are based on rectangular sections. This is a major issue as members commonly used in timber bridges are of circular section. To achieve a better understanding of notch behaviour and current design methods, the following experiments and numerical testing were undertaken. 
 
 	\begin{enumerate}
-		\item Carry out small scale tests on rectangular and round members to determine the critical notch angle for each profile
-		\item Develop models of timber members on ANSYS to implement and calibrate finite element analysis 
+		\item Small scale tests on rectangular and round members were carried out to determine the critical notch angle for each profile
+		\item Models of timber members on ANSYS were developed to implement and calibrate finite element analysis 
 	\end{enumerate}
 
-\subsection{Test Set-up}
-A three point loading set-up was used for all member testing throughout the experiments. The set up consisted of a centrally loaded, simply supported beam. Modelling carried out using ANSYS suggested that this location for loading would give the most critical effects and reduce any failure due to crushing over the notch. Steel plates with dimensions 5mm x 40mm x 60mm were used in conjunction with the supports to distribute the load onto to beam. All timber used will be of the same species and dimensions. The notches for all specimens have a maximum area loss of 30\% as specified by Australian standards. The tests will be carried out for both rectangular and circular section members and the moment of inertia and section modulus for both types of beams will be assumed to approximately constant. This will allow comparison in design methods and results. 
+\subsection{Experimental Set-up}
+A three point loading set-up was used for all member testing throughout the experiments. The set up consisted of a centrally loaded, simply supported beam. Modelling carried out using ANSYS suggested that this location for loading would give the most critical effects and reduce any failure due to crushing over the notch. Steel plates with dimensions 5mm x 40mm x 60mm were used over the supports to distribute the load onto to beam. All timber used were of the same species and dimensions. The tests were carried out for both rectangular and circular section members and the moment of inertia and section modulus for both types of beams were assumed to approximately constant. This will allow comparison in design methods and results. A Linear Variable Differential Transformer (LVDT) was also used to measure the deflection at the centre of the beam, as well as load cell, which was was used to measure the applie load. To collect all the data from the strain gauges, LVDT and load cell, a CR3000 Campbell's scientific data logger was used.
 
 \vspace*{\baselineskip}
 
 \noindent
-The dimensions of the rectangular members that were tested in the first experiment were 60mm x 100mm x 800mm. Allowing for the 30\% maximum depth loss, the notch were be either back sawn to a depth of 30mm. The test set-up for the rectangular experiments can be seen in Figure \ref{fig:rect}.
-
- \begin{figure}[h]
- 	\begin{center}
- 		\includegraphics[scale=0.35]{Rectangular_Setup}
- 	\end{center}
- 	\caption{Rectangular Member Test Set-Up}
- 	\label{fig:rect}
- \end{figure}
-
-\pagebreak
-
-\noindent
-A 5mm x 40mm x 60mm steel plate was also placed at the centre of the beam and under the point load to distribute the load.
-
-\vspace*{\baselineskip}
-
-\noindent
-The round members used for the experiments were 800mm in length with a 100mm diameter. To maintain a similar moment of inertia with the rectangular member, the notch was be cut to a depth of 25mm, which also stays within TMR's maximum limitations of 25\% depth loss. These members will be sawn so their grain profile will be radial and originating from the centre. This set-up can be seen in Figure \ref{fig:round}.
-
-
- \begin{figure}[h]
- 	\begin{center}
- 		\includegraphics[scale=0.35]{Circular_Setup}
- 	\end{center}
- 		\caption{Round Member Test Set-Up}
- 		\label{fig:round}
- \end{figure}
-\pagebreak
-
-\noindent
-A rounded 5mm thick by 40mm wide metal plate was made, curving half of the members circumference, with a 3mm x 40mm x 300mm long, straight pieced of metal welded to one side to support the LVDT. 
-
-\vspace*{\baselineskip}
-
-\noindent
-All tests were completed in the James Cook University structural engineering lab, using an Avery MTS to simulate three point loading with a controlled load rate. A load cell was also used in conjunction with the Avery to determine the load applied. 
-
-\vspace*{\baselineskip}
-
-\noindent
- The locations for the expected maximum loading effects on the beam will be determined using ANSYS modelling and FLA-2-11-3L strain gauges will be used for all tests to measure strains in these locations. An LVDT will also be used to measure the deflection below the applied load/notch corner. To collect all the data from the strain gauges, LVDT and load cell, a CR3000 Campbell?s scientific data logger will be used.
-
- \begin{figure}[h]
- 	\begin{center}
- 		\includegraphics[scale=0.4]{Gauge_Set_up}
- 	\end{center}
- 	\caption{Strain Gauge and LVDT Layout}
- 	\label{fig:Gauge}
- \end{figure}
-
-\noindent
-As shown in Figure \ref{fig:Gauge}, strain gauge rosettes will be placed at the notch corner as analysis has shown it endure high levels of strain. Strain gauges will also be placed on the tension and compression faces, as close as possible to the notch corner, to determine a strain and stress profile. 
-
-\subsubsection{Altering Notch Angles of Small Scale Members}
-Two notch types will be tested in this experiment; a rectangular end notch and a tapered end notch with slopes of 1:2 and 1:4. The strains surrounding the notch and failure type will be observed to determine the critical notch angle. 
+The rectangular members tested were 60mm wide x 100mm deep x 800mm long, back sawn timber. Allowing for the 30\% maximum depth loss, the notches were cut to a depth of 30mm, and were cut so that the notch corner sat 200mm in from the end of the specimen.  The specimens were notched at one end to ensure any notch failure would be concentrated and that notch. This allowed us to decrease the number of strain gauges required to record data. The test set-up for the rectangular experiments can be seen in Figure \ref{fig:rect}.
 
 \begin{figure}[h]
 	\begin{center}
-		\includegraphics[scale=0.25]{Notch_Angles}
+		\includegraphics[scale=0.35]{Rectangular_Setup}
+	\end{center}
+	\caption{Rectangular Member Test Set-Up}
+	\label{fig:rect}
+\end{figure}
+
+\noindent
+The supports were 600mm apart, from centre to centre, and the member was placed so it sat over the support at 100mm in from either end (100mm from notch corner). A 5mm x 40mm x 60mm steel plate was also placed at the centre of the beam and under the point load to distribute the load. The tests were set-up within a 10 tonne Avery MTS machine, where the MTS applied a load at a constant rate. AS1720 specifies instantaneous load rating to be a rate at which the member fails within a time frame of 5mins. After some alteration, the load rate was set to 10kN applied load per minute to comply with AS1720. 
+
+
+\noindent
+The round members used were 800mm in length with a 100mm diameter, which was design to maintain a similar moment of inertia with the rectangular member. The notch was cut to a depth of 25mm, which was chosen to stay within Department of Transport and Main Road's maximum limitations of 25\% depth loss. These members were sawn so their grain profile was radial. 
+
+\vspace*{\baselineskip}
+
+\noindent
+The same set-up was used for the round specimens as used for the rectangular; with a simply supported, 3 point load set up, 600mm effective length between supports, and the specimen supported 100mm in from either end. The same MTS machine was used at the same loading rate applied, for ease of later comparison with the rectangular specimen results. This set-up can be seen in Figure \ref{fig:round}.
+
+
+\begin{figure}[h]
+	\begin{center}
+		\includegraphics[scale=0.55]{Circular_Setup}
+	\end{center}
+	\caption{Round Member Test Set-Up}
+	\label{fig:round}
+\end{figure}
+\pagebreak
+
+\noindent
+A rounded 5mm thick by 40mm wide metal loading plate was made, curving half of the members circumference, with a 3mm x 40mm x 300mm long, straight pieced of metal welded to one side to support the LVDT. This plate can be seen in Figure \ref{fig:RoundPlate}. 
+
+\begin{figure}[h]
+	\begin{center}
+		\includegraphics[scale=0.1]{Round_Plate}
+	\end{center}
+	\caption{Loading and LVDT Plate for Round Specimen}
+	\label{fig:RoundPlate}
+\end{figure}
+
+\vspace*{\baselineskip}
+
+\noindent
+\textbf{Specimen Documentation}\par
+\noindent
+Before any testing was undertaken, the specimens were required to be documented in great detail, to account for any inaccuracies or defect interference with experimental results. Firstly, the length, width, depth, average diameter, notch length, notch depth and mass were measured and recorded. After the mass and all required dimensions were taken, the specimen was carefully checked for defects and imperfections (i.e. knots, rot, cracks etc.), which were measured, photographed and documented. This process was repeated for all 24 specimens. 
+
+\vspace*{\baselineskip}
+
+\noindent
+\textbf{Specimen Strain Gauge Implementation}\par
+\noindent
+The locations for the expected maximum loading effects on the beam were determined using ANSYS modelling and strain gauges were used on all specimens to measure strains in these locations, within the constraints of the test set-up.
+
+\begin{figure}[h]
+	\begin{center}
+		\includegraphics[scale=0.4]{Gauge_Set_up}
+	\end{center}
+	\caption{Strain Gauge and LVDT Layout}
+	\label{fig:Gauge}
+\end{figure}
+
+\noindent
+As shown in Figure \ref{fig:Gauge}, a 2mm (FLA2--11--3L) strain gauge will be placed 5mm vertically and horizontally from the notch corner with a 30mm (PFL--30--11--3L) strain gauge directly next to it. This arrangement will be mirrored on both sides of the notch, and a 30mm strain gauge will be placed centrally on the top and bottom of the centre of the beam. These strains will be used to determine an overall stress profile for the notch and at the centre of the beam and to gain a better understanding of how notches reacted to applied loads. 
+
+\vspace*{\baselineskip}
+
+\noindent
+To prepare for the strain gauges to be adhered to a specimen, each specimen was measured and marked on their top and bottom faces at the centre of the beam, and at the notch corner, to show the intended gauge placements. After this, the 30mm strain gauge was centrally placed on the marking in the middle of the top and bottom face of the beam using epoxy adhesive, running along the grain. The 2mm and 30mm strain gauges were then placed near the notch corner as marked on either side of the specimen. If the wires from a strain gauge were touching, they separated using duct tape. The strain gauges were arranged and properly attached to specimens between experiments.
+
+\vspace*{\baselineskip}
+
+\noindent
+\textbf{LVDT Implementation}\par
+\noindent
+For the rectangular specimens, a 20cm long, 2cm wide and 5mm thick piece of plywood was attached to the specimen and mid-span using super glue. Once it was dry and secured, a 50mm LDVT was magnetically attached to the MTS machine and placed directly above the piece of plywood. For the round specimens, a long metal plate was incorporated into the constructed curved loading plate, which levelly extruded from the centre of the beam to allow seating for the LVDT.
+
+\vspace*{\baselineskip}
+
+\noindent
+\textbf{Camera Implementation}\par
+\noindent
+A "Go-Pro" camera was used to video the notch of each specimen during loading. The camera was connected to a magnetic lever arm which would magnetically attach to the MTS machine. This allowed the camera to be moved to the optimal position, to capture the notch failure, for each experiment.
+
+\vspace*{\baselineskip}
+
+\noindent
+\textbf{Timber Specimen Test Set-Up}\par
+\noindent
+Once the strain gauges had been securely attached to a specimen, the specimen was ready to be set-up to undertake loading. To set-up the experiment, the timber specimen was placed upon the simply supported arrangement within the MTS machine. This arrangement consisted of the notched end supported by a pin support and un-notched end supported by a roller, as shown in Figure \ref{set_up}.
+
+\begin{figure}[h]
+	\begin{center}
+		\includegraphics[scale=0.1]{MTS_Set-up}
+	\end{center}
+	\caption{Experimental Set-up in MTS Machine}
+	\label{fig:set_up}
+\end{figure}
+
+\noindent
+The metal support plates were then slipped under the member to sit centrally above the two end supports, with extreme care taken to not pull on any strain gauges throughout the set-up. 
+
+\vspace*{\baselineskip}
+
+\noindent
+\textbf{Data Logger Set Up}\par
+\noindent
+After the specimen experimental arrangement was complete, the strain gauges, LVDT and Load Cell were connected to the data logger. This was achieved by wiring 8 ports of the data logger with long wires that had alligator clips at the opposing ends.
+
+\vspace*{\baselineskip}
+
+\noindent
+\textbf{Timber Specimen Testing}\par
+\noindent
+Once the specimen was correctly placed, set-up and all strain gauges and the LVDT was connected, the load cell was placed on top of the loading plate, steel disc and steel ball. A 5mm x 100mm x 100mm steel loading plate was then placed on top of the load cell, and the MTS load was lowered until it was just touching the top loading plate. Before we began loading, the data logger readings from the strain gauges, LVDT and load cell were checked to determine if all were properly connected and collecting data. Finally, the data logger was zeroed, then a load was applied at a constant rate, by the MTS machine, until the specimen failed. 
+
+\vspace*{\baselineskip}
+\noindent
+The steps described in the specimen strain gauge implementation, LVDT implementation, timber specimen test set-up, data logger set up and timber specimen testing were repeated for all 24 specimens. All tests were completed in the James Cook University structural engineering lab. 
+
+\vspace*{\baselineskip}
+\noindent
+Overall, the data from the strain gauges, LVDT and load cell were collected to determine any trends and to compare between the two different sections. These results were used alongside the video footage of each experiment, to align points of cracking and failure with the data. 
+
+\pagebreak
+\subsubsection{Altering Notch Angles of Small Scale Members}
+Three notch slopes were tested in this experiment; slopes 1:0, 1:2 and 1:4. These notch slopes were chosen as they are commonly used in timber bridging and have direct design methods in AS1720, which can be used for later comparison. The strains surrounding the notch and failure type were be observed to determine the critical notch angle. 
+
+\begin{figure}[h]
+	\begin{center}
+		\includegraphics[scale=0.3]{Notch_Angles}
 	\end{center}
 	\caption{Notch Profiles for Rectangular Section Members}
 	\label{fig:Rectangular2}
@@ -941,77 +1015,60 @@ Two notch types will be tested in this experiment; a rectangular end notch and a
 \pagebreak
 
 \noindent
-A set of 4 specimens for each notch angle in both rectangular and circular section were tested, thus a total of 24 specimens are to were used. The notch layout for each test can be seen in Figures \ref{fig:Rectangular2} and \ref{fig:Circular}. Table 3 shows the set experimental parameters.
+A set of 4 specimens for each notch angle in both rectangular and circular section were tested, thus a total of 24 specimens are to were used. The notch layout for each test can be seen in Figures \ref{fig:Rectangular2} and \ref{fig:Circular}.
 \vspace*{\baselineskip}
 \begin{figure}[h]
 	\begin{center}
-		\includegraphics[scale=0.32]{Circular_Notch_Angles}
+		\includegraphics[scale=0.4]{Circular_Notch_Angles}
 	\end{center}
 	\caption{Notch Profiles for Circular Section Members}
 	\label{fig:Circular}
 \end{figure}
 
+\noindent
+Table 3 shows the set experimental parameters for each section shape and notch profile. As it can be seen, the moment of inertia between the two section is approximately equal, with a difference of $0.09 x 10^{6} mm^{4}$.
+
 \pagebreak
-\captionof{table}{Notch Altering Parameters}
+\captionof{table}{Experimental Parameters}
 
 \begin{center}
 	\begin{tabularx}{\textwidth}{|>{\centering}X|>{\centering}X|>{\centering}X|>{\centering}X|>{\centering}X|>{\centering}X|>{\centering}X|>{\centering}X|} 
 		\hline
-	    \multicolumn{8}{|c|}{Rectangular Section} \\
+	    \multicolumn{8}{|c|}{\textbf{Rectangular Section}} \\
 		\hline
 	%	\cline{2-3}
 		
-		Notch Profile & Notch Angle Slope & Member Depth (m) & Width (m) & Notch Depth (m) & Total Section Area ($10^{-3} m^{2}$) & Notched Corner Area ($10^{-3} m^{2}$) & Moment of Inertia ($10^{-5} m^{4}$) \tabularnewline [0.5ex] 
+		\textbf{Notch Profile} & \textbf{Notch Angle Slope} & \textbf{Member Depth (mm)} & \textbf{Width (mm)} & \textbf{Notch Depth (mm)} & \textbf{Total Section Area ($mm^{2}$)} & \textbf{Area Above Notch Corner ($mm^{2}$)} & \textbf{Moment of Inertia ($10^{3} mm^{4}$)} \tabularnewline [0.5ex] 
 		\hline
-		1 & 1:0 & 0.100 & 0.060 & 0.030 & 6.00 & 4.20 & 5.00 \tabularnewline [0.5ex]
+		1 & 1:0 & 100 & 60 & 30 & 6000 & 4200 & 5000 \tabularnewline [0.5ex]
 		\hline
-		2 & 1:2 & 0.100 & 0.060 & 0.030 & 6.00 & 4.20 & 5.00 \tabularnewline [0.5ex]
+		2 & 1:2 & 100 & 60 & 30 & 6000 & 4200 & 5000 \tabularnewline [0.5ex]
 		\hline
-		3 & 1:4 & 0.100 & 0.060 & 0.030 & 6.00 & 4.20 & 5.00 \tabularnewline [0.5ex]
+		3 & 1:4 & 100 & 60 & 30 & 6000 & 4200 & 5000 \tabularnewline [0.5ex]
 		\hline
 	   
-	    \multicolumn{8}{|c|}{Circular Section} \\
+	    \multicolumn{8}{|c|}{\textbf{Circular Section}} \\
 	    \hline
-	    %	\cline{2-3}
 	    
-	    Notch Profile & Notch Angle Slope & 
-	    \multicolumn{2}{c|}{Diameter (m)}
-	    & Notch Depth (m) & Total Section Area ($10^{-3} m^{2}$) & Notched Corner Area ($10^{-3} m^{2}$) & Moment of Inertia ($10^{-5} m^{4}$) \tabularnewline [0.5ex] 
+	    \textbf{Notch Profile} & \textbf{Notch Angle Slope} & 
+	    \multicolumn{2}{c|}{\textbf{Diameter (mm)}}
+	    & \textbf{Notch Depth (mm)} & \textbf{Total Section Area ($mm^{2}$)} & \textbf{Area Over Notch Corner ($mm^{2}$)} & \textbf{Moment of Inertia ($10^{3} mm^{4}$)} \tabularnewline [0.5ex] 
 	    \hline
-	    1 & 1:0 & \multicolumn{2}{c|}{0.100} & 0.025 & 7.85 & 6.32 & 4.91 \tabularnewline [0.5ex]
+	    1 & 1:0 & \multicolumn{2}{c|}{100} & 25 & 7850 & 6320 & 4910 \tabularnewline [0.5ex]
 	    \hline
-	    2 & 1:2 & \multicolumn{2}{c|}{0.100} & 0.025 & 7.85 & 6.32 & 4.91 \tabularnewline [0.5ex]
+	    2 & 1:2 & \multicolumn{2}{c|}{100} & 25 & 7850 & 6320 & 4910 \tabularnewline [0.5ex]
 	    \hline
-	    3 & 1:4 & \multicolumn{2}{c|}{0.100} & 0.025 & 7.85 & 6.32 & 4.91 \tabularnewline [0.5ex]
+	    3 & 1:4 & \multicolumn{2}{c|}{100} & 25 & 7850 & 6320 & 4910 \tabularnewline [0.5ex]
 	    \hline
 	\end{tabularx}
 \end{center}
 
 \vspace*{\baselineskip}
 
-\subsection{Finite Element Analysis}
-Finite element analysis (FEA) was completed on ANSYS V17.0 to compare theoretical effects of the experiments with actual results, as well as allow the observation of experimental effects on large scale models. 
-
-\vspace*{\baselineskip}
-
-\noindent
-The properties used for the FEA modelling in ANSYS can  be seen in Figure \ref{fig:Properties} below.
-
-
-	\begin{figure}[h]
-		\begin{center}
-		\includegraphics[scale=0.8]{Ansys_Properties}
-	\end{center}
-		\caption{Rectangular Section Beam: Deflection}
-		\label{fig:Properties}
-	\end{figure}
-\pagebreak
-
-
-\subsection{Materials}
+\subsection{Material Properties}
 \noindent \textbf{Timber Properties}\par
 \noindent
-The timber used for testing was spotted gum (corymbia maculata) timber as it is a prominent timber in Queensland bridge construction. The properties and characteristics of spotted gum timber are given in Table \ref{tab:spotty} \cite{elsener_material_2014,hopewell_spotted_2004}. All specimens will be unseasoned and green (have a water content greater than 12\%).
+The timber used for testing was spotted gum (corymbia maculata) timber, as it a hardwood that is commonly used in Queensland bridges that are currently being utilised. The properties and characteristics of spotted gum timber are given in Table \ref{tab:spotty} \cite{elsener_material_2014,hopewell_spotted_2004}. All specimens will be unseasoned and green (have a water content greater than 12\%).
 
 \vspace*{\baselineskip}
 
@@ -1081,73 +1138,208 @@ The timber used for testing was spotted gum (corymbia maculata) timber as it is 
 	\end{tabularx}
 \end{center}
 
-\vspace*{\baselineskip}
-\noindent \textbf{Strain Gauges}\par
-
-\subsection{Methodology}
-
-\textbf{Specimen Documentation}\par
-\noindent
-Before any testing was undertaken, the specimens were required to be documented in great detail, to account for any inaccuracies or defect interference with experimental results. Firstly, the length, width, depth, average diameter, notch length, notch depth and mass were measured and recorded. After the mass and all required dimensions were taken, the specimen was carefully checked for defects and imperfections (i.e. knots, rot, cracks etc.), which were measured, photographed and documented. This process was repeated for all 24 specimens. 
+\subsection{Finite Element Analysis}
+Finite element analysis (FEA) was completed on ANSYS V17.0 to compare theoretical effects of the experiments with actual results, as well as allow the observation of experimental effects on large scale models. 
 
 \vspace*{\baselineskip}
 
-\textbf{Specimen Strain Gauge Implementation}\par
 \noindent
-To prepare for the strain gauges to be adhered to a specimen, each specimen was measured and marked on their top and bottom faces at the centre of the beam, and 5mm vertically and horizontally from the notch corner, to show the intended gauge placements. After this, a 10mm strain gauge (FRA--3--350--11--1L) was centrally placed on the marking in the middle of the top and bottom face of the beam using epoxy adhesive, running along the grain. Strain gauges of 2mm and 10mm were placed near the notch corner as marked on either side of the specimen. If the wires from a strain gauge were touching, they separated using duct tape. The strain gauges were arranged and properly attached to specimens between experiments.
+The properties used for the FEA modelling in ANSYS can  be seen in Figure \ref{fig:Properties} below.
 
-\vspace*{\baselineskip}
 
-\textbf{LVDT Implementation}\par
-\noindent
-For the rectangular specimens, a 20cm long, 2cm wide and 5mm thick piece of plywood was attached to the specimen and mid-span using super glue. Once it was dry and secured, a 50mm LDVT was magnetically attached to the MTS machine and placed directly above the piece of plywood. For the round specimens, a long metal plate was incorporated into the constructed curved loading plate, which levelly extruded from the centre of the beam to allow seating for the LVDT.
-
-\vspace*{\baselineskip}
-
-\textbf{Timber Specimen Test Set-Up}\par
-\noindent
-Once the strain gauges had been securely attached to a specimen, the specimen was ready to be set-up to undertake loading. To set-up the experiment, the timber specimen was placed upon a simply supported arrangement within the MTS machine. This arrangement consisted of the notched end supported by a pin support and un-notched end supported by a roller, with a span of 600mm between supports. The metal support plates were then slipped under the member to sit centrally above the two end supports, with extreme care taken to not pull on any strain gauges throughout the set-up. 
-
-\vspace*{\baselineskip}
-
-\textbf{Data Logger Set Up}\par
-\noindent
-After the specimen experimental arrangement was complete, the strain gauges were connected to the data logger. This was achieved by wiring 8 ports of the data logger with long wires that had alligator clips at the opposing ends. These ports were numbered 1 to 8; where wires 1 to 6 were clipped onto specific strain gauges attached to the specimen, wire 7 was clipped onto the LVDT and wire 8 was clipped onto the loading cell. The alligator clips were unattached after the completion of each experiment and were ready to be reattached when the next specimen was set-up. 
-
-\vspace*{\baselineskip}
-
-\textbf{Timber Specimen Testing}\par
-\noindent
-Once the specimen was correctly placed, set-up and all strain gauges and the LVDT was connected, the load cell was placed on top of the loading plate, steel disc and steel ball. A 5mm x 100mm x 100mm steel loading plate was then placed on top of the load cell, and the MTS load was lowered until it was just touching the top loading plate. Before we began loading, the data logger readings from the strain gauges, LVDT and load cell were checked to determine if all were properly connected and collecting data. Finally a load was applied at a constant rate, by the MTS machine, until the specimen failed. 
-
-\vspace*{\baselineskip}
-\noindent
-The steps described in the specimen strain gauge implementation, LVDT implementation, timber specimen test set-up, data logger set up and timber specimen testing were repeated for all 24 specimens. 
-
+\begin{figure}[h]
+	\begin{center}
+		\includegraphics[scale=0.8]{Ansys_Properties}
+	\end{center}
+	\caption{Properties Used for ANSYS Simulation}
+	\label{fig:Properties}
+\end{figure}
 
 \pagebreak
 
-\section{Results}
+\section{Results and Discussion}
 
 \subsection{Rectangular Specimens}
+Throughout all rectangular experiments, there was a definite pattern in the types of failure that occurred; first a crack initiated from the notch corner, which propagated to roughly the centre of the beam, then ultimate failure occurred in either shear or flexure or both.  
+
 \vspace*{\baselineskip}
 \noindent Compiled graphs showing exact data from results for load displacement, centre tension, centre compression, z-stress and y-stress \par
 
 \vspace*{\baselineskip}
+\noindent Table Showing water content and failure types \par
+
+\captionof{table}{Rectangular Specimen Water Contents and Initial Failure Locations}
+\begin{center}
+	\begin{tabularx}{\textwidth}{|>{\centering}X|>{\centering}X|>{\centering}X|>{\centering}X|} 
+		\hline
+		
+		\textbf{Notch Angle Slope} & \textbf{Specimen No.} & \textbf{Water Content (\%)} & \textbf{Location of Initial Failure}\tabularnewline [0.5ex]
+		\hline
+		
+		1:0 & 1 &  & Cracked at notch corner \tabularnewline [0.5ex]
+		\hline
+		1:0 & 2 &  & Cracked at notch corner \tabularnewline [0.5ex]
+		\hline
+		1:0 & 3 &  & Cracked at notch corner \tabularnewline [0.5ex]
+		\hline
+		1:0 & 4 & 19 & Cracked at notch corner \tabularnewline [0.5ex]
+		\hline
+		
+		1:2 & 1 & 14 & Cracked at notch corner \tabularnewline [0.5ex]
+		\hline
+		1:2 & 2 & 16 & Cracked at notch corner \tabularnewline [0.5ex]
+		\hline
+		1:2 & 3 & 16 & Cracked at notch corner \tabularnewline [0.5ex]
+		\hline
+		1:2 & 4 & 13 & Cracked at notch corner \tabularnewline [0.5ex]
+		\hline
+		
+		1:4 & 1 & 19 & Cracked at notch corner \tabularnewline [0.5ex]
+		\hline
+		1:4 & 2 & 15 & Cracked at notch corner \tabularnewline [0.5ex]
+		\hline
+		1:4 & 3 & 18 & Cracked at notch corner \tabularnewline [0.5ex]
+		\hline
+		1:4 & 4 & 18 & Cracked at notch corner \tabularnewline [0.5ex]
+		\hline
+		
+	\end{tabularx}
+\end{center}
+
+It should be noted that the water contents for rectangular specimens 1, 2 and 3 of 1:0 notch were not taken.
+
+\vspace*{\baselineskip}
 \noindent Table showing cracking and ultimate loads and times \par
+
+\captionof{table}{Rectangular Specimen Crack Inititation and Ultimate Loads}
+\begin{center}
+	\begin{tabularx}{\textwidth}{|>{\centering}X|>{\centering}X|>{\centering}X|>{\centering}X|>{\centering}X|>{\centering}X|} 
+		\hline
+		
+		\textbf{Notch Angle Slope} & \textbf{Specimen No.} & \textbf{Notch Crack Initiation (kN)} & \textbf{Time for Notch to Crack (min:sec)} & \textbf{Ultimate Failure (kN)} & \textbf{Time to Ultimate Failure (min:sec)} \tabularnewline [0.5ex] 
+		\hline
+		1:0 & 1 & 30.11 & 02:58 & 47.16 & 04:41 \tabularnewline [0.5ex]
+		\hline
+		1:0 & 2 & 23.88 & 02:22 & 34.39 & 03:29 \tabularnewline [0.5ex]
+		\hline
+		1:0 & 3 & 16.08 & 01:33 & 27.97 & 02:46 \tabularnewline [0.5ex]
+		\hline
+		1:0 & 4 & 23.27 & 02:18 & 41.94 & 04:12 \tabularnewline [0.5ex]
+		\hline
+		
+		1:2 & 1 & 26.89 & 02:39 & 42.56 & 04:14 \tabularnewline [0.5ex]
+		\hline
+		1:2 & 2 & 21.53 & 02:03 & 39.77 & 03:57 \tabularnewline [0.5ex]
+		\hline
+		1:2 & 3 & 23.65 & 02:20 & 33.40 & 03:23 \tabularnewline [0.5ex]
+		\hline
+		1:2 & 4 & 29.24 & 02:52 & 40.20 & 04:22 \tabularnewline [0.5ex]
+		\hline
+		
+		1:4 & 1 & 38.46 & 03:52 & 41.79 & 04:14 \tabularnewline [0.5ex]
+		\hline
+		1:4 & 2 & 49.23 & 04:51 & 49.23 & 04:51 \tabularnewline [0.5ex]
+		\hline
+		1:4 & 3 & 36.80 & 03:35 & 39.04 & 03:49 \tabularnewline [0.5ex]
+		\hline
+		1:4 & 4 & 29.84 & 02:52 & 34.51 & 03:20 \tabularnewline [0.5ex]
+		\hline
+		
+	\end{tabularx}
+	\end{center}
 
 \vspace*{\baselineskip}
 \noindent Graph showing exact loading rates \par
-
-\vspace*{\baselineskip}
-\noindent Graph showing water content vs. notch cracking load and ultimate failure load \par
 
 \subsection{Round Specimens}
 \vspace*{\baselineskip}
 \noindent Compiled graphs showing exact data from results for load displacement, centre tension, centre compression, z-stress and y-stress \par
 
 \vspace*{\baselineskip}
+
+\noindent
+Due to the curvature of the specimens, the strain gauges experienced some initial strain before loading began. To account for this, the strain gauges were zeroed before loading commenced (i.e.at a load of zero).
+
+\vspace*{\baselineskip}
+
+\captionof{table}{Rectangular Specimen Water Contents and Initial Failure Locations}
+\begin{center}
+	\begin{tabularx}{\textwidth}{|>{\centering}X|>{\centering}X|>{\centering}X|>{\centering}X|} 
+		\hline
+		
+		\textbf{Notch Angle Slope} & \textbf{Specimen No.} & \textbf{Water Content (\%)} & \textbf{Location of Initial Failure}\tabularnewline [0.5ex]
+		\hline
+		
+		1:0 & 1 & 22 & Cracked propagated from existing crack at opposite end, then cracked at notch corner  \tabularnewline [0.5ex]
+		\hline
+		1:0 & 2 & 21 & Cracked at notch corner  \tabularnewline [0.5ex]
+		\hline
+		1:0 & 3 & 24 & Cracked at notch corner  \tabularnewline [0.5ex]
+		\hline
+		1:0 & 4 & 26 & Cracked at notch corner \tabularnewline [0.5ex]
+		\hline
+		
+		1:2 & 1 & 23 & Cracked at notch corner \tabularnewline [0.5ex]
+		\hline
+		1:2 & 2 & 30 & Cracked at notch corner \tabularnewline [0.5ex]
+		\hline
+		1:2 & 3 & 22 & Cracked at notch corner \tabularnewline [0.5ex]
+		\hline
+		1:2 & 4 & 29 & Cracked at notch corner \tabularnewline [0.5ex]
+		\hline
+		
+		1:4 & 1 & 24 & Cracked at notch corner \tabularnewline [0.5ex]
+		\hline
+		1:4 & 2 & 22 & Cracked propagated half way down chamfer, then cracked at notch corner \tabularnewline [0.5ex]
+		\hline
+		1:4 & 3 & 27 & Cracked at notch corner \tabularnewline [0.5ex]
+		\hline
+		1:4 & 4 & 23 & Full member failed (notch didn't fail) \tabularnewline [0.5ex]
+		\hline
+		
+	\end{tabularx}
+\end{center}
+
+
+\vspace*{\baselineskip}
 \noindent Table showing cracking and ultimate loads and times \par
+
+\captionof{table}{Round Specimen Crack Inititation and Ultimate Loads}
+\begin{center}
+	\begin{tabularx}{\textwidth}{|>{\centering}X|>{\centering}X|>{\centering}X|>{\centering}X|>{\centering}X|>{\centering}X|} 
+		\hline
+		
+		\textbf{Notch Angle Slope} & \textbf{Specimen No.} & \textbf{Notch Crack Initiation (kN)} & \textbf{Time for Notch to Crack (min:sec)} & \textbf{Ultimate Failure (kN)} & \textbf{Time to Ultimate Failure (min:sec)} \tabularnewline [0.5ex] 
+		\hline
+		1:0 & 1 & 53.50 & 05:20 & 59.98 & 06:00 \tabularnewline [0.5ex]
+		\hline
+		1:0 & 2 & 44.46 & 04:25 & 60.06 & 05:59 \tabularnewline [0.5ex]
+		\hline
+		1:0 & 3 & 36.23 & 03:49 & 55.91 & 05:55 \tabularnewline [0.5ex]
+		\hline
+		1:0 & 4 & 22.76 & 02:15 & 36.62 & 03:38 \tabularnewline [0.5ex]
+		\hline
+		
+		1:2 & 1 & 47.68 & 03:48 & 61.83 & 04:57 \tabularnewline [0.5ex]
+		\hline
+		1:2 & 2 & 47.05 & 04:41 & 53.42 & 05:19 \tabularnewline [0.5ex]
+		\hline
+		1:2 & 3 & 64.65 & 06:26 & 76.94 & 07:40 \tabularnewline [0.5ex]
+		\hline
+		1:2 & 4 & 38.92 & 03:50 & 42.99 & 04:18 \tabularnewline [0.5ex]
+		\hline
+		
+		1:4 & 1 & 47.56 & 04:45 & 49.11 & 04:50 \tabularnewline [0.5ex]
+		\hline
+		1:4 & 2 & 58.48 & 05:46 & 58.48 & 05:46 \tabularnewline [0.5ex]
+		\hline
+		1:4 & 3 & 65.76 & 06:50 & 70.69 & 07:03 \tabularnewline [0.5ex]
+		\hline
+		1:4 & 4 & N/A & N/A & 69.01 & 06:52 \tabularnewline [0.5ex]
+		\hline
+		
+	\end{tabularx}
+\end{center}
 
 \vspace*{\baselineskip}
 \noindent Graph showing exact loading rates \par
@@ -1195,11 +1387,23 @@ A small scale ANSYS model has also been established to determine the optimum pla
 \pagebreak
 \vspace*{\baselineskip}  
 
-
-\section{Discussion}
-
 \vspace*{\baselineskip}
 \noindent Trends in rectangular and round specimen results (noting the critical angle, failure modes and time between crack initiation and ultimate failure) \par
+
+\vspace*{\baselineskip}
+
+\noindent
+Figure \ref{fig:Round-Crack-fail} shows the time between the crack initiating at the notch corner and ultimate failure for the round specimens. The blue bar in the graph indicates the average time and the error bars shows the variance in the results. 
+
+	\begin{figure}[h]
+		\begin{center}
+		\fbox{\includegraphics[scale=0.8]{Round_crack_fail}}
+		\end{center}
+		\caption{Time between notch crack initiation and ultimate failure}
+		\label{fig:Round-Crack-fail}
+	\end{figure}
+
+From this graph, a trend can be observed, where the time between the notch cracking and ultimate failure significantly decreases with an increasing notch slope. This was not unexpected, as it appears from previous results that the increase in notch slope increases the capacity of the notch, thus the load at which the notch cracks is getting closer to the ultimate capacity of the beam. An increase in ultimate capacity using an increasing notch slope is also apparent through the results, which supports TMR's and AS1720's recommendation to use a 1:4 chamfer to increase the beams capacity. However, when studying the results shown in Figure \ref{fig:Round-Crack-fail}, it becomes apparent that using a 1:4 chamfer notch may lead to notch failure occurring very close to or at the point of ultimate failure. From a maintenance perspective, this could be a major issue, as signs of notch cracking are hard to identify and are usually considered as means to observe the defect on a 1 to 6 monthly basis. As this experiment was conducted under short-term loading, it is hard to specify the time interval between crack initiation at the notch and ultimate failure for a long-term load. Nevertheless research into the effects of long-term loading on the time between crack initiation at the notch corner and ultimate failure is required. This will determine if notching cracking is a sign of ultimate failure for 1:4 notch slope, and possibly alter timber current maintenance schemes for timber bridges.
 
 \vspace*{\baselineskip}
 \noindent Discuss variance in results relating to water contents and existing defects, refer to Appendix A \par
