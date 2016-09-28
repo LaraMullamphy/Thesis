@@ -1172,6 +1172,20 @@ The properties used for the FEA modelling in ANSYS can  be seen in Figure \ref{f
 \section{Results and Discussion}
 
 \subsection{Rectangular Specimens}
+\subsubsection{Loading Rates}
+The loading rates used to load the rectangular specimens can be seen in Figure \ref{fig:Rect_load}. It can be seen that the load rate was constant throughout loading all specimens, at a load rate of 10kN per minute. 
+
+\begin{figure}[h]
+	\begin{center}
+		\fbox{\includegraphics[scale=0.7]{Rect_load}}
+	\end{center}
+	\caption{Load rates for rectangular specimens}
+	\label{fig:Rect_load}
+\end{figure}
+
+\noindent
+It can also be seen from Figure \ref{fig:Rect_load} that every specimen experienced an extreme drop in load at some point throughout the experiment. The reason for this was at first presumed to be due to the notch crack initiating at this point. However, when compared to the actual loads at which the notch crack initiates, see Table \ref{tab:rect_Capac}, the drop appears to take place at a higher load. Therefore, it is presumed that the extreme decrease in load is the point at which the notch crack fully propagates passed the centre of the beam. This theory seems plausible as when the crack fully propagates, the member is essentially changing section, as the only part of the member taking the load, would be the remaining section above the crack, thus the reason for the sudden jump in load.  
+
 \subsubsection{Failure Modes}
 Table \ref{tab:Rect_Fail_Type} shows the water content and initial failure type of each specimen. From this is can be seen that the notch corner cracked on every specimen before ultimate failure occurred.
 
@@ -1382,7 +1396,14 @@ The overall capacities and times taken to for the failure to occur, for all rect
 \vspace*{\baselineskip}
 
 \noindent
-A graph summarising the information given in Table \ref{tab:rect_Capac} is shown in Figure \ref{fig:Rect_Spec_Cap}, where the solid bars indicate the average capacity and the error bars show the variance in the results. 
+From Table \ref{tab:rect_Capac}, it can be seen that the results for both the crack initiation load (notch capacity) and the ultimate capacity vary dramatically throughout the specimens for each notch slope. The reason for this is most likely a combination of the differing water contents within the specimens and the existing defects. When the results from this table are compared with the water contents, see Table \ref{tab:Rect_Fail_Type}, it can be observed for most specimens that the those with a higher water content yield a lower ultimate capacity. This pattern is relevant to all specimens for notch slopes 1:2 and 1:4 except for specimen 1 of 1:4 notch, which yielded a slightly higher capacity than those of a lower water content. This outlier may be due to specimens 3 and 4 having defects, thus reducing their capacity. A defect was observed for specimen 4 but no surface defect was observed for specimen 3, see Appendix A. Another reason for this may be due to an inaccurate water content reading of one of the specimens, or the differing grain arrangement within the specimens. For the 1:0 slope specimens, a pattern with the capacity and water content was unable to be established as the water content was not taken for the first three specimens. However, when observing the specimen characteristics, given in Appendix A, it can be observed all specimens had different defects, thus would be expected to yield various capacities. As for the notch capacities, the same trend was apparent, where the higher the water content, the lower the capacity. Again, the capacities differed due to existing defects and their location, for example specimen 3 of 1:0 slope yielded particular low capacities, having a 15mm deep crack on top of the specimen, over the notch that spanned to the centre of the beam. The same discrepancy occurred with specimen 1 of 1:4 slope, where it yielded a higher notch capacity than those with a lower water content. This is indicative that the water content for this specimen may be inaccurate.  
+
+\vspace*{\baselineskip}
+
+\noindent
+A graph summarising the information given in Table \ref{tab:rect_Capac} is shown in Figure \ref{fig:Rect_Spec_Cap}, where the solid bars indicate the average capacity and the error bars show the variance in the results. From this graph, a definite trend can be seen; where both the notch capacity and ultimate capacity increases with increasing notch slope. The ultimate capacity experiences a gradual and very slight average increase of 1kN between 1:0 and 1:2 slope and 2kN between 1:2 and 1:4 slope.  
+
+\vspace*{\baselineskip}
 
 \begin{figure}[h]
 	\begin{center}
@@ -1393,22 +1414,41 @@ A graph summarising the information given in Table \ref{tab:rect_Capac} is shown
 \end{figure}
 
 \noindent
-From this graph, a definite trend can be seen; where both the notch capacity and ultimate capacity increases with increasing notch slope. The ultimate capacity experiences a gradual and very slight average increase of 1kN between 1:0 and 1:2 slope and 2kN between 1:2 and 1:4 slope. through the increasing slopes 
+The same trend is observed for the notch capacities, however there is a more dramatic increase between the average notch capacity of a 1:2 slope and a 1:4 slope; where the difference between a 1:0 and 1:2 slope notch capacity is 2kN and between a 1:2 and 1:4 slope is 13kN. There was a large amount of variance in the results, however this drastic increase between these notch capacities would support AS1720 and TMR's recommendation to use a 1:4 slope as it appears to improve the notch capacity tremendously. 
 
 \vspace*{\baselineskip}
 
 \noindent
 The overall trend that can be observed in Figure \ref{tab:rect_Capac} proves the common theory that a notch which is chamfered will have a greater capacity than a rectangular end notch (slope 1:0), and thus the critical notch angle for a rectangular section beam is a 1:0 slope.
 
+\vspace*{\baselineskip}
+
+\noindent
+Another relationship taken from the results in Table \ref{tab:rect_Capac} can be seen in Figure \ref{fig:Rect_Time}, which shows the time between the notch crack initiating and ultimate failure. The bars in Figure \ref{fig:Rect_Time} represent the average time interval for each notch slope and the error bars shows the variance in the results.  
+
+\vspace*{\baselineskip}
+
+\begin{figure}[h]
+	\begin{center}
+		\fbox{\includegraphics[scale=0.8]{Rect_Time}}
+	\end{center}
+	\caption{Time between notch initiating and ultimate failure for rectangular section specimens}
+	\label{fig:Rect_Time}
+\end{figure}
+
+\noindent
+From this graph, it can be seen that there is an increase of 1 second between the 1:0 slope and 1:2 slope notch. This slight increase in time may be indicative of an average pattern or may be due to the average water content in the 1:2 slope notch being greater than those in the 1:0 slope. Unfortunately this theory can be neither denied or confirmed due to the unknown water contents for the 1:0 slopes, thus the reason for this increase in time interval is ultimately unknown. The most interesting trend observed from Figure \ref{fig:Rect_Time} is that time average interval for the 1:4 slope notch is over a minute less than for the 1:0 slope and 1:2 slope, with an average of 16sec. This is not unexpected as it can be seen from Figure \ref{fig:Rect_Spec_Cap}, that by the time the notch crack initiates, the specimen is almost at ultimate capacity. However, when studying the results shown in Figure \ref{fig:Round-Crack-fail}, it becomes apparent that using a 1:4 chamfer notch may lead to notch failure occurring very close to or at the point of ultimate failure. From a maintenance perspective, this could be a major issue, as signs of notch cracking are hard to identify and are usually considered as means to observe the defect on a 1 to 6 monthly basis. As this experiment was conducted under short-term loading, it is hard to specify the time interval between crack initiation at the notch and ultimate failure for a long-term load. Nevertheless research into the effects of long-term loading on the time between crack initiation at the notch corner and ultimate failure is warranted. This will determine if notching cracking is a sign of ultimate failure for 1:4 notch slope, and possibly alter timber current maintenance schemes for timber bridges.
+
+
 \subsubsection{Strain Gauge Analysis}
 All strain gauge data shown in the following graphs start from an applied load of zero and end at the point of ultimate failure or when the strain gauge cut out, whichever came first. It should also be noted than the additional weight from loading plates and loading cell has been accounted. 
 
-\pagebreak
+\vspace*{\baselineskip}
 
 \noindent
 \textbf{Notch Slope 1:0}\par
 \noindent
-Figure \ref{fig:Rect_10_def} shows the load-displacement graph from the LVDT results, for the rectangular section specimens, with a notch slope of 1:0. The trend in most of the specimens load vs deflection is uncommon and unexpected.
+Figure \ref{fig:Rect_10_def} shows the load-displacement graph from the LVDT results, for the rectangular section specimens, with a notch slope of 1:0. The trend in most of the specimens load vs deflection does not follow usual trends and is unexpected.
 \begin{figure}[h]
 	\begin{center}
 		\fbox{\includegraphics[scale=0.8]{Rect_10_Def}}
@@ -1417,16 +1457,23 @@ Figure \ref{fig:Rect_10_def} shows the load-displacement graph from the LVDT res
 	\label{fig:Rect_10_def}
 \end{figure}
 
+\pagebreak
+
 \noindent
-The load-displacement for specimen 1 is erratic and does not appear to have 
+The load-displacement for specimen 1 is erratic and does not appear to have any distinct trend or any distinct correlation with either notch or ultimate failure load. For this reason, it is assumed that the LVDT results for specimen 1 are inaccurate, possible due to the plywood supporting the LVDT being too flimsy. As for specimens 2, the load-displacement graph follows the usual pattern, then ultimately changes direction at the point at which the notch crack initiates. The same pattern could be said for specimen 3, however it experiences more of a sudden drop which occurs after the notch crack initiates. This particular discrepancy is similar to that experienced in the loading chart, presumably due to the notch crack fully propagating through the specimen, and may be suggestive of this. Specimen 4's graph somewhat resembles a usual load-displacement curve, however after plateauing, begins to ascend again for no obvious reason and shows no discrepancies due to the notch failure.   
 
 \begin{figure}[h]
 	\begin{center}
-		\fbox{\includegraphics[scale=0.8]{Rect_10_Centre}}
+		\fbox{\includegraphics[scale=0.75]{Rect_10_Centre}}
 	\end{center}
 	\caption{Top and Bottom Strain at Centre for Rectangular Beams with Notches of Slope 1:0}
 	\label{fig:Rect_10_centre}
 \end{figure}
+
+\pagebreak
+
+\noindent
+Figure \ref{fig:Rect_10_centre} shows the strains at the top (compressive) and bottom (tensile) of each specimen throughout loading. It can be seen for specimens 1, 2 and 3, that they follow the same trend where both tension and compression strains increase linearly to a spike in the data at the same load. After this, they both then experience a significant drop in load. This spike and sudden drop in load is suggestive of a sudden change in capacity and is assumed to be the point at which the notch crack fully propagates through the beam. Specimen 4 essentially followed the same trend, however there was no significant spike in the data, and instead experienced a smooth curve. This may be due to the notch crack in this particular specimen propagating more gradually than the other specimens. After the turning point for all specimens, the tensile strain eventuated to a strain of zero and the compressive strains continue increasing to a strain of roughly --8000 $\times 10^{-6}$, where it suddenly stopped increasing in strain and only increased in load until ultimate failure.  
 
 \begin{figure}[h]
 	\begin{center}
@@ -1435,6 +1482,15 @@ The load-displacement for specimen 1 is erratic and does not appear to have
 	\caption{Horizontal Strain at Centre for Rectangular Beams with Notches of Slope 1:0}
 	\label{fig:Rect_10_Z}
 \end{figure}
+\pagebreak
+
+\noindent
+The average horizontal strain at the notch corner can be seen in Figure \ref{fig:Rect_10_Z}, where the horizontal strain were collected from either side of the notch and averaged across the section. From the graph, it can be seen that specimens 1, 2 and 3 experience similar trends in horizontal strain, where they increase and then suddenly drop at the same load at which the compressive and tensile strains dropped. Specimen 4, on the other hand is very erratic, and is hard to identify a definite trend. However, this erratic graph may be indicative of a slow growing notch crack.
+
+\vspace*{\baselineskip}
+
+\noindent
+The vertical strains were also average across the both sides of the notch, as shown in Figure \ref{fig:Rect_10_Y}. From this graph, a pattern can be seen for specimens 1 and 3, where there is a large spike in the Y strain at a load, after which the strain dramatically drops to below zero. The load at which this data drops aligns with the load at which the notch crack initiates. Specimen 4's data somewhat follows to same trend, but is again erratic, so a definite trend is unable to be established. 
 
 \begin{figure}[h]
 	\begin{center}
@@ -1445,12 +1501,66 @@ The load-displacement for specimen 1 is erratic and does not appear to have
 \end{figure}
 \pagebreak
 
+\noindent
+The data for specimen 1 does not follow the same trend and appears to be constantly increasing until ultimate failure. There is a small discrepancy in the data around the load at which the notch corner crack initiated, however the point at which this occurs is not easily defined. Overall, the vertical strain in specimen 2 appears to be inaccurate as it does not follow a similar trend observed in the other specimens. A possible reason this data may be inaccurate is due to a large wedge cut out of the notched end of the beam, as shown in Figure \ref{fig:Rect_2_wedge}, which may have been in line with the strain gauge and obscuring the data. 
 \vspace*{\baselineskip}
+
+\begin{figure}[h]
+	\begin{center}
+		\includegraphics[scale=0.065]{End_wedge}
+		\includegraphics[scale=0.065]{Top_wedge}
+	\end{center}
+	\caption{Rectangular specimen 2 notch slope 1:0; wedge defect}
+	\label{fig:Rect_2_wedge}
+\end{figure}
+
+\pagebreak
 
 \noindent
 \textbf{Notch Slope 1:2}\par
 \noindent
 
+\begin{figure}[h]
+	\begin{center}
+		\fbox{\includegraphics[scale=0.8]{Rect_12_Def}}
+	\end{center}
+	\caption{Load-Displacement Graph for Rectangular Beams with Notches of Slope 1:2}
+	\label{fig:Rect_12_def}
+\end{figure}
+
+
+\begin{figure}[h]
+	\begin{center}
+		\fbox{\includegraphics[scale=0.75]{Rect_12_Centre}}
+	\end{center}
+	\caption{Top and Bottom Strain at Centre for Rectangular Beams with Notches of Slope 1:2}
+	\label{fig:Rect_12_centre}
+\end{figure}
+
+\begin{figure}[h]
+	\begin{center}
+		\fbox{\includegraphics[scale=0.8]{Rect_12_Z}}
+	\end{center}
+	\caption{Horizontal Strain at Centre for Rectangular Beams with Notches of Slope 1:2}
+	\label{fig:Rect_12_Z}
+\end{figure}
+
+\begin{figure}[h]
+	\begin{center}
+		\includegraphics[scale=0.065]{Cut_Top}
+		\includegraphics[scale=0.065]{Cut_Side}
+	\end{center}
+	\caption{Rectangular specimen 2 notch slope 1:2; thick cut defect}
+	\label{fig:Rect_Cut}
+\end{figure}
+
+\begin{figure}[h]
+	\begin{center}
+		\fbox{\includegraphics[scale=0.8]{Rect_12_Y}}
+	\end{center}
+	\caption{Vertical Strain at Centre for Rectangular Beams with Notches of Slope 1:2}
+	\label{fig:Rect_12_Y}
+\end{figure}
 
 \vspace*{\baselineskip}
 
@@ -1460,21 +1570,6 @@ The load-displacement for specimen 1 is erratic and does not appear to have
 
 \vspace*{\baselineskip}
 \noindent Discuss variance in results relating to water contents and existing defects \par
-
-\subsubsection{Loading Rates}
-The loading rates used to load the rectangular specimens can be seen in Figure \ref{fig:Rect_load}. It can be seen that the load rate was constant throughout loading all specimens, at a load rate of 10kN per minute. 
-
-\begin{figure}[h]
-	\begin{center}
-		\fbox{\includegraphics[scale=0.7]{Rect_load}}
-	\end{center}
-	\caption{Load rates for rectangular specimens}
-	\label{fig:Rect_load}
-\end{figure}
-
-\noindent
-It can also be seen from Figure \ref{fig:Rect_load} that every specimen experienced an extreme drop in load at some point throughout the experiment. The reason for this was at first presumed to be due to the notch crack initiating at this point. However, when compared to the actual loads at which the notch crack initiates, see Table \ref{tab:rect_Capac}, the drop appears to take place at a higher load. Therefore, it is presumed that the extreme decrease in load is the point at which the notch crack fully propagates passed the centre of the beam. This theory seems plausible as when the crack fully propagates, the member is essentially changing section, as the only part of the member taking the load, would be the remaining section above the crack, thus the reason for the sudden jump in load.  
-
 
 \subsection{Round Specimens}
 \subsubsection{Failure Modes}
@@ -1608,7 +1703,7 @@ Figure \ref{fig:Round-Crack-fail} shows the time between the crack initiating at
 		\label{fig:Round-Crack-fail}
 	\end{figure}
 
-From this graph, a trend can be observed, where the time between the notch cracking and ultimate failure significantly decreases with an increasing notch slope. This was not unexpected, as it appears from previous results that the increase in notch slope increases the capacity of the notch, thus the load at which the notch cracks is getting closer to the ultimate capacity of the beam. An increase in ultimate capacity using an increasing notch slope is also apparent through the results, which supports TMR's and AS1720's recommendation to use a 1:4 chamfer to increase the beams capacity. However, when studying the results shown in Figure \ref{fig:Round-Crack-fail}, it becomes apparent that using a 1:4 chamfer notch may lead to notch failure occurring very close to or at the point of ultimate failure. From a maintenance perspective, this could be a major issue, as signs of notch cracking are hard to identify and are usually considered as means to observe the defect on a 1 to 6 monthly basis. As this experiment was conducted under short-term loading, it is hard to specify the time interval between crack initiation at the notch and ultimate failure for a long-term load. Nevertheless research into the effects of long-term loading on the time between crack initiation at the notch corner and ultimate failure is required. This will determine if notching cracking is a sign of ultimate failure for 1:4 notch slope, and possibly alter timber current maintenance schemes for timber bridges.
+From this graph, a trend can be observed, where the time between the notch cracking and ultimate failure significantly decreases with an increasing notch slope. This was not unexpected, as it appears from previous results that the increase in notch slope increases the capacity of the notch, thus the load at which the notch cracks is getting closer to the ultimate capacity of the beam. 
 
 \vspace*{\baselineskip}
 \noindent Discuss/determine a relationship between rectangular and round specimens\par
