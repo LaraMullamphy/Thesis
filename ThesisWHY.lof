@@ -19,11 +19,25 @@
 \contentsline {figure}{\numberline {19}{\ignorespaces Round Member Test Set-Up\relax }}{26}
 \contentsline {figure}{\numberline {20}{\ignorespaces Loading and LVDT Plate for Round Specimen\relax }}{26}
 \contentsline {figure}{\numberline {21}{\ignorespaces Strain Gauge and LVDT Layout\relax }}{27}
-\contentsline {figure}{\numberline {22}{\ignorespaces Experimental Set-up in MTS Machine\relax }}{28}
-\contentsline {figure}{\numberline {23}{\ignorespaces Notch Profiles for Rectangular Section Members\relax }}{30}
-\contentsline {figure}{\numberline {24}{\ignorespaces Notch Profiles for Circular Section Members\relax }}{31}
-\contentsline {figure}{\numberline {25}{\ignorespaces Properties Used for ANSYS Simulation\relax }}{34}
-\contentsline {figure}{\numberline {26}{\ignorespaces Rectangular Section Beam: Deflection\relax }}{39}
-\contentsline {figure}{\numberline {27}{\ignorespaces Rectangular Section Beam: XY-Plane Shear Strain\relax }}{40}
-\contentsline {figure}{\numberline {28}{\ignorespaces Rectangular Section Beam: Normal Strain in Y-direction (upper) and Z-direction (lower)\relax }}{40}
-\contentsline {figure}{\numberline {29}{\ignorespaces Time between notch crack initiation and ultimate failure\relax }}{41}
+\contentsline {figure}{\numberline {22}{\ignorespaces Experimental Set-up in MTS Machine\relax }}{29}
+\contentsline {figure}{\numberline {23}{\ignorespaces Set-up of loading plates, metal ball and load cell in MTS Machine\relax }}{30}
+\contentsline {figure}{\numberline {24}{\ignorespaces Notch Profiles for Rectangular Section Members\relax }}{31}
+\contentsline {figure}{\numberline {25}{\ignorespaces Notch Profiles for Circular Section Members\relax }}{32}
+\contentsline {figure}{\numberline {26}{\ignorespaces Properties Used for ANSYS Simulation\relax }}{35}
+\contentsline {figure}{\numberline {27}{\ignorespaces Specimen 4 notch 1:0, notch crack opening\relax }}{37}
+\contentsline {figure}{\numberline {28}{\ignorespaces Specimen 4 notch 1:0, notch crack shearing and opening\relax }}{37}
+\contentsline {figure}{\numberline {29}{\ignorespaces Specimen 4 notch 1:0, Shear Failure\relax }}{38}
+\contentsline {figure}{\numberline {30}{\ignorespaces Specimen 4 notch 1:0, Flexural Failure\relax }}{38}
+\contentsline {figure}{\numberline {31}{\ignorespaces Specimen 2 notch 1:0 failure; side view left, top view right\relax }}{39}
+\contentsline {figure}{\numberline {32}{\ignorespaces Specimen 2 notch 1:0; inside centre of beam\relax }}{39}
+\contentsline {figure}{\numberline {33}{\ignorespaces Capacities for Rectangular Section Specimens\relax }}{42}
+\contentsline {figure}{\numberline {34}{\ignorespaces Load-Displacement Graph for Rectangular Beams with Notches of Slope 1:0\relax }}{43}
+\contentsline {figure}{\numberline {35}{\ignorespaces Top and Bottom Strain at Centre for Rectangular Beams with Notches of Slope 1:0\relax }}{44}
+\contentsline {figure}{\numberline {36}{\ignorespaces Horizontal Strain at Centre for Rectangular Beams with Notches of Slope 1:0\relax }}{45}
+\contentsline {figure}{\numberline {37}{\ignorespaces Vertical Strain at Centre for Rectangular Beams with Notches of Slope 1:0\relax }}{46}
+\contentsline {figure}{\numberline {38}{\ignorespaces Load rates for rectangular specimens\relax }}{47}
+\contentsline {figure}{\numberline {39}{\ignorespaces Load rates for round specimens\relax }}{49}
+\contentsline {figure}{\numberline {40}{\ignorespaces Time between notch crack initiation and ultimate failure\relax }}{50}
+\contentsline {figure}{\numberline {41}{\ignorespaces Rectangular Section Beam: Deflection\relax }}{52}
+\contentsline {figure}{\numberline {42}{\ignorespaces Rectangular Section Beam: XY-Plane Shear Strain\relax }}{53}
+\contentsline {figure}{\numberline {43}{\ignorespaces Rectangular Section Beam: Normal Strain in Y-direction (upper) and Z-direction (lower)\relax }}{53}

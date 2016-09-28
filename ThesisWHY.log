@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.1)  26 SEP 2016 13:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.1)  28 SEP 2016 12:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -515,14 +515,14 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
  [2]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 32.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 39.
 )
 \tf@toc=\write3
 \openout3 = `ThesisWHY.toc'.
 
  [3]
-(./ThesisWHY.lof
-Overfull \hbox (5.72089pt too wide) in paragraph at lines 28--28
+(./ThesisWHY.lof [4]
+Overfull \hbox (5.72089pt too wide) in paragraph at lines 43--43
  [][] []\OT1/ptm/m/n/10.95 Rectangular Sec-tion Beam: Nor-mal Strain in Y-direc
 tion (up-per) and Z-direction 
  []
@@ -531,7 +531,7 @@ tion (up-per) and Z-direction
 \tf@lof=\write4
 \openout4 = `ThesisWHY.lof'.
 
- (./ThesisWHY.lot [4])
+ (./ThesisWHY.lot)
 \tf@lot=\write5
 \openout5 = `ThesisWHY.lot'.
 
@@ -765,15 +765,19 @@ Package pdftex.def Info: Figures_and_Images/Wood_Axes.png used on input line 85
 4.
 (pdftex.def)             Requested size: 343.27931pt x 157.18579pt.
  [23 <./Figures_and_Images/Piles.png> <./Figures_and_Images/Wood_Axes.png>]
-<Figures_and_Images/Rectangular_Setup.png, id=138, 908.39375pt x 558.085pt>
-File: Figures_and_Images/Rectangular_Setup.png Graphic file (type png)
+<Figures_and_Images/Rectangular_Set_up.png, id=138, 753.81625pt x 307.1475pt>
+File: Figures_and_Images/Rectangular_Set_up.png Graphic file (type png)
 
-<use Figures_and_Images/Rectangular_Setup.png>
-Package pdftex.def Info: Figures_and_Images/Rectangular_Setup.png used on input
- line 881.
-(pdftex.def)             Requested size: 317.94258pt x 195.33267pt.
- [24]
-<Figures_and_Images/Circular_Setup.png, id=142, 757.83125pt x 321.2pt>
+<use Figures_and_Images/Rectangular_Set_up.png>
+Package pdftex.def Info: Figures_and_Images/Rectangular_Set_up.png used on inpu
+t line 881.
+(pdftex.def)             Requested size: 414.60022pt x 168.93164pt.
+
+Overfull \hbox (2.03526pt too wide) in paragraph at lines 881--882
+ [] 
+ []
+
+[24] <Figures_and_Images/Circular_Setup.png, id=142, 757.83125pt x 321.2pt>
 File: Figures_and_Images/Circular_Setup.png Graphic file (type png)
 
 <use Figures_and_Images/Circular_Setup.png>
@@ -788,7 +792,7 @@ Overfull \hbox (4.24352pt too wide) in paragraph at lines 902--903
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[25 <./Figures_and_Images/Rectangular_Setup.png>]
+[25 <./Figures_and_Images/Rectangular_Set_up.png>]
 <Figures_and_Images/Round_Plate.jpg, id=147, 3925.66624pt x 1837.86626pt>
 File: Figures_and_Images/Round_Plate.jpg Graphic file (type jpg)
 
@@ -798,203 +802,359 @@ Package pdftex.def Info: Figures_and_Images/Round_Plate.jpg used on input line
 (pdftex.def)             Requested size: 392.58963pt x 183.7974pt.
  [26 <./Figures_and_Images/Circular_Setup.png> <./Figures_and_Images/Round_Plat
 e.jpg>]
-<Figures_and_Images/Gauge_Set_up.jpg, id=153, 1006.76125pt x 439.6425pt>
-File: Figures_and_Images/Gauge_Set_up.jpg Graphic file (type jpg)
+<Figures_and_Images/Gauge_Set_Up.png, id=153, 1021.8175pt x 697.60625pt>
+File: Figures_and_Images/Gauge_Set_Up.png Graphic file (type png)
 
-<use Figures_and_Images/Gauge_Set_up.jpg>
-Package pdftex.def Info: Figures_and_Images/Gauge_Set_up.jpg used on input line
+<use Figures_and_Images/Gauge_Set_Up.png>
+Package pdftex.def Info: Figures_and_Images/Gauge_Set_Up.png used on input line
  936.
-(pdftex.def)             Requested size: 402.69736pt x 175.85388pt.
- [27 <./Figures_and_Images/Gauge_Set_up.jpg>]
-
-LaTeX Warning: Reference `set_up' on page 28 undefined on input line 969.
-
-<Figures_and_Images/MTS_Set-up.jpg, id=157, 3011.25pt x 2258.4375pt>
+(pdftex.def)             Requested size: 408.71976pt x 279.03755pt.
+ [27 <./Figures_and_Images/Gauge_Set_Up.png>] <Figures_and_Images/MTS_Set-up.jp
+g, id=158, 3011.25pt x 2258.4375pt>
 File: Figures_and_Images/MTS_Set-up.jpg Graphic file (type jpg)
 
 <use Figures_and_Images/MTS_Set-up.jpg>
 Package pdftex.def Info: Figures_and_Images/MTS_Set-up.jpg used on input line 9
 73.
 (pdftex.def)             Requested size: 301.14264pt x 225.85698pt.
- [28 <./Figures_and_Images/MTS_Set-up.jpg>] [29] <Figures_and_Images/Notch_Angl
-es.png, id=164, 1019.81pt x 881.2925pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[28] <Figures_and_Images/SETUP.jpg, id=162, 888.31876pt x 638.385pt>
+File: Figures_and_Images/SETUP.jpg Graphic file (type jpg)
+
+<use Figures_and_Images/SETUP.jpg>
+Package pdftex.def Info: Figures_and_Images/SETUP.jpg used on input line 999.
+(pdftex.def)             Requested size: 310.91621pt x 223.43808pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[29 <./Figures_and_Images/MTS_Set-up.jpg>] [30 <./Figures_and_Images/SETUP.jpg>
+] <Figures_and_Images/Notch_Angles.png, id=169, 1019.81pt x 881.2925pt>
 File: Figures_and_Images/Notch_Angles.png Graphic file (type png)
 
 <use Figures_and_Images/Notch_Angles.png>
 Package pdftex.def Info: Figures_and_Images/Notch_Angles.png used on input line
- 1010.
-(pdftex.def)             Requested size: 305.94536pt x 264.38979pt.
- [30 <./Figures_and_Images/Notch_Angles.png>]
-<Figures_and_Images/Circular_Notch_Angles.png, id=169, 736.7525pt x 693.59125pt
+ 1023.
+(pdftex.def)             Requested size: 407.91678pt x 352.51076pt.
+ [31 <./Figures_and_Images/Notch_Angles.png>]
+<Figures_and_Images/Circular_Notch_Angles.png, id=174, 713.66624pt x 672.5125pt
 >
 File: Figures_and_Images/Circular_Notch_Angles.png Graphic file (type png)
  <use Figures_and_Images/Circular_Notch_Angles.png>
 Package pdftex.def Info: Figures_and_Images/Circular_Notch_Angles.png used on i
-nput line 1022.
-(pdftex.def)             Requested size: 294.69577pt x 277.43158pt.
- [31 <./Figures_and_Images/Circular_Notch_Angles.png>]
+nput line 1035.
+(pdftex.def)             Requested size: 392.51764pt x 369.88301pt.
+ [32 <./Figures_and_Images/Circular_Notch_Angles.png>]
 
 Package caption Warning: \captionsetup{type*=...} or \captionof
-(caption)                outside box or environment on input line 1032.
+(caption)                outside box or environment on input line 1045.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (1.0107pt too wide) in paragraph at lines 1063--1063
+Overfull \hbox (1.0107pt too wide) in paragraph at lines 1076--1076
  []|\OT1/ptm/b/n/10.95 Member 
  []
 
 
-Overfull \hbox (3.93365pt too wide) in paragraph at lines 1063--1063
+Overfull \hbox (3.93365pt too wide) in paragraph at lines 1076--1076
  \OT1/ptm/b/n/10.95 ($\OT1/ptmcm/m/n/10.95 10[]\OML/ptmcm/m/it/10.95 mm[]$\OT1/
 ptm/b/n/10.95 )|| 
  []
 
 
-Overfull \hbox (3.93365pt too wide) in paragraph at lines 1063--1063
+Overfull \hbox (3.93365pt too wide) in paragraph at lines 1076--1076
  \OT1/ptm/b/n/10.95 ($\OT1/ptmcm/m/n/10.95 10[]\OML/ptmcm/m/it/10.95 mm[]$\OT1/
 ptm/b/n/10.95 )|| 
  []
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omlptm.fd)
+[33] (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omlptm.fd)
 
-LaTeX Warning: Command \textgreater invalid in math mode on input line 1138.
-
-
-LaTeX Warning: Command \textgreater invalid in math mode on input line 1138.
+LaTeX Warning: Command \textgreater invalid in math mode on input line 1151.
 
 
-LaTeX Warning: Command \textless invalid in math mode on input line 1138.
+LaTeX Warning: Command \textgreater invalid in math mode on input line 1151.
 
 
-LaTeX Warning: Command \textless invalid in math mode on input line 1138.
+LaTeX Warning: Command \textless invalid in math mode on input line 1151.
 
 
-Overfull \hbox (1.09888pt too wide) in paragraph at lines 1138--1138
+LaTeX Warning: Command \textless invalid in math mode on input line 1151.
+
+
+Overfull \hbox (1.09888pt too wide) in paragraph at lines 1151--1151
  []|[]| 
  []
 
 
-Overfull \hbox (1.09888pt too wide) in paragraph at lines 1138--1138
+Overfull \hbox (1.09888pt too wide) in paragraph at lines 1151--1151
  []|[]| 
  []
 
 
-Overfull \hbox (1.09888pt too wide) in paragraph at lines 1138--1138
+Overfull \hbox (1.09888pt too wide) in paragraph at lines 1151--1151
  []|[]| 
  []
 
 
-Overfull \hbox (1.09888pt too wide) in paragraph at lines 1138--1138
+Overfull \hbox (1.09888pt too wide) in paragraph at lines 1151--1151
  []|[]| 
  []
 
-[32] <Figures_and_Images/Ansys_Properties.jpg, id=178, 521.95pt x 273.02pt>
+<Figures_and_Images/Ansys_Properties.jpg, id=183, 521.95pt x 273.02pt>
 File: Figures_and_Images/Ansys_Properties.jpg Graphic file (type jpg)
 
 <use Figures_and_Images/Ansys_Properties.jpg>
 Package pdftex.def Info: Figures_and_Images/Ansys_Properties.jpg used on input 
-line 1152.
+line 1163.
 (pdftex.def)             Requested size: 417.56056pt x 218.41629pt.
 
-Overfull \hbox (4.9956pt too wide) in paragraph at lines 1152--1153
+Overfull \hbox (4.9956pt too wide) in paragraph at lines 1163--1164
  [] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[33] [34 <./Figures_and_Images/Ansys_Properties.jpg>] [35] [36] [37]
-<Figures_and_Images/Ansys_Deflection.png, id=194, 798.73407pt x 304.13625pt>
-File: Figures_and_Images/Ansys_Deflection.png Graphic file (type png)
+[34] [35 <./Figures_and_Images/Ansys_Properties.jpg>]
+<Figures_and_Images/Rect_Crack_Open.png, id=190, 880.28876pt x 477.785pt>
+File: Figures_and_Images/Rect_Crack_Open.png Graphic file (type png)
 
-<use Figures_and_Images/Ansys_Deflection.png>
-Package pdftex.def Info: Figures_and_Images/Ansys_Deflection.png used on input 
-line 1363.
-(pdftex.def)             Requested size: 359.42702pt x 136.86003pt.
- [38] [39 <./Figures_and_Images/Ansys_Deflection.png>]
-<Figures_and_Images/YZ_shear_strain.png, id=203, 786.68906pt x 295.1025pt>
-File: Figures_and_Images/YZ_shear_strain.png Graphic file (type png)
+<use Figures_and_Images/Rect_Crack_Open.png>
+Package pdftex.def Info: Figures_and_Images/Rect_Crack_Open.png used on input l
+ine 1229.
+(pdftex.def)             Requested size: 440.1433pt x 238.8919pt.
 
-<use Figures_and_Images/YZ_shear_strain.png>
-Package pdftex.def Info: Figures_and_Images/YZ_shear_strain.png used on input l
-ine 1373.
-(pdftex.def)             Requested size: 354.0068pt x 132.79489pt.
+Overfull \hbox (27.57834pt too wide) in paragraph at lines 1229--1230
+ [] 
+ []
 
-<Figures_and_Images/y_normal_strain.png, id=204, 813.0375pt x 286.82156pt>
-File: Figures_and_Images/y_normal_strain.png Graphic file (type png)
 
-<use Figures_and_Images/y_normal_strain.png>
-Package pdftex.def Info: Figures_and_Images/y_normal_strain.png used on input l
-ine 1381.
-(pdftex.def)             Requested size: 365.8635pt x 129.0685pt.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures_and_Images/z_normal_strain.png, id=205, 796.47563pt x 287.57437pt>
-File: Figures_and_Images/z_normal_strain.png Graphic file (type png)
+[36]
+<Figures_and_Images/Rect_propegate.png, id=194, 1399.2275pt x 388.45125pt>
+File: Figures_and_Images/Rect_propegate.png Graphic file (type png)
 
-<use Figures_and_Images/z_normal_strain.png>
-Package pdftex.def Info: Figures_and_Images/z_normal_strain.png used on input l
-ine 1382.
-(pdftex.def)             Requested size: 358.41072pt x 129.40727pt.
- [40 <./Figures_and_Images/YZ_shear_strain.png> <./Figures_and_Images/y_normal_
-strain.png> <./Figures_and_Images/z_normal_strain.png>]
-<Figures_and_Images/Round_crack_fail.png, id=212, 496.85625pt x 379.4175pt>
+<use Figures_and_Images/Rect_propegate.png>
+Package pdftex.def Info: Figures_and_Images/Rect_propegate.png used on input li
+ne 1240.
+(pdftex.def)             Requested size: 433.75604pt x 120.41864pt.
+
+Overfull \hbox (21.19109pt too wide) in paragraph at lines 1240--1241
+ [] 
+ []
+
+[37 <./Figures_and_Images/Rect_Crack_Open.png> <./Figures_and_Images/Rect_prope
+gate.png>]
+<Figures_and_Images/Rect_Shear.png, id=200, 1378.14874pt x 492.84125pt>
+File: Figures_and_Images/Rect_Shear.png Graphic file (type png)
+
+<use Figures_and_Images/Rect_Shear.png>
+Package pdftex.def Info: Figures_and_Images/Rect_Shear.png used on input line 1
+252.
+(pdftex.def)             Requested size: 427.2217pt x 152.77919pt.
+
+Overfull \hbox (14.65674pt too wide) in paragraph at lines 1252--1253
+ [] 
+ []
+
+<Figures_and_Images/Rect_Flexure.png, id=201, 1437.37pt x 750.805pt>
+File: Figures_and_Images/Rect_Flexure.png Graphic file (type png)
+
+<use Figures_and_Images/Rect_Flexure.png>
+Package pdftex.def Info: Figures_and_Images/Rect_Flexure.png used on input line
+ 1263.
+(pdftex.def)             Requested size: 431.21432pt x 225.24323pt.
+
+Overfull \hbox (18.64937pt too wide) in paragraph at lines 1263--1264
+ [] 
+ []
+
+[38 <./Figures_and_Images/Rect_Shear.png> <./Figures_and_Images/Rect_Flexure.pn
+g>] <Figures_and_Images/Spec_2_flex.jpg, id=208, 3011.25pt x 4015.0pt>
+File: Figures_and_Images/Spec_2_flex.jpg Graphic file (type jpg)
+
+<use Figures_and_Images/Spec_2_flex.jpg>
+Package pdftex.def Info: Figures_and_Images/Spec_2_flex.jpg used on input line 
+1275.
+(pdftex.def)             Requested size: 150.57132pt x 200.76176pt.
+
+<Figures_and_Images/Spec_2_Top.jpg, id=209, 3011.25pt x 2258.4375pt>
+File: Figures_and_Images/Spec_2_Top.jpg Graphic file (type jpg)
+
+<use Figures_and_Images/Spec_2_Top.jpg>
+Package pdftex.def Info: Figures_and_Images/Spec_2_Top.jpg used on input line 1
+276.
+(pdftex.def)             Requested size: 258.96245pt x 194.22183pt.
+
+<Figures_and_Images/Spec_2_wet.jpg, id=210, 3011.25pt x 2258.4375pt>
+File: Figures_and_Images/Spec_2_wet.jpg Graphic file (type jpg)
+
+<use Figures_and_Images/Spec_2_wet.jpg>
+Package pdftex.def Info: Figures_and_Images/Spec_2_wet.jpg used on input line 1
+287.
+(pdftex.def)             Requested size: 301.14264pt x 225.85698pt.
+ [39 <./Figures_and_Images/Spec_2_flex.jpg> <./Figures_and_Images/Spec_2_Top.jp
+g> <./Figures_and_Images/Spec_2_wet.jpg>] [40] <Figures_and_Images/Rect_Spec_Ca
+p.png, id=217, 609.27625pt x 421.575pt>
+File: Figures_and_Images/Rect_Spec_Cap.png Graphic file (type png)
+
+<use Figures_and_Images/Rect_Spec_Cap.png>
+Package pdftex.def Info: Figures_and_Images/Rect_Spec_Cap.png used on input lin
+e 1389.
+(pdftex.def)             Requested size: 396.02486pt x 274.0205pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[41] [42 <./Figures_and_Images/Rect_Spec_Cap.png>]
+<Figures_and_Images/Rect_10_Def.png, id=225, 506.89375pt x 323.2075pt>
+File: Figures_and_Images/Rect_10_Def.png Graphic file (type png)
+
+<use Figures_and_Images/Rect_10_Def.png>
+Package pdftex.def Info: Figures_and_Images/Rect_10_Def.png used on input line 
+1414.
+(pdftex.def)             Requested size: 405.51555pt x 258.56635pt.
+
+<Figures_and_Images/Rect_10_Centre.png, id=226, 529.98pt x 366.36874pt>
+File: Figures_and_Images/Rect_10_Centre.png Graphic file (type png)
+
+<use Figures_and_Images/Rect_10_Centre.png>
+Package pdftex.def Info: Figures_and_Images/Rect_10_Centre.png used on input li
+ne 1425.
+(pdftex.def)             Requested size: 423.98456pt x 293.09538pt.
+
+Overfull \hbox (18.21959pt too wide) in paragraph at lines 1425--1426
+ [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figures_and_Images/Rect_10_Z.png, id=227, 499.8675pt x 348.30125pt>
+File: Figures_and_Images/Rect_10_Z.png Graphic file (type png)
+
+<use Figures_and_Images/Rect_10_Z.png>
+Package pdftex.def Info: Figures_and_Images/Rect_10_Z.png used on input line 14
+33.
+(pdftex.def)             Requested size: 399.89453pt x 278.64137pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figures_and_Images/Rect_10_Y.png, id=228, 499.8675pt x 344.28625pt>
+File: Figures_and_Images/Rect_10_Y.png Graphic file (type png)
+
+<use Figures_and_Images/Rect_10_Y.png>
+Package pdftex.def Info: Figures_and_Images/Rect_10_Y.png used on input line 14
+41.
+(pdftex.def)             Requested size: 399.89453pt x 275.42937pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[43 <./Figures_and_Images/Rect_10_Def.png>]
+<Figures_and_Images/Rect_load.png, id=233, 552.0625pt x 387.4475pt>
+File: Figures_and_Images/Rect_load.png Graphic file (type png)
+
+<use Figures_and_Images/Rect_load.png>
+Package pdftex.def Info: Figures_and_Images/Rect_load.png used on input line 14
+69.
+(pdftex.def)             Requested size: 386.4411pt x 271.2114pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[44 <./Figures_and_Images/Rect_10_Centre.png>] [45 <./Figures_and_Images/Rect_1
+0_Z.png>]
+Underfull \hbox (badness 2050) in paragraph at lines 1519--1519
+[]|\OT1/ptm/m/n/10.95 Full mem-ber failed (notch
+ []
+
+
+Overfull \hbox (6.23872pt too wide) in paragraph at lines 1489--1523
+ [] 
+ []
+
+[46 <./Figures_and_Images/Rect_10_Y.png>]
+Overfull \vbox (40.15688pt too high) has occurred while \output is active []
+
+
+[47 <./Figures_and_Images/Rect_load.png>]
+<Figures_and_Images/Round_load.png, id=252, 550.055pt x 375.4025pt>
+File: Figures_and_Images/Round_load.png Graphic file (type png)
+
+<use Figures_and_Images/Round_load.png>
+Package pdftex.def Info: Figures_and_Images/Round_load.png used on input line 1
+571.
+(pdftex.def)             Requested size: 385.03587pt x 262.77995pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[48] [49 <./Figures_and_Images/Round_load.png>]
+<Figures_and_Images/Round_crack_fail.png, id=260, 496.85625pt x 379.4175pt>
 File: Figures_and_Images/Round_crack_fail.png Graphic file (type png)
 
 <use Figures_and_Images/Round_crack_fail.png>
 Package pdftex.def Info: Figures_and_Images/Round_crack_fail.png used on input 
-line 1400.
+line 1605.
 (pdftex.def)             Requested size: 397.48553pt x 303.53441pt.
- [41 <./Figures_and_Images/Round_crack_fail.png>] [42] [43] (./ThesisWHY.bbl [4
-4] [45]) [46]
+ [50 <./Figures_and_Images/Round_crack_fail.png>] [51]
+<Figures_and_Images/Ansys_Deflection.png, id=269, 798.73407pt x 304.13625pt>
+File: Figures_and_Images/Ansys_Deflection.png Graphic file (type png)
+
+<use Figures_and_Images/Ansys_Deflection.png>
+Package pdftex.def Info: Figures_and_Images/Ansys_Deflection.png used on input 
+line 1635.
+(pdftex.def)             Requested size: 359.42702pt x 136.86003pt.
+ [52 <./Figures_and_Images/Ansys_Deflection.png>]
+<Figures_and_Images/YZ_shear_strain.png, id=274, 786.68906pt x 295.1025pt>
+File: Figures_and_Images/YZ_shear_strain.png Graphic file (type png)
+
+<use Figures_and_Images/YZ_shear_strain.png>
+Package pdftex.def Info: Figures_and_Images/YZ_shear_strain.png used on input l
+ine 1645.
+(pdftex.def)             Requested size: 354.0068pt x 132.79489pt.
+
+<Figures_and_Images/y_normal_strain.png, id=275, 813.0375pt x 286.82156pt>
+File: Figures_and_Images/y_normal_strain.png Graphic file (type png)
+
+<use Figures_and_Images/y_normal_strain.png>
+Package pdftex.def Info: Figures_and_Images/y_normal_strain.png used on input l
+ine 1653.
+(pdftex.def)             Requested size: 365.8635pt x 129.0685pt.
+
+<Figures_and_Images/z_normal_strain.png, id=276, 796.47563pt x 287.57437pt>
+File: Figures_and_Images/z_normal_strain.png Graphic file (type png)
+
+<use Figures_and_Images/z_normal_strain.png>
+Package pdftex.def Info: Figures_and_Images/z_normal_strain.png used on input l
+ine 1654.
+(pdftex.def)             Requested size: 358.41072pt x 129.40727pt.
+ [53 <./Figures_and_Images/YZ_shear_strain.png> <./Figures_and_Images/y_normal_
+strain.png> <./Figures_and_Images/z_normal_strain.png>] [54] (./ThesisWHY.bbl [
+55] [56]) [57]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1451.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1686.
 
  [1
 
-]
-Overfull \hbox (3.55461pt too wide) in paragraph at lines 1543--1543
- \OT1/ptm/m/n/9 153mmx48mm 
- []
-
-
-Overfull \hbox (1.30461pt too wide) in paragraph at lines 1568--1568
- \OT1/ptm/m/n/9 11.8mmx2mm 
- []
-
-
-Overfull \hbox (8.05461pt too wide) in paragraph at lines 1568--1568
- \OT1/ptm/m/n/9 11.1mmx8.2mm 
- []
-
-
-Overfull \hbox (3.55461pt too wide) in paragraph at lines 1568--1568
- \OT1/ptm/m/n/9 6.9mmx6.1mm 
- []
-
-
-Overfull \hbox (1.30461pt too wide) in paragraph at lines 1568--1568
- []|\OT1/ptm/m/n/9 10mmx8.3mm 
- []
-
-
-Overfull \hbox (8.05461pt too wide) in paragraph at lines 1568--1568
- \OT1/ptm/m/n/9 7.2mmx12.8mm 
- []
-
-[2] [3] [4] [5] (./ThesisWHY.aux)
+] [2]
+(./ThesisWHY.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
  ) 
 Here is how much of TeX's memory you used:
- 6494 strings out of 493089
- 99520 string characters out of 6134843
- 203060 words of memory out of 5000000
- 9756 multiletter control sequences out of 15000+600000
- 57043 words of font info for 112 fonts, out of 8000000 for 9000
+ 6549 strings out of 493089
+ 101900 string characters out of 6134843
+ 189215 words of memory out of 5000000
+ 9800 multiletter control sequences out of 15000+600000
+ 45084 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,12n,75p,1539b,470s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
@@ -1007,10 +1167,10 @@ f-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fon
 ts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/
 urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/
 utmri8a.pfb>
-Output written on ThesisWHY.pdf (56 pages, 12268972 bytes).
+Output written on ThesisWHY.pdf (64 pages, 27306402 bytes).
 PDF statistics:
- 283 PDF objects out of 1000 (max. 8388607)
- 155 compressed objects within 2 object streams
+ 335 PDF objects out of 1000 (max. 8388607)
+ 172 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 166 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 241 words of extra memory for PDF output out of 10000 (max. 10000000)
 
