@@ -496,7 +496,7 @@
 	\noindent
     AS1720.1 uses the rectangular formula with additional factors to account for the change in section shape. This formula and additional factors are
 	\begin{equation}
-	\phi M = \phi k_{1} k_{4} k_{6} k_{9} k_{12} k_{20} k_{21} k_{22} f'_{b} Z
+	\phi M_{d} = \phi k_{1} k_{4} k_{6} k_{9} k_{12} k_{20} k_{21} k_{22} f'_{b} Z
 	\end{equation}
 
     \noindent
@@ -703,6 +703,7 @@
 	 
 	\begin{equation}
 	\tau_{d} = 1.5\dfrac{V}{b h_{ef}} \leq k_{v} f_{v,d} 
+	\label{eq:Euro}
 	\end{equation}
      
      where\par
@@ -841,7 +842,7 @@ Steel straps have also been used by TMR to reduce notching effects on piles, as 
 	\pagebreak
 
 \noindent
-In both external and internal reinforcement methods, studies have been undertaken where the material has been replaced with fibre reinforcement polymers (FRP) \cite{jockwer_structural_2014}. However these studies were carried out on rectangular sectioned beams and there is no recorded studies on the effects of notch reinforcement on circular members. 
+Studies have been undertaken comparing reinforcement methods, however were only carried out on rectangular sectioned beams, and no other sections have been considered  \cite{jockwer_structural_2014}.
 
 \subsection{Analysis and Modelling}
 For analysis and modelling purposes, timber can be assumed to have orthotropic properties in the longitudinal, tangential and radial directions \cite{kim_modeling_2010}. These directions are shown in Figure \ref{fig:Axes} with relation to the cross-sectional grain direction, where $L$ refers to longitudinal, $R$ to radial and $T$ tangential. This will assist in developing accurate models using finite element analysis (FEA) of a three-dimensional member. 
@@ -863,6 +864,58 @@ Notches are widely used throughout timber bridge construction as a method of sea
 	\begin{enumerate}
 		\item Small scale tests on rectangular and round members were carried out to determine the critical notch angle for each profile
 	\end{enumerate}
+
+\subsection{Preliminary Results}
+
+\subsubsection{Finite Element Analysis}
+A small scale model of the rectangular 1:0 slope notch specimen was completed on ANSYS V16.0, to established the optimum placement for data reading equipment and critical loading set-out for all tests. Figures \ref{fig:Def} to \ref{fig:fig:y_norm} show the ANSYS analysis for the rectangular end notched specimen, centrally loaded and simply supported.
+
+\vspace*{\baselineskip}
+
+\begin{figure}[h]
+	\begin{center}
+		\includegraphics[scale=0.45]{Ansys_Deflection}
+	\end{center}
+	
+	\caption{Rectangular Section Beam: deflection}
+	\label{fig:Def}
+\end{figure}
+\pagebreak
+\begin{figure}[h]
+	\begin{center}
+		\includegraphics[scale=0.45]{YZ_shear_strain}
+	\end{center}
+	\caption{Rectangular Section Beam: XY-plane shear strain}
+	\label{fig:yz_shear}
+\end{figure}
+
+\begin{figure}[h]
+	\begin{center}
+		\includegraphics[scale=0.45]{y_normal_strain}
+		\includegraphics[scale=0.45]{z_normal_strain}
+	\end{center}
+	\caption{Rectangular Section Beam: normal strain in Y-direction (top) and Z-direction (bottom)}
+	\label{fig:fig:y_norm}
+\end{figure}
+
+\noindent
+From Figures \ref{fig:Def} to \ref{fig:fig:y_norm}, it was observed that the strains were most critical within a 5mm radius around the notch corner with the deflection being most critical at the centre of the beam. Figure \ref{fig:fig:y_norm} also indicated a large amount of compressive strain would occur directly beneath the loading plate, and tensile strain on the bottom face, in line with the load. These results ultimately defined the placement of the strain gauges and LVDT.
+
+\pagebreak
+
+\noindent
+To establish the small scale FEA model, specific properties were used for ANSYS and can be seen in Figure \ref{fig:Properties}.
+\vspace*{\baselineskip}
+\begin{figure}[h]
+	\begin{center}
+		\includegraphics[scale=0.65]{Ansys_Properties}
+	\end{center}
+	\caption{Properties Used for ANSYS Simulation}
+	\label{fig:Properties}
+\end{figure}
+
+\vspace*{\baselineskip}
+
 
 \subsection{Experimental Set-up}
 A three point loading set-up was used for all member testing throughout the experiments. The set up consisted of a centrally loaded, simply supported beam. Modelling carried out using ANSYS suggested that this location for loading would give the most critical effects and reduce any failure due to crushing over the notch. Steel plates with dimensions 5mm x 40mm x 60mm were used over the supports to distribute the load onto to beam. All timber used were of the same species and dimensions. The tests were carried out for both rectangular and circular section members and the moment of inertia and section modulus for both types of beams were assumed to approximately constant. This will allow comparison in design methods and results. A Linear Variable Differential Transformer (LVDT) was also used to measure the deflection at the centre of the beam, as well as a 600kN capacity load cell, which was was used to measure the applie load. To collect all the data from the strain gauges, LVDT and load cell, a CR3000 Campbell's scientific data logger was used.
@@ -903,8 +956,8 @@ The same set-up was used for the round specimens as used for the rectangular; wi
 \pagebreak
 
 \noindent
-A rounded 5mm thick by 40mm wide metal loading plate was made, curving half of the members circumference, with a 3mm x 40mm x 300mm long, straight pieced of metal welded to one side to support the LVDT. This plate can be seen in Figure \ref{fig:RoundPlate}. 
-
+A rounded 5mm thick by 40mm wide metal loading plate was made, curving half of the members circumference, with a 3mm x 40mm x 300mm long, straight piece of metal welded to one side to support the LVDT. This plate can be seen in Figure \ref{fig:RoundPlate}. 
+\vspace*{\baselineskip}
 \begin{figure}[h]
 	\begin{center}
 		\includegraphics[scale=0.1]{Round_Plate}
@@ -913,19 +966,17 @@ A rounded 5mm thick by 40mm wide metal loading plate was made, curving half of t
 	\label{fig:RoundPlate}
 \end{figure}
 
-\vspace*{\baselineskip}
-
 \noindent
 \textbf{Specimen Documentation}\par
 \noindent
-Before any testing was undertaken, the specimens were required to be documented in great detail, to account for any inaccuracies or defect interference with experimental results. Firstly, the length, width, depth, average diameter, notch length, notch depth and mass were measured and recorded. After the mass and all required dimensions were taken, the specimen was carefully checked for defects and imperfections (i.e. knots, rot, cracks etc.), which were measured, photographed and documented. This process was repeated for all 24 specimens. 
+Before any testing was undertaken, the specimens were required to be documented in great detail, to account for any inaccuracies or defect interference with experimental results. Firstly, the length, width, depth, average diameter, notch length, notch depth and mass were measured and recorded. The specimen was then carefully checked for defects and imperfections (i.e. knots, rot, cracks etc.). These were measured, photographed and documented and the process was repeated for all 24 specimens. 
 
 \vspace*{\baselineskip}
 
 \noindent
 \textbf{Specimen Strain Gauge Implementation}\par
 \noindent
-The locations for the expected maximum loading effects on the beam were determined using ANSYS modelling and strain gauges were used on all specimens to measure strains in these locations, within the constraints of the test set-up.
+The locations for the expected maximum loading effects on the beam were determined using ANSYS modelling and strain gauges were placed in these locations for all specimens tested.
 
 \begin{figure}[h]
 	\begin{center}
@@ -936,33 +987,35 @@ The locations for the expected maximum loading effects on the beam were determin
 \end{figure}
 
 \noindent
-As shown in Figure \ref{fig:Gauge}, a 2mm (FLA2--11--3L) strain gauge will be placed 5mm vertically and horizontally from the notch corner with a 30mm (PFL--30--11--3L) strain gauge directly next to it. This arrangement will be mirrored on both sides of the notch, and a 30mm strain gauge will be placed centrally on the top and bottom of the centre of the beam. These strains will be used to determine an overall stress profile for the notch and at the centre of the beam and to gain a better understanding of how notches reacted to applied loads. 
+As shown in Figure \ref{fig:Gauge}, a 2mm (FLA2--11--3L) strain gauge will be placed 5mm vertically and horizontally from the notch corner with a 30mm (PFL--30--11--3L) strain gauge directly next to it. This arrangement will be mirrored on both sides of the notch, and a 30mm strain gauge will be placed centrally on the top and bottom of the centre of the beam. These strains will be used to determine an overall stress profile for the notch and the centre of the beam. This would provide valuable information on the reaction of the notches due to the applied loads
 
 \vspace*{\baselineskip}
 
 \noindent
-To prepare for the strain gauges to be adhered to a specimen, each specimen was measured and marked on their top and bottom faces at the centre of the beam, and at the notch corner, to show the intended gauge placements. After this, the 30mm strain gauge was centrally placed on the marking in the middle of the top and bottom face of the beam using epoxy adhesive, running along the grain. The 2mm and 30mm strain gauges were then placed near the notch corner as marked on either side of the specimen. If the wires from a strain gauge were touching, they separated using duct tape. The strain gauges were arranged and properly attached to specimens between experiments.
+The strain gauges were then attached to the specimen using the corresponding strain gauge adhesive. The 30mm strain gauges were centrally placed placed at the top and bottom of the beam, running along the grain. The 2mm and 30mm strain gauges were then placed near the notch corner as indicated in Figure \ref{fig:Gauge}. Particular care was taken to ensure that the wires were not touching or were separated with duct tape. This process was repeated for all specimens.
 
 \vspace*{\baselineskip}
 
 \noindent
 \textbf{LVDT Implementation}\par
 \noindent
-For the rectangular specimens, a 20cm long, 2cm wide and 5mm thick piece of plywood was attached to the specimen and mid-span using super glue. Once it was dry and secured, a 50mm LDVT was magnetically attached to the MTS machine and placed directly above the piece of plywood. For the round specimens, a long metal plate was incorporated into the constructed curved loading plate, which levelly extruded from the centre of the beam to allow seating for the LVDT.
+For the rectangular specimens, piece of plywood (20cm x 20cm x 5cm) was attached to the specimen and mid-span using super glue. Once it was dry and secured, a 50mm LDVT was magnetically attached to the MTS machine and placed directly above the piece of plywood. For the round specimens, a long metal plate was incorporated into the constructed curved loading plate, which extruded horizontally from the centre of the beam to allow seating for the LVDT.
 
 \vspace*{\baselineskip}
 
 \noindent
 \textbf{Camera Implementation}\par
 \noindent
-A 400fps camera was used to video the notch of each specimen during loading. The camera was connected to a magnetic lever arm which would magnetically attach to the MTS machine. This allowed the camera to be moved to the optimal position, to capture the notch failure, for each experiment.
+A 400fps camera was used to video the notch of each specimen during loading. The camera was connected to a magnetic lever arm which would magnetically attach to the MTS machine. This allowed the camera to be moved to the optimal position to capture the notch failure for each experiment.
 
 \vspace*{\baselineskip}
 
 \noindent
 \textbf{Timber Specimen Test Set-Up}\par
 \noindent
-Once the strain gauges had been securely attached to a specimen, the specimen was ready to be set-up to undertake loading. To set-up the experiment, the timber specimen was placed upon the simply supported arrangement within the MTS machine. This arrangement consisted of the notched end supported by a pin support and un-notched end supported by a roller, as shown in Figure \ref{fig:set_up}.
+Once the strain gauges had been securely attached, the specimen was prepared to undertake loading. To set-up the experiment, the timber specimen was placed upon the simply supported arrangement within the MTS machine. This arrangement consisted of the notched end supported by a pin support and un-notched end supported by a roller, as shown in Figure \ref{fig:set_up}.
+
+\vspace*{\baselineskip}
 
 \begin{figure}[h]
 	\begin{center}
@@ -974,7 +1027,7 @@ Once the strain gauges had been securely attached to a specimen, the specimen wa
 \pagebreak
 
 \noindent
-The metal support plates were then slipped under the member to sit centrally above the two end supports, with extreme care taken to not pull on any strain gauges throughout the set-up. 
+The metal support plates were then slipped under the member to sit centrally above the two end supports, with extreme care taken to not interfere with any strain gauges throughout the set-up. 
 
 \vspace*{\baselineskip}
 
@@ -990,6 +1043,8 @@ After the specimen experimental arrangement was complete, the strain gauges, LVD
 \noindent
 Once the specimen was correctly placed, set-up and all strain gauges and the LVDT was connected, the load cell was placed on top of the loading plate, a steel disc and a steel ball. A 5mm x 100mm x 100mm steel loading plate was then placed on top of the load cell, and the MTS load was lowered until it was just touching the top loading plate. Before we began loading, the data logger readings from the strain gauges, LVDT and load cell were checked to determine if all were properly connected and collecting data, the overall set-up can be seen in Figure \ref{fig:SETUP}.
 
+\vspace*{\baselineskip}
+
 \begin{figure}[h]
 	\begin{center}
 		\includegraphics[scale=0.35]{SETUP}
@@ -997,19 +1052,9 @@ Once the specimen was correctly placed, set-up and all strain gauges and the LVD
 	\caption{Set-up of loading plates, metal ball and load cell in MTS Machine}
 	\label{fig:SETUP}
 \end{figure}
-\pagebreak
 
 \noindent
-Finally, the data logger was zeroed, then a load was applied at a constant rate, by the MTS machine, until the specimen failed. 
-
-\vspace*{\baselineskip}
-\noindent
-The steps described in the specimen strain gauge implementation, LVDT implementation, timber specimen test set-up, data logger set up and timber specimen testing were repeated for all 24 specimens. All tests were completed in the James Cook University structural engineering lab. 
-
-\vspace*{\baselineskip}
-\noindent
-Overall, the data from the strain gauges, LVDT and load cell were collected to determine any trends and to compare between the two different sections. These results were used alongside the video footage of each experiment, to align points of cracking and failure with the data. 
-\pagebreak
+Finally, the data logger was zeroed, and the MTS machine applied a load at a constant rate until the specimen reached ultimate failure. This set-up and testing process was the same for all 24 specimen, and all experiments were completed in the James Cook University structural engineering lab. All data from the strain gauges, LVDT and load cell was then analysed in conjunction with video footage of the experiment to align points of cracking and failure.
 
 \subsubsection{Altering Notch Angles of Small Scale Members}
 Three notch slopes were tested in this experiment; slopes 1:0, 1:2 and 1:4. These notch slopes were chosen as they are commonly used in timber bridging and have direct design methods in AS1720, which can be used for later comparison. The strains surrounding the notch and failure type were be observed to determine the critical notch angle. 
@@ -1024,7 +1069,7 @@ Three notch slopes were tested in this experiment; slopes 1:0, 1:2 and 1:4. Thes
 \pagebreak
 
 \noindent
-A set of 4 specimens for each notch angle in both rectangular and circular section were tested, thus a total of 24 specimens are to were used. The notch layout for each test can be seen in Figures \ref{fig:Rectangular2} and \ref{fig:Circular}.
+A set of 4 specimens were tested for each notch angle in both rectangular and circular section. The notch layout for each test can be seen in Figures \ref{fig:Rectangular2} and \ref{fig:Circular}.
 \vspace*{\baselineskip}
 \begin{figure}[h]
 	\begin{center}
@@ -1035,7 +1080,7 @@ A set of 4 specimens for each notch angle in both rectangular and circular secti
 \end{figure}
 
 \noindent
-Table 3 shows the set experimental parameters for each section shape and notch profile. As it can be seen, the moment of inertia between the two section is approximately equal, with a difference of $0.09 x 10^{6} mm^{4}$.
+Table 3 shows the set experimental parameters for each section shape and notch profile. As it can be seen, the moment of inertia between the two section is approximately equal, with a difference of $0.09 \times 10^{6} mm^{4}$.
 
 \pagebreak
 \captionof{table}{Experimental Parameters}
@@ -1077,7 +1122,7 @@ Table 3 shows the set experimental parameters for each section shape and notch p
 \subsection{Material Properties}
 \noindent \textbf{Timber Properties}\par
 \noindent
-The timber used for testing was spotted gum (corymbia maculata) timber, as it a hardwood that is commonly used in Queensland bridges that are currently being utilised. The properties and characteristics of spotted gum timber are given in Table \ref{tab:spotty} \cite{elsener_material_2014,hopewell_spotted_2004}. All specimens will be unseasoned and green (have a water content greater than 12\%), and all timber was sourced from Grays Sawmill in Proserpine, Queensland.
+The timber used for testing was spotted gum (corymbia maculata) timber, as it a hardwood that is commonly used in Queensland bridges currently being utilised. The properties and characteristics of spotted gum timber are given in Table \ref{tab:spotty} \cite{elsener_material_2014,hopewell_spotted_2004}. All specimens were unseasoned and green (have a water content greater than 12\%) and were sourced from Grays Sawmill in Proserpine, Queensland.
 
 \pagebreak
 
@@ -1147,60 +1192,6 @@ The timber used for testing was spotted gum (corymbia maculata) timber, as it a 
 	\end{tabularx}
 \end{center}
 
-\subsection{Preliminary Results}
-
-\subsubsection{Finite Element Analysis}
-A small scale model of the rectangular 1:0 slope notch specimen was completed on ANSYS V16.0, to established the optimum placement for data reading equipment and critical loading set-out for all tests. Figures \ref{fig:Def} to \ref{fig:fig:y_norm} show the ANSYS analysis for the rectangular end notched specimen, centrally loaded and simply supported.
-
-\vspace*{\baselineskip}
-
-\begin{figure}[h]
-	\begin{center}
-		\includegraphics[scale=0.45]{Ansys_Deflection}
-	\end{center}
-	
-	\caption{Rectangular Section Beam: Deflection}
-	\label{fig:Def}
-\end{figure}
-
-\begin{figure}[h]
-	\begin{center}
-		\includegraphics[scale=0.45]{YZ_shear_strain}
-	\end{center}
-	\caption{Rectangular Section Beam: XY-Plane Shear Strain}
-	\label{fig:yz_shear}
-\end{figure}
-
-\begin{figure}[h]
-	\begin{center}
-		\includegraphics[scale=0.45]{y_normal_strain}
-		\includegraphics[scale=0.45]{z_normal_strain}
-	\end{center}
-	\caption{Rectangular Section Beam: Normal Strain in Y-direction (Top) and Z-direction (Bottom)}
-	\label{fig:fig:y_norm}
-\end{figure}
-
-\noindent
-From Figures \ref{fig:Def} to \ref{fig:fig:y_norm}, it was observed that the strains were most critical within roughly a 5mm radius around the notch corner the deflection was most critical at the centre of the beam. Figure \ref{fig:fig:y_norm} also indicated a large amount of compressive strain would occur directly beneath the loading plate, and tensile strain on the bottom face at the centre of the, in line with the load. These results ultimately defined the placement of the strain gauges and LVDT.
-
-\pagebreak
-
-\noindent
-To establish the small scale FEA model, specific properties were used for ANSYS and can be seen in Figure \ref{fig:Properties}.
-\vspace*{\baselineskip}
-\begin{figure}[h]
-	\begin{center}
-		\includegraphics[scale=0.65]{Ansys_Properties}
-	\end{center}
-	\caption{Properties Used for ANSYS Simulation}
-	\label{fig:Properties}
-\end{figure}
-
-\vspace*{\baselineskip}
-
-\pagebreak
-
-
 \section{Results and Discussion}
 
 \subsection{Rectangular Specimens}
@@ -1216,7 +1207,7 @@ The loading rates used to load the rectangular specimens can be seen in Figure \
 \end{figure}
 
 \noindent
-It can also be seen from Figure \ref{fig:Rect_load} that every specimen experienced an extreme drop in load at some point throughout the experiment. The reason for this was at first presumed to be due to the notch crack initiating at this point. However, when compared to the actual loads at which the notch crack initiates, see Table \ref{tab:rect_Capac}, the drop appears to take place at a higher load. Therefore, it is presumed that the extreme decrease in load is the point at which the notch crack fully propagates passed the centre of the beam. This theory seems plausible as when the crack fully propagates, the member is essentially changing section, as the only part of the member taking the load, would be the remaining section above the crack, thus the reason for the sudden jump in load.  
+It can also be seen from Figure \ref{fig:Rect_load} that every specimen experienced an extreme drop in load at some point throughout the experiment. The reason for this was at first presumed to be due to the notch crack initiating at this point. However, when compared to the actual loads at which the notch crack initiates, see Table \ref{tab:rect_Capac}, the drop appears to take place at a higher load. Therefore, it is presumed that the extreme decrease in load is the point at which the notch crack fully propagates passed the centre of the beam. This theory seems plausible as when the crack fully propagates, the member is essentially changing section, as the only part of the member taking the load, would be the remaining section above the crack, thus the reason for the sudden drop in load.  
 
 \subsubsection{Failure Modes}
 Table \ref{tab:Rect_Fail_Type} shows the water content and initial failure type of each specimen. From this is can be seen that the notch corner cracked on every specimen before ultimate failure occurred.
@@ -1268,7 +1259,9 @@ It should be noted that the water contents for rectangular specimens 1, 2 and 3 
 \vspace*{\baselineskip}
 
 \noindent
-Throughout all rectangular experiments, there was a definite pattern in the types of failure that occurred; first a crack initiated from the notch corner, which propagated just passed the centre of the beam, then ultimate failure occurred. The crack would initiate by first opening perpendicular to the grain at the notch corner (notch failure mode 1), due to excessive tensile forces, which can be seen in Figure \ref{fig:Rect_Crack}. 
+Throughout all rectangular experiments, there was a definite pattern in the types of failure that occurred. The first sign of failure occurred at the notch corner, where a crack would appear. The crack would initiate by first opening perpendicular to the grain at the notch corner (notch failure mode 1), due to excessive tensile forces, which can be seen in Figure \ref{fig:Rect_Crack}. 
+
+\vspace*{\baselineskip}
 
 \begin{figure}[h]
 	\begin{center}
@@ -1278,8 +1271,11 @@ Throughout all rectangular experiments, there was a definite pattern in the type
 	\label{fig:Rect_Crack}
 \end{figure}
 \pagebreak
+
 \noindent
-Then the crack would shear through the member (notch failure mode 2) and propagate to just passed the centre of the beam, as can be seen in Figure \ref{fig:Rect_Prop}. It can also be seen in Figure \ref{fig:Rect_Prop} that the notch corner crack opened (failure mode 3), due to a combination of the tensile and shear forces, which began to occur after the crack initially sheared.  
+The crack would then shear through the member (notch failure mode 2) and propagate to a point just beyond the centre of the beam, as seen in Figure \ref{fig:Rect_Prop}. The notch corner crack then opened (failure mode 3) due to a combination of tensile and shear forces, which began after the crack initially sheared. This failure at the notch corner can also be clearly seen in Figure \ref{fig:Rect_Prop}.  
+
+\vspace*{\baselineskip}
 
 \begin{figure}[h]
 	\begin{center}
@@ -1291,7 +1287,9 @@ Then the crack would shear through the member (notch failure mode 2) and propaga
 \pagebreak
 
 \noindent
-After the notch crack had fully propagated passed the centre of the beam and began to open, the specimens then ultimately failed in shear as can been seen in Figure \ref{fig:Rect_Shear}. 
+After the notch crack had fully propagated passed the centre of the beam, the specimens ultimately failed in shear as can been seen in Figure \ref{fig:Rect_Shear}. 
+
+\vspace*{\baselineskip}
 
 \begin{figure}[h]
 	\begin{center}
@@ -1303,6 +1301,8 @@ After the notch crack had fully propagated passed the centre of the beam and beg
 
 \noindent
 Almost immediately after ultimate shear failure occurred, the specimens then failed in flexure at the centre of the beam, as shown in Figure \ref{fig:Rect_Flex}. The overall succession of notch failure and ultimate failure occurred as expected; sequencing through the notch failure modes and ultimately failing in shear or flexure. 
+
+\vspace*{\baselineskip}
 
 \begin{figure}[h]
 	\begin{center}
@@ -1326,7 +1326,7 @@ All rectangular specimens ultimately failed in shear and then flexure, apart fro
 \end{figure}
 
 \noindent
-The reason that this specimen did not fail in shear is overall unknown. There were no obvious defects present on or in the specimen on inspection. A possible reason would be the specimen had a very high water content at the centre of the beam, which significantly decreased it's flexural capacity in this region. The possible clause for this theory can be observed in Figure \ref{fig:Spec_2_wet}, where the specimen appears to be very wet in this specified area. However, the water content was not taken for this specific specimen, thus this theory can not be verified. 
+As there was no obvious defects present on the specimen, we can only speculate on the reason why it did not fail in shear. A possible reason could be that the specimen may have had a very high water content at the centre of the beam significantly decreasing its flexural capacity in this region. This theory may be supported in Figure \ref{fig:Spec_2_wet} where the specimen appears to be very wet in the specified area. However, as the water content was not taken for this specific specimen, this theory can not be verified. 
 
 \begin{figure}[h]
 	\begin{center}
@@ -1337,7 +1337,7 @@ The reason that this specimen did not fail in shear is overall unknown. There we
 \end{figure}
 
 \noindent
-The ultimate shear failure occurred roughly through the middle of the cross-section of one half of the beam. However the location alternated between, over the notch half and over the roller support half (opposing end to the notch), throughout the experiments. A summary of these locations can be seen in Table \ref{tab:Rect_Shear_Fail}.
+The ultimate shear failure occurred approximately through the middle of the cross-section of one half of the beam. However the location alternated between, over the notch half and over the roller support half (opposing end to the notch), throughout the experiments. A summary of these locations can be seen in Table \ref{tab:Rect_Shear_Fail}.
 
 \vspace*{\baselineskip}
 
@@ -1349,38 +1349,40 @@ The ultimate shear failure occurred roughly through the middle of the cross-sect
 		\textbf{Notch Angle Slope} & \textbf{Specimen No.} & \textbf{Shear Failure Location}\tabularnewline [0.5ex]
 		\hline
 		
-		1:0 & 1 & Opposing end to the notch \tabularnewline [0.5ex]
+		1:0 & 1 & Through section over roller support \tabularnewline [0.5ex]
 		\hline
 		1:0 & 2 & N/A \tabularnewline [0.5ex]
 		\hline
-		1:0 & 3 & Opposing end to the notch \tabularnewline [0.5ex]
+		1:0 & 3 & Through section over roller support \tabularnewline [0.5ex]
 		\hline
-		1:0 & 4 & Over the notch \tabularnewline [0.5ex]
-		\hline
-		
-		1:2 & 1 & Over the notch \tabularnewline [0.5ex]
-		\hline
-		1:2 & 2 & Over the notch \tabularnewline [0.5ex]
-		\hline
-		1:2 & 3 & Over the notch \tabularnewline [0.5ex]
-		\hline
-		1:2 & 4 & Opposing end to the notch \tabularnewline [0.5ex]
+		1:0 & 4 & Through section over the notch \tabularnewline [0.5ex]
 		\hline
 		
-		1:4 & 1 & Over the notch \tabularnewline [0.5ex]
+		1:2 & 1 & Through section over the notch \tabularnewline [0.5ex]
 		\hline
-		1:4 & 2 & Over the notch \tabularnewline [0.5ex]
+		1:2 & 2 & Through section over the notch \tabularnewline [0.5ex]
 		\hline
-		1:4 & 3 & Over the notch \tabularnewline [0.5ex]
+		1:2 & 3 & Through section over the notch \tabularnewline [0.5ex]
 		\hline
-		1:4 & 4 & Opposing end to the notch \tabularnewline [0.5ex]
+		1:2 & 4 & Through section over roller support \tabularnewline [0.5ex]
+		\hline
+		
+		1:4 & 1 & Through section over the notch \tabularnewline [0.5ex]
+		\hline
+		1:4 & 2 & Through section over the notch \tabularnewline [0.5ex]
+		\hline
+		1:4 & 3 & Through section over the notch \tabularnewline [0.5ex]
+		\hline
+		1:4 & 4 & Through section over roller support \tabularnewline [0.5ex]
 		\hline
 	\end{tabularx}
 	\label{tab:Rect_Shear_Fail}
 \end{center}
 
+\vspace*{\baselineskip}
+
 \noindent
-A possible cause as to why the location for the shear failure differed could be that after the notch crack had sheared passed the centre of the beam and opened, the cross-section of the overall beam was reduced to that over the notch. This means that the shear area and capacity would've become the same throughout the member, thus it could fail at any region, and most likely differ due to each member's particular grain arrangement.
+A possible reason for the differing shear failures could be that, once the notch crack had sheared passed the centre of the beam and opened, the cross-section of the entire beam was reduced to that over the notch. Hence the shear area and capacity became the same throughout the member, increasing the probability that it would fail at any point on the beam and differ due to each member's particular grain arrangement.
 
 \subsubsection{Specimen Capacities}
 The overall capacities and times taken to for the failure to occur, for all rectangular specimens, are shown in Table \ref{tab:rect_Capac}. These results were determined through analysis of the load cell, LVDT and strain gauge data as well as through visual correlation using the footage taken of each specimen's notch and ultimate failures.
@@ -1428,12 +1430,12 @@ The overall capacities and times taken to for the failure to occur, for all rect
 \vspace*{\baselineskip}
 
 \noindent
-From Table \ref{tab:rect_Capac}, it can be seen that the results for both the crack initiation load (notch capacity) and the ultimate capacity vary dramatically throughout the specimens for each notch slope. The reason for this is most likely a combination of the differing water contents within the specimens and the existing defects. When the results from this table are compared with the water contents, see Table \ref{tab:Rect_Fail_Type}, it can be observed for most specimens that the those with a higher water content yield a lower ultimate capacity. This pattern is relevant to all specimens for notch slopes 1:2 and 1:4 except for specimen 1 of 1:4 notch, which yielded a slightly higher capacity than those of a lower water content. This outlier may be due to specimens 3 and 4 having defects, thus reducing their capacity. A defect was observed for specimen 4 but no surface defect was observed for specimen 3, see Appendix A. Another reason for this may be due to an inaccurate water content reading of one of the specimens, or the differing grain arrangement within the specimens. For the 1:0 slope specimens, a pattern with the capacity and water content was unable to be established as the water content was not taken for the first three specimens. However, when observing the specimen characteristics, given in Appendix A, it can be observed all specimens had different defects, thus would be expected to yield various capacities. As for the notch capacities, the same trend was apparent, where the higher the water content, the lower the capacity. Again, the capacities differed due to existing defects and their location, for example specimen 3 of 1:0 slope yielded particular low capacities, having a 15mm deep crack on top of the specimen, over the notch that spanned to the centre of the beam. The same discrepancy occurred with specimen 1 of 1:4 slope, where it yielded a higher notch capacity than those with a lower water content. This is indicative that the water content for this specimen may be inaccurate.  
+From Table \ref{tab:rect_Capac}, it can be seen that the results for both the crack initiation load (notch capacity) and the ultimate capacity vary substantially throughout the specimens for each notch slope. This is most likely due to a combination of differing water contents within the specimens and any existing defects. When the results from this table are compared with the water contents, see Table \ref{tab:Rect_Fail_Type}, it can be observed for most specimens that the those with a higher water content yield a lower ultimate capacity. This pattern is relevant to all specimens for notch slopes 1:2 and 1:4 except for specimen 1 of 1:4 notch, which yielded a slightly higher capacity than those of a lower water content. This outlier may be due to specimens 3 and 4 having defects, thus reducing their capacity. A defect was observed for specimen 4 but no surface defect was observed for specimen 3, see Appendix A. Another reason for this may be due to an inaccurate water content reading of one of the specimens, or the differing grain arrangement within the specimens. For the 1:0 slope specimens, a pattern with the capacity and water content was unable to be established as the water content was not taken for the first three specimens. However, when observing the specimen characteristics, given in Appendix A, it can be observed all specimens had different defects, thus would be expected to yield various capacities. As for the notch capacities, the same trend was apparent, where the higher the water content, the lower the capacity. Again, the capacities differed due to existing defects and their location, for example specimen 3 of 1:0 slope yielded particular low capacities, having a 15mm deep crack on top of the specimen, over the notch that spanned to the centre of the beam. The same discrepancy occurred with specimen 1 of 1:4 slope, where it yielded a higher notch capacity than those with a lower water content. This is indicative that the water content for this specimen may be inaccurate.  
 
 \vspace*{\baselineskip}
 
 \noindent
-A graph summarising the information given in Table \ref{tab:rect_Capac} is shown in Figure \ref{fig:Rect_Spec_Cap}, where the solid bars indicate the average capacity and the error bars show the variance in the results. From this graph, a definite trend can be seen; where both the notch capacity and ultimate capacity increases with increasing notch slope. The ultimate capacity experiences a gradual and very slight average increase of 1kN between 1:0 and 1:2 slope and 2kN between 1:2 and 1:4 slope.  
+A graph summarising the information given in Table \ref{tab:rect_Capac} is shown in Figure \ref{fig:Rect_Spec_Cap}, where the solid bars indicate the average capacity and the error bars show the variance in the results. From this graph, there is a strong trend showing that both the notch capacity and ultimate capacity increase with increasing notch slope. The ultimate capacity experiences a gradual but significant average increase of 1kN between 1:0 and 1:2 slope and 2kN between 1:2 and 1:4 slope.  
 
 \vspace*{\baselineskip}
 
@@ -1446,12 +1448,12 @@ A graph summarising the information given in Table \ref{tab:rect_Capac} is shown
 \end{figure}
 
 \noindent
-The same trend is observed for the notch capacities, however there is a more dramatic increase between the average notch capacity of a 1:2 slope and a 1:4 slope; where the difference between a 1:0 and 1:2 slope notch capacity is 2kN and between a 1:2 and 1:4 slope is 13kN. There was a large amount of variance in the results, however this drastic increase between these notch capacities would support AS1720 and TMR's recommendation to use a 1:4 slope as it appears to improve the notch capacity tremendously. 
+The same trend is observed for the notch capacities, however there is a more dramatic increase between the average notch capacity of a 1:2 slope and a 1:4 slope; where the difference between a 1:0 and 1:2 slope notch capacity is 2kN and between a 1:2 and 1:4 slope is 13kN. There was a large amount of variance in the results, however this large increase between these notch capacities would support AS1720 and TMR's recommendation to use a 1:4 slope as it appears to significantly improve the notch capacity.
 
 \vspace*{\baselineskip}
 
 \noindent
-The overall trend that can be observed in Figure \ref{tab:rect_Capac} proves the common theory that a notch which is chamfered will have a greater capacity than a rectangular end notch (slope 1:0), and thus the critical notch angle for a rectangular section beam is a 1:0 slope.
+The overall trend that can be observed in Figure \ref{tab:rect_Capac} supports the common theory that a notch which is chamfered will have a greater capacity than a rectangular end notch (slope 1:0), and thus the critical notch angle for a rectangular section beam is a 1:0 slope.
 
 \vspace*{\baselineskip}
 
@@ -1469,18 +1471,19 @@ Another relationship taken from the results in Table \ref{tab:rect_Capac} can be
 \end{figure}
 
 \noindent
-From this graph, it can be seen that there is an increase of 1 second between the 1:0 slope and 1:2 slope notch. This slight increase in time may be indicative of an average pattern or may be due to the average water content in the 1:2 slope notch being greater than those in the 1:0 slope. Unfortunately this theory can be neither denied or confirmed due to the unknown water contents for the 1:0 slopes, thus the reason for this increase in time interval is ultimately unknown. The most interesting trend observed from Figure \ref{fig:Rect_Time} is that time average interval for the 1:4 slope notch is over a minute less than for the 1:0 slope and 1:2 slope, with an average of 16sec. This is not unexpected as it can be seen from Figure \ref{fig:Rect_Spec_Cap}, that by the time the notch crack initiates, the specimen is almost at ultimate capacity. However, when studying the results shown in Figure \ref{fig:Round-Crack-fail}, it becomes apparent that using a 1:4 chamfer notch may lead to notch failure occurring very close to or at the point of ultimate failure. From a maintenance perspective, this could be a major issue, as signs of notch cracking are hard to identify and are usually considered as means to observe the defect on a 1 to 6 monthly basis. As this experiment was conducted under short-term loading, it is hard to specify the time interval between crack initiation at the notch and ultimate failure for a long-term load. Nevertheless research into the effects of long-term loading on the time between crack initiation at the notch corner and ultimate failure is warranted. This will determine if notching cracking is a sign of ultimate failure for 1:4 notch slope, and possibly alter timber current maintenance schemes for timber bridges.
+From this graph, it can be seen that there is an increase of 1 second between the 1:0 slope and 1:2 slope notch. This slight increase in time may be indicative of an average pattern or may be due to the average water content in the 1:2 slope notch being greater than those in the 1:0 slope. Unfortunately this theory can be neither denied or confirmed due to the unknown water contents for the 1:0 slopes, thus the reason for this increase in time interval is ultimately unknown. The most interesting trend observed from Figure \ref{fig:Rect_Time} is that time average interval for the 1:4 slope notch is over a minute less than for the 1:0 slope and 1:2 slope, with an average of 16sec. This is not unexpected as it can be seen from Figure \ref{fig:Rect_Spec_Cap}, that by the time the notch crack initiates, the specimen is almost at ultimate capacity. However, when studying the results shown in Figure \ref{fig:Rect_Time}, it becomes apparent that using a 1:4 chamfer notch may lead to notch failure occurring very close to or at the point of ultimate failure. From a maintenance perspective, this could be a major issue, as signs of notch cracking are hard to identify and are usually considered as means to observe the defect on a one to six monthly basis. As this experiment was conducted under short-term loading, it is hard to specify the time interval between crack initiation at the notch and ultimate failure for a long-term load. Nevertheless research into the effects of long-term loading on the time between crack initiation at the notch corner and ultimate failure is warranted. This will determine if notching cracking is a sign of ultimate failure for 1:4 notch slope, and possibly alter current maintenance schemes for timber bridges.
 
 
 \subsubsection{Strain Gauge Analysis}
-All strain gauge data shown in the following graphs start from an applied load of zero and end at the point of ultimate failure or when the strain gauge cut out, whichever came first. It should also be noted than the additional weight from loading plates and loading cell has been accounted. 
+All strain gauge data shown in the following graphs start from an applied load of zero and end at the point of ultimate failure or when the strain gauge cut out, whichever came first. It should also be noted than the additional weight from loading plates and loading cell has been taken into account. A strain gauge analysis is carried out below for each of the three differing notch slopes.
 
 \vspace*{\baselineskip}
 
 \noindent
 \textbf{Notch Slope 1:0}\par
 \noindent
-Figure \ref{fig:Rect_10_def} shows the load-displacement graph from the LVDT results, for the rectangular section specimens, with a notch slope of 1:0. The trend in most of the specimens load vs deflection does not follow usual trends and is unexpected.
+The load-displacement graph from the LVDT results, for the rectangular section specimens, with a notch slope of 1:0 is shown in Figure \ref{fig:Rect_10_def}. The trend in most of the specimens load vs deflection does not follow usual trends and is unexpected.
+\vspace*{\baselineskip}
 \begin{figure}[h]
 	\begin{center}
 		\fbox{\includegraphics[scale=0.8]{Rect_10_Def}}
@@ -1489,10 +1492,9 @@ Figure \ref{fig:Rect_10_def} shows the load-displacement graph from the LVDT res
 	\label{fig:Rect_10_def}
 \end{figure}
 
-\pagebreak
-
 \noindent
-The load-displacement for specimen 1 is erratic and does not appear to have any distinct trend or any distinct correlation with either notch or ultimate failure load. For this reason, it is assumed that the LVDT results for specimen 1 are inaccurate, possible due to the plywood supporting the LVDT being too flimsy. As for specimens 2, the load-displacement graph follows the usual pattern, then ultimately changes direction at the point at which the notch crack initiates. The same pattern could be said for specimen 3, however it experiences more of a sudden drop which occurs after the notch crack initiates. This particular discrepancy is similar to that experienced in the loading chart, presumably due to the notch crack fully propagating through the specimen, and may be suggestive of this. Specimen 4's graph somewhat resembles a usual load-displacement curve, however after plateauing, begins to ascend again for no obvious reason and shows no discrepancies due to the notch failure.   
+There does not appear to be any distinct trend in the load-displacement graph for specimen 1. This is assumed to be caused by the LVDT results being inaccurate from the plywood supporting the LVDT being too weak. As for specimens 2, the load-displacement graph follows the usual pattern, then ultimately changes direction at the point at which the notch crack initiates. The same pattern could be said for specimen 3, however it experiences more of a sudden drop which occurs after the notch crack initiates. This particular discrepancy is similar to that experienced in the loading chart, presumably due to the notch crack fully propagating through the specimen, and may be suggestive of this. The load-displacement graph for specimen 4 uncommon in nature for no known reason.   
+\vspace*{\baselineskip}
 
 \begin{figure}[h]
 	\begin{center}
@@ -1505,7 +1507,9 @@ The load-displacement for specimen 1 is erratic and does not appear to have any 
 \pagebreak
 
 \noindent
-Figure \ref{fig:Rect_10_centre} shows the strains at the top (compressive) and bottom (tensile) of each specimen throughout loading. It can be seen for specimens 1, 2 and 3, that they follow the same trend where both tension and compression strains increase linearly to a spike in the data at the same load. After this, they both then experience a significant drop in load. This spike and sudden drop in load is suggestive of a sudden change in capacity and is assumed to be the point at which the notch crack fully propagates through the beam. Specimen 4 essentially followed the same trend, however there was no significant spike in the data, and instead experienced a smooth curve. This may be due to the notch crack in this particular specimen propagating more gradually than the other specimens. After the turning point for all specimens, the tensile strain eventuated to a strain of zero and the compressive strains continue increasing to a strain of roughly --8000 $\times 10^{-6}$, where it suddenly stopped increasing in strain and only increased in load until ultimate failure.  
+The strains at the top (compressive) and bottom (tensile) of each specimen throughout loading are shown in Figure \ref{fig:Rect_10_centre}. It can be seen for specimens 1, 2 and 3, that they follow the same trend where both tension and compression strains increase linearly to a spike in the data at the same load. After this, they both then experience a significant drop in load. This spike and sudden drop in load is suggestive of a sudden change in capacity and is assumed to be the point at which the notch crack fully propagates through the beam. Specimen 4 essentially followed the same trend, however there was no significant spike in the data, and instead experienced a smooth curve. This may be due to the notch crack in this particular specimen propagating more gradually than the other specimens. After the turning point for all specimens, the tensile strain gradually decreased to zero and the compressive strains continued to a strain of roughly --8000 $\times 10^{-6}$ where it suddenly stopped increasing in strain and only increased in load until ultimate failure.
+  
+\vspace*{\baselineskip}
 
 \begin{figure}[h]
 	\begin{center}
@@ -1517,12 +1521,14 @@ Figure \ref{fig:Rect_10_centre} shows the strains at the top (compressive) and b
 \pagebreak
 
 \noindent
-The average horizontal strain at the notch corner can be seen in Figure \ref{fig:Rect_10_Z}, where the horizontal strain were collected from either side of the notch and averaged across the section. From the graph, it can be seen that specimens 1, 2 and 3 experience similar trends in horizontal strain, where they increase and then suddenly drop at the same load at which the compressive and tensile strains dropped. Specimen 4, on the other hand is very erratic, and is hard to identify a definite trend. However, this erratic graph may be indicative of a slow growing notch crack.
+The average horizontal strain at the notch corner for notches of slope 1:0 can be seen in Figure \ref{fig:Rect_10_Z}, where the horizontal strains were collected from either side of the notch and averaged across the section. From the graph, it can be seen that specimens 1, 2 and 3 experience similar trends in horizontal strain, where they increase and then suddenly drop at the same load at which the compressive and tensile strains dropped. The results obtained for specimen 4are erratic and do not follow the same trend. However, this behaviour may be indicative of a slow growing notch crack.
 
 \vspace*{\baselineskip}
 
 \noindent
-The vertical strains were also average across the both sides of the notch, as shown in Figure \ref{fig:Rect_10_Y}. From this graph, a pattern can be seen for specimens 1 and 3, where there is a large spike in the Y strain at a load, after which the strain dramatically drops to below zero. The load at which this data drops aligns with the load at which the notch crack initiates. Specimen 4's data somewhat follows to same trend, but is again erratic, so a definite trend is unable to be established. 
+The vertical strains were also averaged across both sides of the notch, as shown in Figure \ref{fig:Rect_10_Y}. From this graph, a pattern can be seen for specimens 1 and 3, where there is a large spike in the Y strain at a load, after which the strain rapidly drops to below zero. The load at which this data drops aligns with the load at which the notch crack initiates. The results for specimen 4 are erratic and a definite trend is unable to be established. 
+
+\vspace*{\baselineskip}
 
 \begin{figure}[h]
 	\begin{center}
@@ -1534,7 +1540,7 @@ The vertical strains were also average across the both sides of the notch, as sh
 \pagebreak
 
 \noindent
-The data for specimen 1 does not follow the same trend and appears to be constantly increasing until ultimate failure. There is a small discrepancy in the data around the load at which the notch corner crack initiated, however the point at which this occurs is not easily defined. Overall, the vertical strain in specimen 2 appears to be inaccurate as it does not follow a similar trend observed in the other specimens. A possible reason this data may be inaccurate is due to a large wedge cut out of the notched end of the beam, as shown in Figure \ref{fig:Rect_2_wedge}, which may have been in line with the strain gauge and obscuring the data. 
+The data for specimen 1 appears to be constantly increasing until ultimate failure. There is a small discrepancy in the data around the load at which the notch corner crack initiated, however the point at which this occurs is not clearly defined. However, the results obtained for the vertical strain in specimen 2 may be inaccurate as it does not follow the trend observed in the other specimens. This may be inaccurate due to a large wedge cut out of the notched end of the beam, as shown in Figure \ref{fig:Rect_2_wedge}, which may have been in line with the strain gauge and obscuring the data. 
 \vspace*{\baselineskip}
 
 \begin{figure}[h]
@@ -1551,7 +1557,7 @@ The data for specimen 1 does not follow the same trend and appears to be constan
 \noindent
 \textbf{Notch Slope 1:2}\par
 \noindent
-The load-displacement graph for the 1:2 notch specimens can be seen in Figure \ref{fig:Rect_12_def}. Specimens 1, 3 and 4 follow the same distinct pattern distinguished in the 1:0 slope load-displacement graph, where the load increases until it suddenly drops at presumably the point at which the notch crack fully propagates. After this point the graphs differ; where deflection for specimens 3 and 4 start decreasing, but the deflection for specimen 1 continues to increase. There is no obvious reason for this difference between graphs, but could be presumed that it may be due to the different grain arrangement and how the particular notch crack grows through the grain. However, specimen 2 follows the standard load-displacement relationship and does not experience a distinct discrepancy as the other specimens. Instead, it curves at the crack propagation load, then continues to increase in an almost lineal manner. This follows a similar pattern as specimen 4 of the 1:0 slope notch, which was presumed to be due to the notch crack propagating at a more gradual rate instead of a sudden fracture. 
+The load-displacement graph for the 1:2 notch specimens can be seen in Figure \ref{fig:Rect_12_def}. Specimens 1, 3 and 4 follow the same distinct pattern distinguished in the 1:0 slope load-displacement graph, where the load increases until it suddenly drops at the point at which the notch crack is assumed to have fully propagated. After this point the deflection for specimens 3 and 4 start to decrease while the deflection for specimen 1 continues to increase. This behaviour may be due to the different grain arrangement and how each particular notch crack grows through the grain. However, specimen 2 follows the standard load-displacement relationship and does not experience a distinct discrepancy. Instead, it curves at the crack propagation load, then continues to increase in an almost linear manner. This follows a similar pattern as specimen 4 of the 1:0 slope notch, which was presumed to be due to the notch crack propagating at a more gradual rate instead of a sudden fracture. 
 
 \vspace*{\baselineskip}
 
@@ -1566,6 +1572,8 @@ The load-displacement graph for the 1:2 notch specimens can be seen in Figure \r
 \noindent
 Figure \ref{fig:Rect_12_centre} shows the top and bottom strains taken from the centre of the beam for the 1:2 notch slope specimens. 
 
+\vspace*{\baselineskip}
+
 \begin{figure}[h]
 	\begin{center}
 		\fbox{\includegraphics[scale=0.75]{Rect_12_Centre}}
@@ -1576,11 +1584,13 @@ Figure \ref{fig:Rect_12_centre} shows the top and bottom strains taken from the 
 \pagebreak
 
 \noindent
-The exact same trends were can be observed for the strains in Figure \ref{fig:Rect_12_centre} as were for the 1:0 slope tensile and compressive strains; where both strains spiked at the point at which the notch crack fully propagates. The only difference between the trends for the 1:2 slope compared to the 1:0 slope, is the compressive strains did not hit a point where the strain stopped increasing and only the load increased. Specimens 1, 3 and 4 followed this specified trend, where specimen 2 followed the same trend as specimen 4 for the 1:0 slope, again presumptively due to the crack growth being less sudden than the other specimens.
+The same trends were can be observed for the strains in Figure \ref{fig:Rect_12_centre} as were for the 1:0 slope tensile and compressive strains; where both strains spiked at the point at which the notch crack fully propagates. The only difference between the trends for the 1:2 slope compared to the 1:0 slope, is the compressive strains did not hit a point where the strain stopped increasing and only the load increased. Specimens 1, 3 and 4 followed this specified trend, where specimen 2 followed the same trend as specimen 4 for the 1:0 slope, again presumptively due to the crack growth being less sudden than the other specimens.
 
 \vspace*{\baselineskip}
 \noindent
 The average horizontal strain data can be seen in Figure \ref{fig:Rect_12_Z}, where specimens 1, 3 and 4 experience the same trend as for the 1:0 slope specimens, increasing linearly and experiencing a sudden drop at the point the notch crack fully propagates. However, after this point the trend slightly differs, as all three specimens strain continue to increase at roughly the same rate. 
+
+\vspace*{\baselineskip}
 
 \begin{figure}[h]
 	\begin{center}
@@ -1592,7 +1602,7 @@ The average horizontal strain data can be seen in Figure \ref{fig:Rect_12_Z}, wh
 \pagebreak
 
 \noindent
-The strain underwent by specimen 2 followed a linear trend to the point at which the notch crack initiated, then began to wander and a trend became unclear. This is most likely due to the large cut into the end of the specimen over the notch, see Figure \ref{fig:Rect_Cut}, which would have interfered with the strain gauge data. 
+The strain underwent by specimen 2 followed a linear trend to the point at which the notch crack initiated, but failed to display the sudden drop in load observed in the other three specimens. This is most likely due to the large cut into the end of the specimen over the notch, see Figure \ref{fig:Rect_Cut}, which would have interfered with the strain gauge data. 
 
 \vspace*{\baselineskip}
 
@@ -1607,7 +1617,7 @@ The strain underwent by specimen 2 followed a linear trend to the point at which
 \pagebreak
 
 \noindent
-The average vertical strain for the 1:2 slope specimens are shown in Figure \ref{fig:Rect_12_Y} and follow the same pattern as observed for the 1:0 slope vertical strains, where the strains would increase to the crack initiation point, then severely decrease. This trend is relevant through specimens 2, 3 and 3, with the exception of specimen 2 becoming more erratic after this point due to the defect present. Specimen 1 roughly follows the same trend, however experiences a lesser decrease in strain at the crack initiation point and a sudden decrease around the point of propagation. This curved trend is presumed to the due to the notch crack propagating at a slower rate through the cross-section than the other specimens. 
+The average vertical strain for the 1:2 slope specimens are shown in Figure \ref{fig:Rect_12_Y} and follow the same pattern as observed for the 1:0 slope vertical strains, where the strains would increase to the crack initiation point, then severely decrease. This trend is relevant through specimens 1, 3 and 4, with the exception of specimen 2, whuih may have behaved differently due to the defect present.
 \vspace*{\baselineskip}
 
 \begin{figure}[h]
@@ -1623,7 +1633,7 @@ The average vertical strain for the 1:2 slope specimens are shown in Figure \ref
 \noindent
 \textbf{Notch Slope 1:4}\par
 \noindent
-The load-displacement graph for the 1:4 can be seen in Figure \ref{fig:Rect_14_def}. Specimen 4 follows the same trend that was observed throughout the previous experiments, where the graph follows an expected load-deflection relationship until the point at which the notch crack propagates, where it then drops and the trend changes. The same expected load-deflection relationship can be seen for specimens 2 and 3, however neither experience a discrepancy. This is because for specimen 2, the notch crack initiated at the point of at ultimate failure, thus the trend didn't curve or experience a extreme drop. As for Specimen 3, the notch crack initiated very close to ultimate failure, thus the trend curved but there was no drop as the crack did not fully propagate before ultimate failure. Whereas specimen 1 experienced a less defined trend. The reason for this is unknown as there was no observed defects on the specimen before testing.
+The load-displacement graph for the 1:4 can be seen in Figure \ref{fig:Rect_14_def}. Specimen 4 follows the same trend that was observed throughout the previous experiments, where the graph follows an expected load-deflection relationship until the point at which the notch crack propagates, where it then drops and the trend changes. The same expected load-deflection relationship can be seen for specimens 2 and 3, however neither experience a sudden drop in load. This is because for specimen 2, the notch crack initiated at the point of at ultimate failure, thus the trend didn't curve or experience a extreme drop. As for Specimen 3, the notch crack initiated very close to ultimate failure, thus the trend curved but there was no drop as the crack did not fully propagate before ultimate failure. Whereas specimen 1 experienced a less defined trend. The reason for this is unknown as there was no observed defects on the specimen before testing.
 
 \vspace*{\baselineskip}
 
@@ -1649,7 +1659,7 @@ The same trends for the top and bottom strains at the centre of the beam were ex
 \pagebreak
 
 \noindent
-The average horizontal and vertical strains experienced by the 1:4 notch specimens can be seen in Figure \ref{fig:Rect_14_Z_Y}. Botch these strains overall follow the same trend throughout the specimens as distinguished for the 1:0 and 1:2 slope specimens; where specimen 2 shows no discrepancies as the notch doesn't crack before failure and specimen 3 shows a curved decrease in vertical strain at crack initiation. However, although specimen 1 follows roughly the same trend, after the notch initiates, both the horizontal and vertical strains become erratic. This is indicative that a defect may have been present within the specimen.
+The average horizontal and vertical strains experienced by the 1:4 notch specimens can be seen in Figure \ref{fig:Rect_14_Z_Y}. Both these strains overall follow the same trend throughout the specimens as distinguished for the 1:0 and 1:2 slope specimens; where specimen 2 shows no discrepancies as the notch doesn't crack before failure and specimen 3 shows a curved decrease in vertical strain at crack initiation. However, although specimen 1 follows a similar trend, after the notch initiates, both the horizontal and vertical strains become erratic. This is indicative that a defect may have been present within the specimen.
 
 \pagebreak
 
@@ -1739,7 +1749,7 @@ The exact failure mode for the round specimen is not as clear as it was for the 
 		\textbf{Notch Angle Slope} & \textbf{Specimen No.} & \textbf{Shear Failure Location}\tabularnewline [0.5ex]
 		\hline
 		
-		1:0 & 1 & Flexural failure due to existing defect \tabularnewline [0.5ex]
+		1:0 & 1 & Shear failure due to existing defect \tabularnewline [0.5ex]
 		\hline
 		1:0 & 2 & Flexural failure \tabularnewline [0.5ex]
 		\hline
@@ -1752,7 +1762,7 @@ The exact failure mode for the round specimen is not as clear as it was for the 
 		\hline
 		1:2 & 2 & Flexural failure \tabularnewline [0.5ex]
 		\hline
-		1:2 & 3 & Failed in shear through opposing end to notch \tabularnewline [0.5ex]
+		1:2 & 3 & Failed in shear over opposing end to notch \tabularnewline [0.5ex]
 		\hline
 		1:2 & 4 & Failed in shear through opposing end to notch \tabularnewline [0.5ex]
 		\hline
@@ -1774,9 +1784,11 @@ The exact failure mode for the round specimen is not as clear as it was for the 
 \noindent
 In most cases, the specimens followed the three modes in notch cracking as predicted; where a crack would first open and the notch corner (mode 1) and then shear (mode 2), as can be seen in Figure \ref{fig:Round_open}. 
 
+\vspace*{\baselineskip}
+
 \begin{figure}[h]
 	\begin{center}
-	\includegraphics[scale=0.35]{Roun_Crack_Open}
+	\includegraphics[scale=0.39]{Roun_Crack_Open}
 	\end{center}
 	\caption{Specimen 2 notch 1:2, notch crack shearing and opening}
 	\label{fig:Round_open}
@@ -1801,6 +1813,32 @@ The notch crack would then gradually propagate to roughly the centre of the beam
 The notch crack propagation was found to be a lot more gradual compared to the rectangular specimens, which occurred almost instantaneously. Due to this, the time between the notch crack fully propagating and ultimate failure was shorter for the round specimens than the rectangular. 
 
 \vspace*{\baselineskip}
+\noindent
+Specimen 1 of 1:0 slope notch failure was unexpected and different from any other specimen failure throughout this experiment. The specimen de-laminated from an existing knot, shown in Figure \ref{fig:Round_knot}, located on the small notched support section, over the roller support.
+ 
+\vspace*{\baselineskip}
+
+\begin{figure}[h]
+	\begin{center}
+		\includegraphics[scale=0.1]{Round_knot}
+	\end{center}
+	\caption{Specimen 1 notch 1:0, existing knot at small notched section over roller support}
+	\label{fig:Round_knot}
+\end{figure}
+
+\noindent
+This de-lamination gradually sheared through the grain, when the notch corner then cracked and also began to propagate. However, the notch crack did not propagate more than 5cm nor get to mode 3. Instead a shear crack began to form over the notch corner, which can be seen in Figure \ref{fig:Shear_knot}. Once the de-lamination crack propagated to about mid-way through the member, small shear cracks appeared along the specimen, the crack over the notch began to open, and the member ultimately failed in shear.  
+
+\vspace*{\baselineskip}
+
+\begin{figure}[h]
+	\begin{center}
+		\includegraphics[scale=0.4]{Shear_knot}
+	\end{center}
+	\caption{Specimen 1 notch 1:0, final failure}
+	\label{fig:Shear_knot}
+\end{figure}
+
 \noindent
 The shear failure that occurred in the remaining specimens followed the exact same process as seen for the rectangular specimens. Again, there was no obvious reason to the location of the shear failure, except for specimen 1 of slope 1:4, which sheared through existing rot. 
 
@@ -1867,6 +1905,7 @@ The capacities given in Table \ref{Tab:Round_Fail_2} were graphed for each notch
 \vspace*{\baselineskip}
 \noindent
 Figure \ref{fig:Round-Crack-fail} shows the time between the crack initiating at the notch corner and ultimate failure for the round specimens.
+\vspace*{\baselineskip}
 
 \begin{figure}[h]
 	\begin{center}
@@ -1881,40 +1920,82 @@ From this graph, a distinct trend can be observed, where the time between the no
 \subsubsection{Strain Gauge Analysis}
 Due to the curvature of the specimens, the strain gauges experienced some initial strain before loading began. To account for this, the strain gauges were zeroed before loading commenced (i.e.at a load of zero).
 
-\vspace*{\baselineskip}
+\pagebreak
 
 \noindent
 \textbf{Notch Slope 1:0}\par
 \noindent
+The load-displacement data collected from the LVDT is given in Figure \ref{fig:Round_10_def} for all four round specimens with a notch slope of 1:0.
+
+\vspace*{\baselineskip}
+
 \begin{figure}[h]
 	\begin{center}
 		\fbox{\includegraphics[scale=0.8]{Round_10_def}}
 	\end{center}
-	\caption{Load-Displacement Graph for Round Beams with Notches of Slope 1:0}
+	\caption{Load-displacement graph for round beams with notches of slope 1:0}
 	\label{fig:Round_10_def}
 \end{figure}
+
+\noindent
+The load-displacement graphs for specimens 1, 2 and 3 roughly follow the trend of a standard load-displacement graph, except specimen 1 becomes erratic at around 42kN load. This odd behaviour displayed by specimen 1 is presumed to be correlating with the initiation of the de-lamination from the existing knot as discussed earlier. The load-displacement for specimen 4 does not follow the standard trend. The reason for this is unknown, but may be related to an issue with the LVDT or an existing defect. Overall, these graphs appear to be significantly smoother than those for the rectangular specimens, which is assumed to be due to the notch cracks propagating more gradually in the round specimens than the rectangular.
+
+\vspace*{\baselineskip}
+
+\noindent
+The compressive strain at the top and tensile strain at the bottom in the centre of the beam is shown in Figure \ref{fig:Round_10_Centre}, where it was graphed against the applied load. Specimens 2, 3 and 4 experience an increasing linear trend in both compression and tension until they suddenly plateau. 
+
+\vspace*{\baselineskip}
 
 \begin{figure}[h]
 	\begin{center}
 		\fbox{\includegraphics[scale=0.8]{Round_10_Centre}}
 	\end{center}
-	\caption{Top and Bottom Strain at Centre for Rectangular Beams with Notches of Slope 1:0}
+	\caption{Top and bottom strain at centre for round Beams with notches of slope 1:0}
 	\label{fig:Round_10_Centre}
 \end{figure}
+\pagebreak
+\noindent
+The point at which the graph plateaus is assumed to be cause by the notch crack fully propagating. Specimen 1 follows slightly different trends in both compression and tension, which is most likely due to the initial crack occurring due to the existing defect, on the opposing end to the notch.
+
+\vspace*{\baselineskip}
+
+\noindent
+The average horizontal strain across the section at the notch corner with relation to the applied load in shown in Figure \ref{fig:Round_10_Z}. It is observed that all specimens horizontal strains linearly increase until they reach a point where they begin to curve, except for specimen 1 which becomes more erratic. For specimens 2 and 3, this point aligns with the notch crack initiating, and for specimen 1 it is assumed that this is the point the crack initiated from the existing defect. 
+
+\vspace*{\baselineskip}
+\begin{figure}[h]
+	\begin{center}
+		\fbox{\includegraphics[scale=0.7]{Round_10_Z}}
+	\end{center}
+	\caption{Horizontal strain for round beams with notches of slope 1:0}
+	\label{fig:Round_10_Z}
+\end{figure}
+\pagebreak
+
+\noindent
+As for specimen 4, the point at which the graph curves occurs after the crack had initiated and is assumed to be the point at which the crack fully propagates, which coincides with the graph in Figure \ref{fig:Round_10_Centre}. The graph for specimen 4 then becomes erratic, which is most likely due to an existing crack, located along the bottom of the notched section and can be seen in Figure \ref{fig:Spec_4}.
+
+\vspace*{\baselineskip}
 
 \begin{figure}[h]
 	\begin{center}
-		\fbox{\includegraphics[scale=0.8]{Round_10_Z}}
+		\includegraphics[scale=0.09]{Spec_4}
 	\end{center}
-	\caption{Horizontal Strain for Rectangular Beams with Notches of Slope 1:0}
-	\label{fig:Round_10_Z}
+	\caption{Round specimen 4 of 1:0 notch slope, existing defect}
+	\label{fig:Spec_4}
 \end{figure}
+
+\noindent
+The average vertical strain across the section at the notch corner with relation to the applied load in shown in Figure \ref{fig:Round_10_Y}. It can be seen that all graphs follow roughly the same pattern; where they linearly increase, begin to plateau and then change direction. Unlike the rectangular specimens, there does not seem to be a clear reason for this trend and it is hard to distinguish where the notch crack initiated in these results. 
+
+\vspace*{\baselineskip}
 
 \begin{figure}[h]
 	\begin{center}
 		\fbox{\includegraphics[scale=0.8]{Round_10_Y}}
 	\end{center}
-	\caption{Vertical Strain for Rectangular Beams with Notches of Slope 1:0}
+	\caption{Vertical Strain for round beams with notches of slope 1:0}
 	\label{fig:Round_10_Y}
 \end{figure}
 
@@ -1923,13 +2004,54 @@ Due to the curvature of the specimens, the strain gauges experienced some initia
 \noindent
 \textbf{Notch Slope 1:2}\par
 \noindent
+The load-displacement graphs for all specimens with a 1:2 slope notch roughly followed the standard trend, see Appendix C. The compressive and tensile strains at the centre of the beam can be seen in Figure \ref{fig:Round_12_Centre}. This graph shows the compressive and tensile strain experienced by the 1:2 slope specimens had a pattern similar to that experienced by the rectangular specimens; with a more distinct decrease in strain. This decrease correlates to the point at which the notch crack initiates. The graph from Figure \ref{fig:Round_12_Centre} indicates the notch crack initiation was more abrupt in the 1:2 slope specimens than was in the 1:0 slope specimens.
 
 \vspace*{\baselineskip}
+
+\begin{figure}[h]
+	\begin{center}
+		\fbox{\includegraphics[scale=0.8]{Round_12_Centre}}
+	\end{center}
+	\caption{Top and bottom strain at centre for round beams with notches of slope 1:2}
+	\label{fig:Round_12_Centre}
+\end{figure}
+\pagebreak
+
+\noindent
+The horizontal and vertical strain for the 1:2 slope specimens are shown in Figure \ref{fig:Round_12_ZY}. Both these graphs initially follow the same linearly increasing trend until they hit a point and the graphs change. The horizontal strains experience a decrease or plateau in load after this point, except for specimen 1 which becomes erratic, which assumed to be due to an existing defect. Whereas the vertical strains suddenly decrease in strain after the point where they stop being linear. This point correlates to the load at which the notch crack initiates and supports the earilier statement that the crack initiation is more abrupt than for the 1:0 slope sound specimens. 
+
+\vspace*{\baselineskip}
+
+\begin{figure}[h]
+	\begin{center}
+		\fbox{\includegraphics[scale=0.6]{Round_12_Z}}
+		\fbox{\includegraphics[scale=0.6]{Round_12_Y}}
+	\end{center}
+	\caption{Horizontal (top) and vertical (bottom) strain for round beams with notches of slope 1:2}
+	\label{fig:Round_12_ZY}
+\end{figure}
+\pagebreak
 
 \noindent
 \textbf{Notch Slope 1:4}\par
 \noindent
+The load-displacement graph for specimens 2, 3 and 4 of 1:4 slope notch round specimens followed the standard trend, but specimen 1 followed the same trend as experienced by specimen 4 of 1:0 slope, see Appendix C. This difference in trend for specimen 1 is indicative that it had a defect.
 
+\vspace*{\baselineskip}
+\noindent
+The compressive and tensile strain experienced by all specimens followed the exact same trend as experienced by the 1:2 slope round specimens; where the sudden drop in the trends align with the load at which the notch crack initiates. See Appendix C for slope 1:4 round specimen compressive and tensile strain at beam centre graph.
+
+\begin{figure}[h]
+	\begin{center}
+		\fbox{\includegraphics[scale=0.6]{Round_14_Z}}
+		\fbox{\includegraphics[scale=0.6]{Round_14_Y}}
+	\end{center}
+	\caption{Horizontal (top) and vertical (bottom) strain for round beams with notches of slope 1:4}
+	\label{fig:Round_14_ZY}
+\end{figure}
+
+\noindent
+The average horizontal and vertical strains experienced by the 1:4 round specimens through the notch corner can be seen in Figure \ref{fig:Round_14_ZY}. Specimens 2, 3 and 4 follow the same linear trend in both horizontal and vertical strains, until they hit a point where the graph suddenly changes. For specimens 2 and 4, the notch crack initiated almost exactly at the point of failure, where specimen 2's strain gauges cut out, the strain of specimen 4 captures the point of notch failure. Specimen 3 suddenly decreases in load once the graph stops being linear. There is no distinct reason for this sudden drop, however it is assumed to be due to the notch crack fully propagating. Specimen 1 experiences significantly different strain trends in both horizontal and vertical strains, this supportive of the earlier statement that specimen 1 had a defect which affected the strain gauge results.    
 
 \subsection{Comparison of Round and Rectangular Section}
 The main difference observed between the circular and rectangular section specimens was the general ultimate failure mode for the round specimens was flexural failure, where the rectangular members experienced shear failure. The reason for this is unknown, but is presumed to be due to the way the grain responds to the load between the two different cross-section. 
@@ -1943,6 +2065,8 @@ Another difference that was noticed between the two sections was the notch propa
 \noindent
 The graph presented in Figure \ref{fig:compare_cap} shows the average ultimate capacities graphed with respect to the angle of the notch chamfer, from the notch corner. It is observed that the overall trend for both sections is very similar, with the round specimens yielding a slightly greater initial incline than the rectangular members. However, this may be due to the circular section having a greater response to the increase in slope angle, or it could be  due to two of the 1:0 slope specimens being loaded at a slightly slower rate.
 
+\vspace*{\baselineskip}
+
 \begin{figure}[h]
 	\begin{center}
 		\fbox{\includegraphics[scale=0.67]{Com_Cap}}
@@ -1954,6 +2078,8 @@ The graph presented in Figure \ref{fig:compare_cap} shows the average ultimate c
 \noindent
 The average notch capacities in relation to the angle of the slope from the notch corner can be seen in Figure \ref{fig:compare_not}. Both the rectangular and round specimens yield similar trends, and similarly the incline between the 1:0 and 1:2 slope notch is greater for the round than the rectangular specimens. However, the notch capacities for the rectangular specimens seem to respond more to the increase in notch angle than the round specimens. The reason for this is unknown, but is presumed to be due the they way the two section types respond to the load.
 
+\vspace*{\baselineskip}
+
 \begin{figure}[h]
 	\begin{center}
 		\fbox{\includegraphics[scale=0.65]{Comp_Notch}}
@@ -1963,19 +2089,51 @@ The average notch capacities in relation to the angle of the slope from the notc
 \end{figure}
 
 \subsection{Predicted Capacities using Standards}
-\vspace*{\baselineskip}
-\noindent Tables with predicted capacities from AS1720, Eurocode 5 and CSA O.86\par
 
 \subsubsection{AS1720 Notch Design}
+Using AS1720 design equation for rectangular section specimens, the graph shown in Figure \ref{fig:AS_notch} was established; which compares the design capacities predicted and the actual capacities of each notch slope. The blue solid bars show the estimated capacities of the notches using a $f'_{sj}$ of 4.2 for an S3 grade timber, and the error bars show the variance in the estimated results ranging from S2 to S5 grade timber. The safety factor ($\phi$) was not incorporated in calculating the notch capacities. The red bars show the average results, calculated using the left hand side of the design Equation \ref{eq:Aus}, with the $M*$ and $V*$ occurring at the notch corner in relation to the load at which the notch cracks (the notch capacity) for the rectangular specimens.
 
+\begin{figure}[h]
+	\begin{center}
+		\fbox{\includegraphics[scale=0.7]{AS_notch}}
+	\end{center}
+	\caption{Comparison of AS1720 notch design capacities with experimental results}
+	\label{fig:AS_notch}
+\end{figure}
 
-\subsubsection{CSA O.86 Notch Design}
+\vspace*{\baselineskip}
 
+\noindent
+From this graph, it is observed that the predicted capacities increase with an increasing notch angle as do the actual notch capacities. However, there is an order of magnitude difference between the theoretical and actual notch capacities, theoretical to actual capacity ratios of 0.12, 0.19 and 0.19 for a 1:0, 1:2 and 1:4 slope notch respectively. Even though this method accounts for the increase in notch capacity through the increasing notch slope, from these results, this method is deemed inaccurate at estimating the capacity of the notch. The reason this design method yielded unsatisfactory results is assumed to be due to the assumption that timber is linearly elastic, made in derivation for this method.  A further limitation of this method is it is purely designed for a rectangular section specimen and there is no obvious way to alter the design equation to accommodate a different beam section.
 
 \subsubsection{Eurocode 5 Notch Design}
+The standard European notch design equation in Eurocode 5, see Equation \ref{eq:Euro}, was used to determine a theoretical shear stress at the notch corner as per the right hand side of the equation, for the rectangular specimens. This can be seen in Figure \ref{fig:Eurocode}, where the theoretical capacity determined is compared to the actual shear stress ($\tau_{d}$) at which the notch crack initiated. The blue bar in the graph represents the theoretical capacity, calculated using a timber strength class D40 for Eucalyptus trees. The corresponding error bars show the range in results using a D60 to D30 class, which correlate with Australian standard S2 to S5 classes. The red bars show the average shear stress at the notch corner and the error bars show the variance in the experimental results. 
 
+\begin{figure}[h]
+	\begin{center}
+		\fbox{\includegraphics[scale=0.7]{Eurocode}}
+	\end{center}
+	\caption{Comparison of Eurocode 5 notch design capacities with experimental results}
+	\label{fig:Eurocode}
+\end{figure}
+
+It can be observed from Figure \ref{fig:Eurocode} that theoretical results and actual results follow a similar trend, where the capacity increases with an increasing notch slope. The ratio of the actual and theoretical results are determined to be 0.45, 0.54 and 0.51 for a 1:0, 1:2 and 1:4 notch slope respectively. This ratio shows the Eurocode notch design method is relatively accurate, with a factor of safety of around 0.5 for all notch slopes. The only limitation to this method is it only designs for a rectangular section specimen. 
+
+\subsubsection{CSA O.86 Notch Design}
+The graph shown in Figure \ref{fig:CSA} was established to compare the CSA O.86 notch design method to the actual results gained through experimentation. The blue bar shows the calculated notch resistance for sawn lumber under wet service conditions, excluding the safety factor ($\Phi$). This resistance can be compared to the average shear force at the notch corner, relating to the load at which the notch crack to initiated, shown by the red bar. It can be seen from this graph that this design method is inaccurate, having a very low theoretical to actual capacity ratio of 0.17 for a rectangular specimen of 1:0 notch slope. This method also has a major limitation, where it does not account for a change in notch slope and only designs for a rectangular section. If this same capacity is compared to the 1:2 and 1:4 notch slope results, a theoretical to actual ratio of 0.16 and 0.11 are achieved respectively. Thus it is determined that this method was not accurate in calculating the notch capacity for the tested specimens.
+
+\vspace*{\baselineskip}
+
+\begin{figure}[h]
+	\begin{center}
+		\fbox{\includegraphics[scale=0.7]{CSA}}
+	\end{center}
+	\caption{Comparison of CSA O.86 notch design capacities with experimental results}
+	\label{fig:CSA}
+\end{figure}
 
 \subsubsection{AS1720 Ultimate Section Design}
+\textbf{Shear}
 For a circular section, the equation to determine the ultimate design shear load ($V_{d}$) is shown in Equation \ref{eq:V}
 	\begin{equation}
 	V_{d} = \phi k_{1} k_{4} k_{6} k_{20} f'_{s} A_{s}
@@ -1997,7 +2155,7 @@ $ t $ = Thickness in Material Perpendicular to Shear \par
 \vspace*{\baselineskip}
 
 \noindent
-With this generalised equation for the shear area, an ultimate shear design load can be established for any cross-section. For a round beam with a notched end, the experimental results support that the defining design parameter would be shear, as most specimens sheared at the notch corner and ultimately failed in shear. Thus, a design method can be established for a end notched specimen, using the cross-section over the notch. The following equations were established for the truncated, circular section over the notched end.
+With this generalised equation for the shear area, an ultimate shear design load can be established for any cross-section. Thus, a design method can be established for a end notched specimen, using the cross-section over the notch. The following equations were established for the truncated, circular section over the notched end.
 
 	\begin{equation}
 	I_{notch} = \pi R^{2}\bigg[\bigg(\frac{4R}{3\pi}\bigg)^{2}+k^{2}\bigg]- \frac{R^{4}}{8}\bigg[m+2\sin(2\theta)\sin^{2}(\theta)\bigg]+\frac{R^{2}mk}{2}\bigg[\frac{8R\sin^{3}(\theta)}{3m}-k^{2}\bigg]+2R^{4}\bigg[\frac{\pi}{8}-\frac{8}{9\pi}\bigg]
@@ -2031,7 +2189,7 @@ With this generalised equation for the shear area, an ultimate shear design load
 	\end{equation}
 	
 	\begin{equation}
-	\bar y_{notch} = k + \frac{4R}{3(2\pi-m)}\sin^{3}(\theta)
+	\bar y_{tot} = k + \frac{4R}{3(2\pi-m)}\sin^{3}(\theta)
 	\end{equation}
 
 \noindent
@@ -2041,44 +2199,79 @@ Using these equations in conjunction with Equations \ref{eq:As} and \ref{eq:V}, 
 
 \begin{figure}[h]
 	\begin{center}
-		\fbox{\includegraphics[scale=0.8]{Shear_Des}}
+		\fbox{\includegraphics[scale=0.7]{Shear_Des}}
 	\end{center}
-	\caption{Time between notch initiating and ultimate failure for rectangular section specimens}
+	\caption{AS1720 ultimate shear design capacities compared to experimental results}
 	\label{fig:Shear_Des}
 \end{figure}
 
 \noindent
-The red bars represent the average shear capacity, with the error bars showing the variance in the results, and the blue bars show the calculated capacity for F22 grade timber and the error bars shows the variance for S2 and F14 grades. Figure \ref{fig:Shear_Des} shows the calculated capacities are relatively accurate, showing a similar variance in error between the theoretical and actual results, and an average difference in capacities of 6.5kN for the round specimens and 4.9kN for the rectangular. From these results, a factor of safety between the theoretical and actual result was determined to be 0.75 for the round specimens and 0.74 for the rectangular specimens, which shows this methods gives relatively accurate design capacities. Although, there is an issue surrounding this method, as it technically does not account for a notch with a sloped chamfer and only design for a 1:0 slope. However, when the same capacity is compared to the 1:2 and 1:4 shear capacities, a safety factor of 0.68 and 0.65 respectively for a round specimen, and 0.72 and 0.68 respectively for a rectangular specimen. These safety factors show the design capacities are still fairly accurate in accounting for a 1:2 and 1:4 chamfer in both sections. Overall this method was fairly accurate in designing for both specimens and all notch slopes, even though it is not modified to account for the extra strength supplied by a chamfer. 
+The red bars represent the average shear capacity, with the error bars showing the variance in the results, and the blue bars show the calculated capacity for F22 grade timber and the error bars shows the variance for S2 and F14 grades. Figure \ref{fig:Shear_Des} shows the calculated capacities are relatively accurate, showing a similar variance in error between the theoretical and actual results, and an average difference in capacities of 6.5kN for the round specimens and 4.9kN for the rectangular. From these results, a ratio of the theoretical and actual results was determined to be 0.75 for the round specimens and 0.74 for the rectangular specimens, which shows this method gives relatively accurate design capacities. Although, there is an issue surrounding this method, as it technically does not account for a notch with a sloped chamfer and only design for a 1:0 slope. However, when the same capacity is compared to the 1:2 and 1:4 shear capacities, a ratio of 0.68 and 0.65 respectively for a round specimen, and 0.72 and 0.68 respectively for a rectangular specimen. These theoretical to actual capacity ratios show the design capacities are still fairly accurate in accounting for a 1:2 and 1:4 chamfer in both sections. Overall this method was fairly accurate in designing for both specimens and all notch slopes, even though it is not modified to account for the extra strength supplied by a chamfer. 
+
+\vspace*{\baselineskip}
+\noindent
+\textbf{Bending}
+\noindent
+For a circular section, the equation to determine the ultimate design Moment ($M_{d}$) is shown in Equation \ref{eq:M}
+\begin{equation}
+M_{d} = \phi k_{1} k_{4} k_{6} k_{9} k_{12} k_{20} k_{21} k_{22} f'_{b} Z
+\label{eq:M}
+\end{equation}
+\noindent
+and the same equation applies for a rectangular section, accept it does not incorporate the factor $k_{20}$ to $k_{22}$. To establish a method in designing for the ultimate bending moment for a circular notched beam, the section modulus for the truncated notched section can be used in the design equation. Equation \ref{eq:Z} gives the section modulus for the notched circular section. 
+
+	\begin{equation}
+	Z = \frac{R^{4}}{R+k+\bar{y}_{tot}}\bigg(\alpha-\sin(\alpha)\cos(\alpha)+\sin^{3}(\alpha)\cos(\alpha)-\frac{16\sin^{6}(\alpha)}{9(\alpha-\sin(\alpha)\cos(\alpha))}\bigg)
+	\label{eq:Z}
+	\end{equation}
+\noindent
+Using these equations, a design bending capacity was established for the circular specimen as well as the rectangular specimen. A comparison of these estimated capacities to the experimental results can be seen in Figure \ref{fig:Bend_Des}.
+
+\vspace*{\baselineskip}
+
+\begin{figure}[h]
+	\begin{center}
+		\fbox{\includegraphics[scale=0.7]{Bend_Des}}
+	\end{center}
+	\caption{AS1720 ultimate bending design capacities compared to experimental results}
+	\label{fig:Bend_Des}
+\end{figure}
+
+\noindent
+The blue bars in Figure \ref{fig:Bend_Des} represent the capacities calculated using the standard moment design for an F22 grade timber, without incorporating a factor of safety ($\phi$). The corresponding error bars show the variance in the estimated capacities for a range from F27 to F14 grade timber. Overall this graph shows the calculated bending capacities using this method are fairly accurate, with a theoretical to actual capacity ratio of 0.53 for the round specimens and 0.59 for the rectangular. This method does have the same limitation as the shear, where it is only considering the truncated cross-section and does not account for a notch chamfer. However, when compared to the average experimental results for a 1:2 and 1:4 notch, the same calculated capacity achieves a ratio of 0.48 and 0.46 respectively, for the round specimen, and 0.58 and 0.55 respectively for the rectangular specimen. Thus the bending capacity is still fairly accurate for all notched specimens, although not as precise as the design shear capacity. 
 
 \subsubsection{Comparison of Design Methods}
-
-
-\vspace*{\baselineskip}
-\noindent Discuss/determine a relationship between rectangular and round specimens\par
+To compare the overall design methods, the ratios of the theoretical capacities to the actual capacities for each method was graphed, shown in Figure \ref{fig:Des_Comp}. The closer these ratios are to 1.0, the more accurate the method is. All the results shown in this graph are for the rectangular specimen only, and the same theoretical capacity is compared to all notch slopes for the methods that don't design account for them. 
 
 \vspace*{\baselineskip}
-\noindent Look into round design and apply the new As for the notched end to see results and maybe discuss a factor for a notched member\par
+
+\begin{figure}[h]
+	\begin{center}
+		\fbox{\includegraphics[scale=0.65]{Des_Comp}}
+	\end{center}
+	\caption{AS1720 ultimate bending design capacities compared to experimental results}
+	\label{fig:Des_Comp}
+\end{figure}
+
+\noindent
+When compared, it is deduced that AS1720 notch design and CSA O.86 yielded inaccurate results for calculating the experimental capacities, obtaining below 20\% accuracy. Whereas Eurocode achieved roughly 50\% accuracy and AS1720 ultimate design obtained around 70\% accuracy for shear and below 60\% for bending. The reason AS1720 notch design yielded unsatisfactory results is most likely due to the method's assumption that timber is a linearly elastic material. As for CSA O.86, the reason this method obtained inaccurate results is unknown, as it is based on the same fracture mechanics equation, derived by Gustafsson, as Eurocode design. However, when the design equations are compared, it can  be seen that CSA design significantly modifies Gustafsson's original equation, whereas Eurocode does not. Overall, the optimal design method in accordance with these experimental results was AS1720's ultimate design for shear and bending, using the cross section over the notch. However, as this method does not account for the a notch slope and is purely based on ultimate failure, it is determined that Eurocade 5 design was optimum in designing for notch failure for rectangular specimens.
 
 \vspace*{\baselineskip}
-\noindent Include and discuss graphs comparing the results to predicted capacities from Australian Standards, Eurocode 5 and CSA O.86. Discuss which design yields the best results and why. \par
 
-\vspace*{\baselineskip}
-\noindent Compare actual strain/stress results with ANSYS results at the untimate failure load\par
+\noindent
+The only design method that designs for a notched round specimen is the modified AS1720 ultimate design in shear and bending, which achieved an accuracy of 75\% for shear and 53\% for bending.  
 
 \pagebreak	
 
 \section{Conclusions}
-\vspace*{\baselineskip}
-\noindent Concluded which was the critical angle, most common failure modes and time between crack initiation and ultimate failure for both rectangular and round specimens\par
 
-\vspace*{\baselineskip}
-\noindent Was a relationship between rectangular and round specimens determined? What was it/why not?\par
-
-\vspace*{\baselineskip}
-\noindent Which code yielded the best results\par
-
-\vspace*{\baselineskip}
-\noindent Was the finite element analysis accurate in comparison to actual results?\par
+	\begin{enumerate}
+		\item The critical notch slope, which yielded the lowest member capacities, was found to be a slope of 1:0 for botch rectangular and round specimens. 
+		\item A notch slope of 1:4 was found to obtain the highest member capacities for both sections, complying with recommendations from AS1720 and Department of Transport and Main Roads to use this notch slope in timber bridges.
+		\item The effects of short term loading showed the time between crack initiation and ultimate failure reduced significantly with an increasing notch slope. These results warrant further investigation into the effects of long-term loading on this time-frame, to determine if current maintenance standards require modification to account for this.
+		\item Notch crack growth was found to be more brittle and sudden in the rectangular specimens than the round; which showed a more gradual crack growth.
+		\item The optimal design method was determined to be AS1720 ultimate design for shear and bending, using section above the notch. This method was modified to account for the circular section, thus obtaining a method for designing notched round members. 
+	\end{enumerate}
 
 \pagebreak	
 
@@ -2099,6 +2292,12 @@ The red bars represent the average shear capacity, with the error bars showing t
 
 \begin{appendices}
 	\section{\textit{Round Specimen Characteristics}}
+	\pagebreak
+	
+\end{appendices}
+
+\begin{appendices}
+	\section{\textit{Strain Gauge Results}}
 	\pagebreak
 	
 \end{appendices}

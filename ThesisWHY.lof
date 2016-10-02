@@ -15,49 +15,60 @@
 \contentsline {figure}{\numberline {15}{\ignorespaces TMR Standard Bolt Layout \cite {_timber_2005}\relax }}{22}
 \contentsline {figure}{\numberline {16}{\ignorespaces Straps on Piles \cite {_timber_2005}\relax }}{23}
 \contentsline {figure}{\numberline {17}{\ignorespaces Wood Axes \cite {porteous_structural_2013}\relax }}{23}
-\contentsline {figure}{\numberline {18}{\ignorespaces Rectangular Member Test Set-Up\relax }}{25}
-\contentsline {figure}{\numberline {19}{\ignorespaces Round Member Test Set-Up\relax }}{26}
-\contentsline {figure}{\numberline {20}{\ignorespaces Loading and LVDT Plate for Round Specimen\relax }}{26}
-\contentsline {figure}{\numberline {21}{\ignorespaces Strain Gauge and LVDT Layout\relax }}{27}
-\contentsline {figure}{\numberline {22}{\ignorespaces Experimental Set-up in MTS Machine\relax }}{29}
-\contentsline {figure}{\numberline {23}{\ignorespaces Set-up of loading plates, metal ball and load cell in MTS Machine\relax }}{30}
-\contentsline {figure}{\numberline {24}{\ignorespaces Notch Profiles for Rectangular Section Members\relax }}{31}
-\contentsline {figure}{\numberline {25}{\ignorespaces Notch Profiles for Circular Section Members\relax }}{32}
-\contentsline {figure}{\numberline {26}{\ignorespaces Rectangular Section Beam: Deflection\relax }}{35}
-\contentsline {figure}{\numberline {27}{\ignorespaces Rectangular Section Beam: XY-Plane Shear Strain\relax }}{35}
-\contentsline {figure}{\numberline {28}{\ignorespaces Rectangular Section Beam: Normal Strain in Y-direction (Top) and Z-direction (Bottom)\relax }}{36}
-\contentsline {figure}{\numberline {29}{\ignorespaces Properties Used for ANSYS Simulation\relax }}{36}
-\contentsline {figure}{\numberline {30}{\ignorespaces Load rates for rectangular specimens\relax }}{37}
-\contentsline {figure}{\numberline {31}{\ignorespaces Specimen 4 notch 1:0, notch crack opening\relax }}{39}
-\contentsline {figure}{\numberline {32}{\ignorespaces Specimen 4 notch 1:0, notch crack shearing and opening\relax }}{39}
-\contentsline {figure}{\numberline {33}{\ignorespaces Specimen 4 notch 1:0, Shear Failure\relax }}{40}
-\contentsline {figure}{\numberline {34}{\ignorespaces Specimen 4 notch 1:0, Flexural Failure\relax }}{40}
-\contentsline {figure}{\numberline {35}{\ignorespaces Specimen 2 notch 1:0 failure; side view left, top view right\relax }}{41}
-\contentsline {figure}{\numberline {36}{\ignorespaces Specimen 2 notch 1:0; inside centre of beam\relax }}{41}
+\contentsline {figure}{\numberline {18}{\ignorespaces Rectangular Section Beam: deflection\relax }}{24}
+\contentsline {figure}{\numberline {19}{\ignorespaces Rectangular Section Beam: XY-plane shear strain\relax }}{25}
+\contentsline {figure}{\numberline {20}{\ignorespaces Rectangular Section Beam: normal strain in Y-direction (top) and Z-direction (bottom)\relax }}{25}
+\contentsline {figure}{\numberline {21}{\ignorespaces Properties Used for ANSYS Simulation\relax }}{26}
+\contentsline {figure}{\numberline {22}{\ignorespaces Rectangular Member Test Set-Up\relax }}{27}
+\contentsline {figure}{\numberline {23}{\ignorespaces Round Member Test Set-Up\relax }}{28}
+\contentsline {figure}{\numberline {24}{\ignorespaces Loading and LVDT Plate for Round Specimen\relax }}{28}
+\contentsline {figure}{\numberline {25}{\ignorespaces Strain Gauge and LVDT Layout\relax }}{29}
+\contentsline {figure}{\numberline {26}{\ignorespaces Experimental Set-up in MTS Machine\relax }}{30}
+\contentsline {figure}{\numberline {27}{\ignorespaces Set-up of loading plates, metal ball and load cell in MTS Machine\relax }}{31}
+\contentsline {figure}{\numberline {28}{\ignorespaces Notch Profiles for Rectangular Section Members\relax }}{32}
+\contentsline {figure}{\numberline {29}{\ignorespaces Notch Profiles for Circular Section Members\relax }}{33}
+\contentsline {figure}{\numberline {30}{\ignorespaces Load rates for rectangular specimens\relax }}{36}
+\contentsline {figure}{\numberline {31}{\ignorespaces Specimen 4 notch 1:0, notch crack opening\relax }}{38}
+\contentsline {figure}{\numberline {32}{\ignorespaces Specimen 4 notch 1:0, notch crack shearing and opening\relax }}{38}
+\contentsline {figure}{\numberline {33}{\ignorespaces Specimen 4 notch 1:0, Shear Failure\relax }}{39}
+\contentsline {figure}{\numberline {34}{\ignorespaces Specimen 4 notch 1:0, Flexural Failure\relax }}{39}
+\contentsline {figure}{\numberline {35}{\ignorespaces Specimen 2 notch 1:0 failure; side view left, top view right\relax }}{40}
+\contentsline {figure}{\numberline {36}{\ignorespaces Specimen 2 notch 1:0; inside centre of beam\relax }}{40}
 \contentsline {figure}{\numberline {37}{\ignorespaces Capacities for Rectangular Section Specimens\relax }}{44}
 \contentsline {figure}{\numberline {38}{\ignorespaces Time between notch initiating and ultimate failure for rectangular section specimens\relax }}{45}
-\contentsline {figure}{\numberline {39}{\ignorespaces Load-Displacement Graph for Rectangular Beams with Notches of Slope 1:0\relax }}{47}
-\contentsline {figure}{\numberline {40}{\ignorespaces Top and Bottom Strain at Centre for Rectangular Beams with Notches of Slope 1:0\relax }}{48}
-\contentsline {figure}{\numberline {41}{\ignorespaces Horizontal Strain for Rectangular Beams with Notches of Slope 1:0\relax }}{49}
-\contentsline {figure}{\numberline {42}{\ignorespaces Vertical Strain for Rectangular Beams with Notches of Slope 1:0\relax }}{50}
-\contentsline {figure}{\numberline {43}{\ignorespaces Rectangular specimen 2 notch slope 1:0; wedge defect\relax }}{50}
-\contentsline {figure}{\numberline {44}{\ignorespaces Load-Displacement Graph for Rectangular Beams with Notches of Slope 1:2\relax }}{51}
-\contentsline {figure}{\numberline {45}{\ignorespaces Top and Bottom Strain at Centre for Rectangular Beams with Notches of Slope 1:2\relax }}{52}
-\contentsline {figure}{\numberline {46}{\ignorespaces Horizontal Strain for Rectangular Beams with Notches of Slope 1:2\relax }}{53}
-\contentsline {figure}{\numberline {47}{\ignorespaces Rectangular specimen 2 notch slope 1:2; thick cut defect\relax }}{53}
-\contentsline {figure}{\numberline {48}{\ignorespaces Vertical Strain for Rectangular Beams with Notches of Slope 1:2\relax }}{54}
-\contentsline {figure}{\numberline {49}{\ignorespaces Load-Displacement Graph for Rectangular Beams with Notches of Slope 1:4\relax }}{55}
-\contentsline {figure}{\numberline {50}{\ignorespaces Top and Bottom Strain at Centre for Rectangular Beams with Notches of Slope 1:4\relax }}{56}
-\contentsline {figure}{\numberline {51}{\ignorespaces Horizontal Strain (Top) and Vertical Strain (Bottom) for Rectangular Beams with Notches of Slope 1:4\relax }}{57}
-\contentsline {figure}{\numberline {52}{\ignorespaces Load rates for round specimens\relax }}{58}
-\contentsline {figure}{\numberline {53}{\ignorespaces Specimen 2 notch 1:2, notch crack shearing and opening\relax }}{61}
-\contentsline {figure}{\numberline {54}{\ignorespaces Specimen 4 notch 1:4, notch crack fully opening and ultimate failure\relax }}{61}
-\contentsline {figure}{\numberline {55}{\ignorespaces Capacities for Circular Section Specimens\relax }}{63}
-\contentsline {figure}{\numberline {56}{\ignorespaces Time between notch crack initiation and ultimate failure\relax }}{64}
-\contentsline {figure}{\numberline {57}{\ignorespaces Load-Displacement Graph for Round Beams with Notches of Slope 1:0\relax }}{65}
-\contentsline {figure}{\numberline {58}{\ignorespaces Top and Bottom Strain at Centre for Rectangular Beams with Notches of Slope 1:0\relax }}{66}
-\contentsline {figure}{\numberline {59}{\ignorespaces Horizontal Strain for Rectangular Beams with Notches of Slope 1:0\relax }}{67}
-\contentsline {figure}{\numberline {60}{\ignorespaces Vertical Strain for Rectangular Beams with Notches of Slope 1:0\relax }}{68}
-\contentsline {figure}{\numberline {61}{\ignorespaces Comparison of rectangular and circular section ultimate capacities\relax }}{69}
-\contentsline {figure}{\numberline {62}{\ignorespaces Comparison of rectangular and circular section notch capacities\relax }}{70}
-\contentsline {figure}{\numberline {63}{\ignorespaces Time between notch initiating and ultimate failure for rectangular section specimens\relax }}{71}
+\contentsline {figure}{\numberline {39}{\ignorespaces Load-Displacement Graph for Rectangular Beams with Notches of Slope 1:0\relax }}{46}
+\contentsline {figure}{\numberline {40}{\ignorespaces Top and Bottom Strain at Centre for Rectangular Beams with Notches of Slope 1:0\relax }}{47}
+\contentsline {figure}{\numberline {41}{\ignorespaces Horizontal Strain for Rectangular Beams with Notches of Slope 1:0\relax }}{48}
+\contentsline {figure}{\numberline {42}{\ignorespaces Vertical Strain for Rectangular Beams with Notches of Slope 1:0\relax }}{49}
+\contentsline {figure}{\numberline {43}{\ignorespaces Rectangular specimen 2 notch slope 1:0; wedge defect\relax }}{49}
+\contentsline {figure}{\numberline {44}{\ignorespaces Load-Displacement Graph for Rectangular Beams with Notches of Slope 1:2\relax }}{50}
+\contentsline {figure}{\numberline {45}{\ignorespaces Top and Bottom Strain at Centre for Rectangular Beams with Notches of Slope 1:2\relax }}{51}
+\contentsline {figure}{\numberline {46}{\ignorespaces Horizontal Strain for Rectangular Beams with Notches of Slope 1:2\relax }}{52}
+\contentsline {figure}{\numberline {47}{\ignorespaces Rectangular specimen 2 notch slope 1:2; thick cut defect\relax }}{52}
+\contentsline {figure}{\numberline {48}{\ignorespaces Vertical Strain for Rectangular Beams with Notches of Slope 1:2\relax }}{53}
+\contentsline {figure}{\numberline {49}{\ignorespaces Load-Displacement Graph for Rectangular Beams with Notches of Slope 1:4\relax }}{54}
+\contentsline {figure}{\numberline {50}{\ignorespaces Top and Bottom Strain at Centre for Rectangular Beams with Notches of Slope 1:4\relax }}{55}
+\contentsline {figure}{\numberline {51}{\ignorespaces Horizontal Strain (Top) and Vertical Strain (Bottom) for Rectangular Beams with Notches of Slope 1:4\relax }}{56}
+\contentsline {figure}{\numberline {52}{\ignorespaces Load rates for round specimens\relax }}{57}
+\contentsline {figure}{\numberline {53}{\ignorespaces Specimen 2 notch 1:2, notch crack shearing and opening\relax }}{60}
+\contentsline {figure}{\numberline {54}{\ignorespaces Specimen 4 notch 1:4, notch crack fully opening and ultimate failure\relax }}{60}
+\contentsline {figure}{\numberline {55}{\ignorespaces Specimen 1 notch 1:0, existing knot at small notched section over roller support\relax }}{61}
+\contentsline {figure}{\numberline {56}{\ignorespaces Specimen 1 notch 1:0, final failure\relax }}{61}
+\contentsline {figure}{\numberline {57}{\ignorespaces Capacities for Circular Section Specimens\relax }}{63}
+\contentsline {figure}{\numberline {58}{\ignorespaces Time between notch crack initiation and ultimate failure\relax }}{64}
+\contentsline {figure}{\numberline {59}{\ignorespaces Load-displacement graph for round beams with notches of slope 1:0\relax }}{65}
+\contentsline {figure}{\numberline {60}{\ignorespaces Top and bottom strain at centre for round Beams with notches of slope 1:0\relax }}{66}
+\contentsline {figure}{\numberline {61}{\ignorespaces Horizontal strain for round beams with notches of slope 1:0\relax }}{67}
+\contentsline {figure}{\numberline {62}{\ignorespaces Round specimen 4 of 1:0 notch slope, existing defect\relax }}{67}
+\contentsline {figure}{\numberline {63}{\ignorespaces Vertical Strain for round beams with notches of slope 1:0\relax }}{68}
+\contentsline {figure}{\numberline {64}{\ignorespaces Top and bottom strain at centre for round beams with notches of slope 1:2\relax }}{69}
+\contentsline {figure}{\numberline {65}{\ignorespaces Horizontal (top) and vertical (bottom) strain for round beams with notches of slope 1:2\relax }}{70}
+\contentsline {figure}{\numberline {66}{\ignorespaces Horizontal (top) and vertical (bottom) strain for round beams with notches of slope 1:4\relax }}{71}
+\contentsline {figure}{\numberline {67}{\ignorespaces Comparison of rectangular and circular section ultimate capacities\relax }}{72}
+\contentsline {figure}{\numberline {68}{\ignorespaces Comparison of rectangular and circular section notch capacities\relax }}{73}
+\contentsline {figure}{\numberline {69}{\ignorespaces Comparison of AS1720 notch design capacities with experimental results\relax }}{74}
+\contentsline {figure}{\numberline {70}{\ignorespaces Comparison of Eurocode 5 notch design capacities with experimental results\relax }}{75}
+\contentsline {figure}{\numberline {71}{\ignorespaces Comparison of CSA O.86 notch design capacities with experimental results\relax }}{76}
+\contentsline {figure}{\numberline {72}{\ignorespaces AS1720 ultimate shear design capacities compared to experimental results\relax }}{78}
+\contentsline {figure}{\numberline {73}{\ignorespaces AS1720 ultimate bending design capacities compared to experimental results\relax }}{79}
+\contentsline {figure}{\numberline {74}{\ignorespaces AS1720 ultimate bending design capacities compared to experimental results\relax }}{80}
