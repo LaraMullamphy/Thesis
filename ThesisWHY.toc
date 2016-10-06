@@ -1,5 +1,9 @@
-\contentsline {section}{List of Figures}{vi}
-\contentsline {section}{List of Tables}{vi}
+\contentsline {section}{Statement of Access}{ii}
+\contentsline {section}{Declaration of Sources}{iii}
+\contentsline {section}{Abstract}{iv}
+\contentsline {section}{Acknowledgements}{vi}
+\contentsline {section}{List of Figures}{xi}
+\contentsline {section}{List of Tables}{xi}
 \contentsline {section}{\numberline {1}Introduction}{1}
 \contentsline {subsection}{\numberline {1.1}Objectives}{2}
 \contentsline {subsection}{\numberline {1.2}Scope}{2}
@@ -18,31 +22,32 @@
 \contentsline {subsection}{\numberline {2.5}Timber Strengthening}{21}
 \contentsline {subsubsection}{\numberline {2.5.1}Strengthening of Notched Beams}{21}
 \contentsline {subsection}{\numberline {2.6}Analysis and Modelling}{23}
-\contentsline {section}{\numberline {3}Materials and Methodology}{24}
-\contentsline {subsection}{\numberline {3.1}Preliminary Results}{24}
-\contentsline {subsubsection}{\numberline {3.1.1}Finite Element Analysis}{24}
-\contentsline {subsection}{\numberline {3.2}Experimental Set-up}{26}
-\contentsline {subsubsection}{\numberline {3.2.1}Altering Notch Angles of Small Scale Members}{32}
-\contentsline {subsection}{\numberline {3.3}Material Properties}{34}
-\contentsline {section}{\numberline {4}Results and Discussion}{36}
-\contentsline {subsection}{\numberline {4.1}Rectangular Specimens}{36}
-\contentsline {subsubsection}{\numberline {4.1.1}Loading Rates}{36}
-\contentsline {subsubsection}{\numberline {4.1.2}Failure Modes}{37}
-\contentsline {subsubsection}{\numberline {4.1.3}Specimen Capacities}{42}
-\contentsline {subsubsection}{\numberline {4.1.4}Strain Gauge Analysis}{45}
-\contentsline {subsection}{\numberline {4.2}Round Specimens}{56}
-\contentsline {subsubsection}{\numberline {4.2.1}Loading Rates}{56}
+\contentsline {section}{\numberline {3}Materials and Methodology}{25}
+\contentsline {subsection}{\numberline {3.1}Preliminary Results}{25}
+\contentsline {subsubsection}{\numberline {3.1.1}Finite Element Analysis}{25}
+\contentsline {subsection}{\numberline {3.2}Experimental Set-up}{27}
+\contentsline {subsubsection}{\numberline {3.2.1}Altering Notch Angles of Small Scale Members}{34}
+\contentsline {subsection}{\numberline {3.3}Material Properties}{36}
+\contentsline {section}{\numberline {4}Results and Discussion}{38}
+\contentsline {subsection}{\numberline {4.1}Rectangular Specimens}{38}
+\contentsline {subsubsection}{\numberline {4.1.1}Loading Rates}{38}
+\contentsline {subsubsection}{\numberline {4.1.2}Failure Modes}{39}
+\contentsline {subsubsection}{\numberline {4.1.3}Ultimate Capacities}{44}
+\contentsline {subsubsection}{\numberline {4.1.4}Strain Gauge Analysis}{47}
+\contentsline {subsection}{\numberline {4.2}Round Specimens}{57}
+\contentsline {subsubsection}{\numberline {4.2.1}Loading Rates}{57}
 \contentsline {subsubsection}{\numberline {4.2.2}Failure Modes}{58}
-\contentsline {subsubsection}{\numberline {4.2.3}Specimen Capacities}{62}
-\contentsline {subsubsection}{\numberline {4.2.4}Strain Gauge Analysis}{64}
+\contentsline {subsubsection}{\numberline {4.2.3}Ultimate Capacities}{63}
+\contentsline {subsubsection}{\numberline {4.2.4}Strain Gauge Analysis}{65}
 \contentsline {subsection}{\numberline {4.3}Comparison of Round and Rectangular Section}{72}
-\contentsline {subsection}{\numberline {4.4}Predicted Capacities using Standards}{73}
-\contentsline {subsubsection}{\numberline {4.4.1}AS1720 Notch Design}{73}
-\contentsline {subsubsection}{\numberline {4.4.2}Eurocode 5 Notch Design}{74}
-\contentsline {subsubsection}{\numberline {4.4.3}CSA O.86 Notch Design}{75}
-\contentsline {subsubsection}{\numberline {4.4.4}AS1720 Ultimate Section Design}{76}
-\contentsline {subsubsection}{\numberline {4.4.5}Comparison of Design Methods}{80}
-\contentsline {section}{\numberline {5}Conclusions}{82}
+\contentsline {subsection}{\numberline {4.4}Predicted Capacities using Standards}{74}
+\contentsline {subsubsection}{\numberline {4.4.1}AS1720 Notch Design}{74}
+\contentsline {subsubsection}{\numberline {4.4.2}Eurocode 5 Notch Design}{75}
+\contentsline {subsubsection}{\numberline {4.4.3}CSA O.86 Notch Design}{76}
+\contentsline {subsubsection}{\numberline {4.4.4}AS1720 Ultimate Section Design}{77}
+\contentsline {subsubsection}{\numberline {4.4.5}Comparison of Design Methods}{81}
+\contentsline {section}{\numberline {5}Conclusions}{83}
+\contentsline {section}{\numberline {6}Recommendations}{84}
 \contentsline {section}{Appendix \numberline {A}\textit {Rectangular Specimen Characteristics}}{}
 \contentsline {section}{Appendix \numberline {B}\textit {Round Specimen Characteristics}}{}
 \contentsline {section}{Appendix \numberline {C}\textit {Strain Gauge Results}}{}

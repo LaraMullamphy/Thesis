@@ -1,32 +1,24 @@
 \begin{thebibliography}{10}
 
-\bibitem{_softwood_2016}
-Softwood {Material} {Science} for {Furniture} {SMEs} and {Designers}, 2016.
-
-\bibitem{elsener_material_2014}
-Roman~Martin Elsener.
-\newblock {\em Material characterization of timber utility poles using
-  experimental approaches}.
-\newblock PhD thesis, 2014.
-
-\bibitem{hopewell_spotted_2004}
-Gary Hopewell.
-\newblock Spotted gumproperties and uses, November 2004.
+\bibitem{_timber_2005}
+Department of Transport {and} Main~Roads ~.
+\newblock Timber bridge maintenance manual, February 2005.
 
 \bibitem{wilkinson_capacity_2008}
 Kym Wilkinson.
 \newblock {\em Capacity evaluation and retrofitting of timber bridge girders}.
 \newblock PhD thesis, Queensland University of Technology, 2008.
 
+\bibitem{_section_2008}
+Section 8: {Preservative} and {Protective} {Treatments}.
+\newblock In {\em Timber {Bridge} {Manual}}. NSW Government, 1st edition
+  edition, 2008.
+
 \bibitem{ritter_timber_1990}
 Michael~A. Ritter.
 \newblock {\em Timber bridges: design, construction, inspection, and
   maintenance}.
-\newblock Washington, DC :, 1990.
-
-\bibitem{_timber_2005}
-Department of Transport {and} Main~Roads ~.
-\newblock Timber bridge maintenance manual, February 2005.
+\newblock Washington, DC, 1990.
 
 \bibitem{dunningham_review_2015}
 Elizabeth Dunningham and Rosie Sargent.
@@ -61,6 +53,9 @@ Chris Marshall and Philip Schmidt.
   {Woodworking}: {Skills} and {Projects} {Every} {Woodworker} {Needs}}.
 \newblock Creative Publishing International, February 2005.
 
+\bibitem{_softwood_2016}
+Softwood {Material} {Science} for {Furniture} {SMEs} and {Designers}, 2016.
+
 \bibitem{klyosov_wood-plastic_2007}
 Anatole~A. Klyosov.
 \newblock {\em Wood-{Plastic} {Composites}}.
@@ -73,11 +68,6 @@ RTA.
 \bibitem{_queensland_1899}
 {\em Queensland {Agricultural} {Journal}}, volume Volume 5.
 \newblock Hon. Secretary For Agriculture, 1899.
-
-\bibitem{_section_2008}
-Section 8: {Preservative} and {Protective} {Treatments}.
-\newblock In {\em Timber {Bridge} {Manual}}. NSW Government, 1st edition
-  edition, 2008.
 
 \bibitem{harrowfield_analysis_2006}
 David~L. Harrowfield.
@@ -140,7 +130,7 @@ J.~C.~F. Walker, B.~G. Butterfield, J.~M. Harris, T.~A.~G. Langrish, and J.~M.
 \newblock Springer Science \& Business Media, April 2013.
 
 \bibitem{agriculture_encyclopedia_2007}
-U.~s Department~of Agriculture.
+U.~S Department~of Agriculture.
 \newblock {\em The {Encyclopedia} of {Wood}}.
 \newblock Skyhorse Publishing Inc., 2007.
 
@@ -216,5 +206,15 @@ Maha Fawwaz and Adnan Hanna.
 Yail~J. Kim and Kent~A. Harries.
 \newblock Modeling of timber beams strengthened with various {CFRP} composites.
 \newblock {\em Engineering Structures}, 32(10):3225--3234, October 2010.
+
+\bibitem{elsener_material_2014}
+Roman~Martin Elsener.
+\newblock {\em Material characterization of timber utility poles using
+  experimental approaches}.
+\newblock PhD thesis, 2014.
+
+\bibitem{hopewell_spotted_2004}
+Gary Hopewell.
+\newblock Spotted gumproperties and uses, November 2004.
 
 \end{thebibliography}

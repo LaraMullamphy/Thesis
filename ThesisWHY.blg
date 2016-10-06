@@ -3,15 +3,15 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: ThesisWHY.aux
 The style file: unsrt.bst
 Database file #1: My_Library.bib.bib
-Warning--empty school in elsener_material_2014
-Warning--empty author and editor in _queensland_1899
 Warning--empty author in _section_2008
+Warning--empty author and editor in _queensland_1899
 Warning--empty journal in bazan_ultimate_1980
 Warning--empty booktitle in gustafsson_study_1988
 Warning--empty author and editor in _eurocode_1995
 Warning--empty author and editor in _csa_2014
 Warning--empty author and editor in _errata:_2013
 Warning--empty school in fawwaz_structural_2012
+Warning--empty school in elsener_material_2014
 You've used 41 entries,
             1791 wiz_defined-function locations,
             645 strings with 9274 characters,

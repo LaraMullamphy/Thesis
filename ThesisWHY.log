@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.1)  2 OCT 2016 15:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.1)  6 OCT 2016 14:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -297,7 +297,7 @@ File: tc-pdftex.def 2012/05/13 v1.0 Clipping driver for pdftex
 Package: ifoddpage 2011/09/13 v1.0 Conditionals for odd/even page detection
 \c@checkoddpage=\count114
 ))
-LaTeX Info: Redefining \nocite on input line 22.
+LaTeX Info: Redefining \nocite on input line 34.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
@@ -357,24 +357,24 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (./ThesisWHY.aux)
 \openout1 = `ThesisWHY.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 94.
-LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 94
-.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 106.
+LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 10
+6.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omspzccm.fd
 File: omspzccm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/pzccm.
 )
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
 
 (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -471,230 +471,229 @@ Package caption Info: End \AtBeginDocument code.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 97.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 109.
 [1
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 118.
-
-(./ThesisWHY.toc
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
-LaTeX Font Info:    Try loading font information for OT1+ptmcm on input line 4.
-
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 125.
+LaTeX Font Info:    Try loading font information for OT1+ptmcm on input line 13
+3.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1ptmcm.fd
 File: ot1ptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ptmcm.
 )
-LaTeX Font Info:    Try loading font information for OML+ptmcm on input line 4.
-
+LaTeX Font Info:    Try loading font information for OML+ptmcm on input line 13
+3.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omlptmcm.fd
 File: omlptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ptmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+psycm on input line 4.
-
+LaTeX Font Info:    Try loading font information for OMX+psycm on input line 13
+3.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omxpsycm.fd
 File: omxpsycm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/psycm.
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 4.
+LaTeX Font Info:    Try loading font information for U+msa on input line 133.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 4.
+LaTeX Font Info:    Try loading font information for U+msb on input line 133.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 133.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 133.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
- [2]
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 133.
+ [2] [3]
+[4] [5] [6] (./ThesisWHY.toc [7]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 46.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 51.
 )
 \tf@toc=\write3
 \openout3 = `ThesisWHY.toc'.
 
- [3]
-(./ThesisWHY.lof [4] [5])
+ [8] (./ThesisWHY.lof [9] [10])
 \tf@lof=\write4
 \openout4 = `ThesisWHY.lof'.
 
- (./ThesisWHY.lot)
+
+(./ThesisWHY.lot)
 \tf@lot=\write5
 \openout5 = `ThesisWHY.lot'.
 
- [6] [1]
+ [11] [1]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 156.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 240.
  [2] [3]
-<Figures_and_Images/Hardwoods.png, id=34, 378.41376pt x 352.31625pt>
+<Figures_and_Images/Hardwoods.png, id=50, 378.41376pt x 352.31625pt>
 File: Figures_and_Images/Hardwoods.png Graphic file (type png)
 
 <use Figures_and_Images/Hardwoods.png>
-Package pdftex.def Info: Figures_and_Images/Hardwoods.png used on input line 19
-9.
+Package pdftex.def Info: Figures_and_Images/Hardwoods.png used on input line 28
+3.
 (pdftex.def)             Requested size: 227.05pt x 211.39137pt.
 
-<Figures_and_Images/Softwoods.png, id=36, 369.38pt x 364.36125pt>
+<Figures_and_Images/Softwoods.png, id=52, 369.38pt x 364.36125pt>
 File: Figures_and_Images/Softwoods.png Graphic file (type png)
 
 <use Figures_and_Images/Softwoods.png>
-Package pdftex.def Info: Figures_and_Images/Softwoods.png used on input line 20
-0.
+Package pdftex.def Info: Figures_and_Images/Softwoods.png used on input line 28
+4.
 (pdftex.def)             Requested size: 221.6297pt x 218.61842pt.
 
-Overfull \hbox (38.19525pt too wide) in paragraph at lines 199--201
+Overfull \hbox (38.19525pt too wide) in paragraph at lines 283--285
 [][] [] 
  []
 
 [4 <./Figures_and_Images/Hardwoods.png> <./Figures_and_Images/Softwoods.png>]
-<Figures_and_Images/Weathering.jpg, id=42, 3083.52pt x 2312.64pt>
+<Figures_and_Images/Weathering.jpg, id=58, 3083.52pt x 2312.64pt>
 File: Figures_and_Images/Weathering.jpg Graphic file (type jpg)
 
 <use Figures_and_Images/Weathering.jpg>
-Package pdftex.def Info: Figures_and_Images/Weathering.jpg used on input line 2
-51.
+Package pdftex.def Info: Figures_and_Images/Weathering.jpg used on input line 3
+35.
 (pdftex.def)             Requested size: 215.86845pt x 161.90134pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[5] <Figures_and_Images/Core_Rotting.jpg, id=50, 3083.52pt x 2312.64pt>
+[5] <Figures_and_Images/Core_Rotting.jpg, id=66, 3083.52pt x 2312.64pt>
 File: Figures_and_Images/Core_Rotting.jpg Graphic file (type jpg)
 
 <use Figures_and_Images/Core_Rotting.jpg>
 Package pdftex.def Info: Figures_and_Images/Core_Rotting.jpg used on input line
- 262.
+ 346.
 (pdftex.def)             Requested size: 215.86845pt x 161.90134pt.
 
-<Figures_and_Images/Notch_Rotting.jpg, id=51, 3083.52pt x 2312.64pt>
+<Figures_and_Images/Notch_Rotting.jpg, id=67, 3083.52pt x 2312.64pt>
 File: Figures_and_Images/Notch_Rotting.jpg Graphic file (type jpg)
 
 <use Figures_and_Images/Notch_Rotting.jpg>
 Package pdftex.def Info: Figures_and_Images/Notch_Rotting.jpg used on input lin
-e 263.
+e 347.
 (pdftex.def)             Requested size: 215.86845pt x 161.90134pt.
 
-Overfull \hbox (21.25246pt too wide) in paragraph at lines 262--264
+Overfull \hbox (21.25246pt too wide) in paragraph at lines 346--348
 [][] [] 
  []
 
 [6 <./Figures_and_Images/Weathering.jpg> <./Figures_and_Images/Core_Rotting.jpg
 > <./Figures_and_Images/Notch_Rotting.jpg>]
-<Figures_and_Images/Failure_Location_1.png, id=55, 386.44376pt x 76.285pt>
+<Figures_and_Images/Failure_Location_1.png, id=71, 386.44376pt x 76.285pt>
 File: Figures_and_Images/Failure_Location_1.png Graphic file (type png)
 
 <use Figures_and_Images/Failure_Location_1.png>
 Package pdftex.def Info: Figures_and_Images/Failure_Location_1.png used on inpu
-t line 304.
+t line 388.
 (pdftex.def)             Requested size: 309.15543pt x 61.02808pt.
 
-<Figures_and_Images/Failure_Location_2.png, id=56, 303.1325pt x 107.40125pt>
+<Figures_and_Images/Failure_Location_2.png, id=72, 303.1325pt x 107.40125pt>
 File: Figures_and_Images/Failure_Location_2.png Graphic file (type png)
 
 <use Figures_and_Images/Failure_Location_2.png>
 Package pdftex.def Info: Figures_and_Images/Failure_Location_2.png used on inpu
-t line 305.
+t line 389.
 (pdftex.def)             Requested size: 242.50633pt x 85.9211pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[7] <Figures_and_Images/Shear_Failure.png, id=61, 449.68pt x 174.6525pt>
+[7] <Figures_and_Images/Shear_Failure.png, id=76, 449.68pt x 174.6525pt>
 File: Figures_and_Images/Shear_Failure.png Graphic file (type png)
 
 <use Figures_and_Images/Shear_Failure.png>
 Package pdftex.def Info: Figures_and_Images/Shear_Failure.png used on input lin
-e 322.
+e 406.
 (pdftex.def)             Requested size: 359.74448pt x 139.72218pt.
  [8 <./Figures_and_Images/Failure_Location_1.png> <./Figures_and_Images/Failure
 _Location_2.png> <./Figures_and_Images/Shear_Failure.png>]
-<Figures_and_Images/Stress_Strain_Wood.png, id=68, 370.38374pt x 243.91125pt>
+<Figures_and_Images/Stress_Strain_Wood.png, id=84, 370.38374pt x 243.91125pt>
 File: Figures_and_Images/Stress_Strain_Wood.png Graphic file (type png)
 
 <use Figures_and_Images/Stress_Strain_Wood.png>
 Package pdftex.def Info: Figures_and_Images/Stress_Strain_Wood.png used on inpu
-t line 340.
+t line 424.
 (pdftex.def)             Requested size: 333.34227pt x 219.51808pt.
  [9 <./Figures_and_Images/Stress_Strain_Wood.png>]
-<Figures_and_Images/Shear_Stress.png, id=74, 460.72125pt x 439.6425pt>
+<Figures_and_Images/Shear_Stress.png, id=90, 460.72125pt x 439.6425pt>
 File: Figures_and_Images/Shear_Stress.png Graphic file (type png)
 
 <use Figures_and_Images/Shear_Stress.png>
 Package pdftex.def Info: Figures_and_Images/Shear_Stress.png used on input line
- 399.
+ 483.
 (pdftex.def)             Requested size: 322.50267pt x 307.74765pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [10] [11 <./Figures_and_Images/Shear_Stress.png>] [12] [13]
-<Figures_and_Images/Shear_Failure_Notching.png, id=89, 468.75125pt x 111.41624p
-t>
+<Figures_and_Images/Shear_Failure_Notching.png, id=104, 468.75125pt x 111.41624
+pt>
 File: Figures_and_Images/Shear_Failure_Notching.png Graphic file (type png)
  <use Figures_and_Images/Shear_Failure_Notching.png>
 Package pdftex.def Info: Figures_and_Images/Shear_Failure_Notching.png used on 
-input line 545.
+input line 629.
 (pdftex.def)             Requested size: 421.87221pt x 100.27368pt.
 
-Overfull \hbox (9.30725pt too wide) in paragraph at lines 545--546
+Overfull \hbox (9.30725pt too wide) in paragraph at lines 629--630
 [][] 
  []
 
-<Figures_and_Images/Bending_Fail.png, id=90, 648.4225pt x 163.61125pt>
+<Figures_and_Images/Bending_Fail.png, id=105, 648.4225pt x 163.61125pt>
 File: Figures_and_Images/Bending_Fail.png Graphic file (type png)
 
 <use Figures_and_Images/Bending_Fail.png>
 Package pdftex.def Info: Figures_and_Images/Bending_Fail.png used on input line
- 554.
+ 638.
 (pdftex.def)             Requested size: 453.89265pt x 114.52708pt.
 
-Overfull \hbox (41.3277pt too wide) in paragraph at lines 554--555
+Overfull \hbox (41.3277pt too wide) in paragraph at lines 638--639
 [][] 
  []
 
 [14 <./Figures_and_Images/Shear_Failure_Notching.png> <./Figures_and_Images/Ben
 ding_Fail.png>]
-<Figures_and_Images/Fracture_Modes.png, id=96, 791.95876pt x 247.92625pt>
+<Figures_and_Images/Fracture_Modes.png, id=112, 791.95876pt x 247.92625pt>
 File: Figures_and_Images/Fracture_Modes.png Graphic file (type png)
 
 <use Figures_and_Images/Fracture_Modes.png>
 Package pdftex.def Info: Figures_and_Images/Fracture_Modes.png used on input li
-ne 565.
+ne 649.
 (pdftex.def)             Requested size: 419.73615pt x 131.40028pt.
 
-Overfull \hbox (7.17119pt too wide) in paragraph at lines 565--566
+Overfull \hbox (7.17119pt too wide) in paragraph at lines 649--650
 [][] 
  []
 
-<Figures_and_Images/Notch_Types.png, id=97, 495.8525pt x 241.90375pt>
+<Figures_and_Images/Notch_Types.png, id=113, 495.8525pt x 241.90375pt>
 File: Figures_and_Images/Notch_Types.png Graphic file (type png)
 
 <use Figures_and_Images/Notch_Types.png>
 Package pdftex.def Info: Figures_and_Images/Notch_Types.png used on input line 
-578.
+662.
 (pdftex.def)             Requested size: 446.26312pt x 217.71135pt.
 
-Overfull \hbox (33.69817pt too wide) in paragraph at lines 578--579
+Overfull \hbox (33.69817pt too wide) in paragraph at lines 662--663
 [][] 
  []
 
 [15 <./Figures_and_Images/Fracture_Modes.png> <./Figures_and_Images/Notch_Types
-.png>] <Figures_and_Images/Notching.png, id=103, 462.72874pt x 188.705pt>
+.png>] <Figures_and_Images/Notching.png, id=119, 462.72874pt x 188.705pt>
 File: Figures_and_Images/Notching.png Graphic file (type png)
 
 <use Figures_and_Images/Notching.png>
-Package pdftex.def Info: Figures_and_Images/Notching.png used on input line 615
+Package pdftex.def Info: Figures_and_Images/Notching.png used on input line 699
 .
 (pdftex.def)             Requested size: 416.45203pt x 169.83292pt.
 
-Overfull \hbox (3.88707pt too wide) in paragraph at lines 615--616
+Overfull \hbox (3.88707pt too wide) in paragraph at lines 699--700
 [][] 
  []
 
@@ -702,725 +701,782 @@ Overfull \hbox (3.88707pt too wide) in paragraph at lines 615--616
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [16] [17 <./Figures_and_Images/Notching.png>]
-<Figures_and_Images/Geom_notched_beam_dowl.png, id=112, 426.59375pt x 125.46875
+<Figures_and_Images/Geom_notched_beam_dowl.png, id=128, 426.59375pt x 125.46875
 pt>
 File: Figures_and_Images/Geom_notched_beam_dowl.png Graphic file (type png)
  <use Figures_and_Images/Geom_notched_beam_dowl.png>
 Package pdftex.def Info: Figures_and_Images/Geom_notched_beam_dowl.png used on 
-input line 673.
+input line 757.
 (pdftex.def)             Requested size: 383.93082pt x 112.9208pt.
  [18 <./Figures_and_Images/Geom_notched_beam_dowl.png>] [19] [20]
-<Figures_and_Images/Notch_Screw.png, id=124, 910.40125pt x 358.33875pt>
+<Figures_and_Images/Notch_Screw.png, id=140, 910.40125pt x 358.33875pt>
 File: Figures_and_Images/Notch_Screw.png Graphic file (type png)
 
 <use Figures_and_Images/Notch_Screw.png>
 Package pdftex.def Info: Figures_and_Images/Notch_Screw.png used on input line 
-809.
+894.
 (pdftex.def)             Requested size: 455.19951pt x 179.16893pt.
 
-Overfull \hbox (42.63455pt too wide) in paragraph at lines 809--810
+Overfull \hbox (42.63455pt too wide) in paragraph at lines 894--895
 [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures_and_Images/Bolt_Layout.png, id=125, 849.1725pt x 434.62375pt>
+[21] <Figures_and_Images/Bolt_Layout.png, id=144, 849.1725pt x 434.62375pt>
 File: Figures_and_Images/Bolt_Layout.png Graphic file (type png)
 
 <use Figures_and_Images/Bolt_Layout.png>
 Package pdftex.def Info: Figures_and_Images/Bolt_Layout.png used on input line 
-822.
+906.
 (pdftex.def)             Requested size: 424.5852pt x 217.31134pt.
 
-Overfull \hbox (12.02025pt too wide) in paragraph at lines 822--823
+Overfull \hbox (12.02025pt too wide) in paragraph at lines 906--907
 [][] 
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[21] <Figures_and_Images/Piles.png, id=129, 666.49pt x 322.20375pt>
+[22 <./Figures_and_Images/Notch_Screw.png> <./Figures_and_Images/Bolt_Layout.pn
+g>] <Figures_and_Images/Piles.png, id=150, 666.49pt x 322.20375pt>
 File: Figures_and_Images/Piles.png Graphic file (type png)
 
 <use Figures_and_Images/Piles.png>
-Package pdftex.def Info: Figures_and_Images/Piles.png used on input line 838.
+Package pdftex.def Info: Figures_and_Images/Piles.png used on input line 920.
 (pdftex.def)             Requested size: 399.89708pt x 193.32373pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[22 <./Figures_and_Images/Notch_Screw.png> <./Figures_and_Images/Bolt_Layout.pn
-g>] <Figures_and_Images/Wood_Axes.png, id=135, 381.425pt x 174.6525pt>
+<Figures_and_Images/Wood_Axes.png, id=151, 381.425pt x 174.6525pt>
 File: Figures_and_Images/Wood_Axes.png Graphic file (type png)
 
 <use Figures_and_Images/Wood_Axes.png>
-Package pdftex.def Info: Figures_and_Images/Wood_Axes.png used on input line 85
-2.
-(pdftex.def)             Requested size: 343.27931pt x 157.18579pt.
- [23 <./Figures_and_Images/Piles.png> <./Figures_and_Images/Wood_Axes.png>]
-<Figures_and_Images/Ansys_Deflection.png, id=141, 798.73407pt x 304.13625pt>
-File: Figures_and_Images/Ansys_Deflection.png Graphic file (type png)
-
-<use Figures_and_Images/Ansys_Deflection.png>
-Package pdftex.def Info: Figures_and_Images/Ansys_Deflection.png used on input 
-line 877.
-(pdftex.def)             Requested size: 359.42702pt x 136.86003pt.
- [24 <./Figures_and_Images/Ansys_Deflection.png>]
-<Figures_and_Images/YZ_shear_strain.png, id=146, 786.68906pt x 295.1025pt>
-File: Figures_and_Images/YZ_shear_strain.png Graphic file (type png)
-
-<use Figures_and_Images/YZ_shear_strain.png>
-Package pdftex.def Info: Figures_and_Images/YZ_shear_strain.png used on input l
-ine 886.
-(pdftex.def)             Requested size: 354.0068pt x 132.79489pt.
-
-<Figures_and_Images/y_normal_strain.png, id=147, 813.0375pt x 286.82156pt>
-File: Figures_and_Images/y_normal_strain.png Graphic file (type png)
-
-<use Figures_and_Images/y_normal_strain.png>
-Package pdftex.def Info: Figures_and_Images/y_normal_strain.png used on input l
-ine 894.
-(pdftex.def)             Requested size: 365.8635pt x 129.0685pt.
-
-<Figures_and_Images/z_normal_strain.png, id=148, 796.47563pt x 287.57437pt>
-File: Figures_and_Images/z_normal_strain.png Graphic file (type png)
-
-<use Figures_and_Images/z_normal_strain.png>
-Package pdftex.def Info: Figures_and_Images/z_normal_strain.png used on input l
-ine 895.
-(pdftex.def)             Requested size: 358.41072pt x 129.40727pt.
- [25 <./Figures_and_Images/YZ_shear_strain.png> <./Figures_and_Images/y_normal_
-strain.png> <./Figures_and_Images/z_normal_strain.png>]
-<Figures_and_Images/Ansys_Properties.jpg, id=156, 521.95pt x 273.02pt>
+Package pdftex.def Info: Figures_and_Images/Wood_Axes.png used on input line 93
+3.
+(pdftex.def)             Requested size: 305.1404pt x 139.72218pt.
+ [23 <./Figures_and_Images/Piles.png> <./Figures_and_Images/Wood_Axes.png>] [24
+]
+<Figures_and_Images/Ansys_Properties.jpg, id=160, 521.95pt x 273.02pt>
 File: Figures_and_Images/Ansys_Properties.jpg Graphic file (type jpg)
 
 <use Figures_and_Images/Ansys_Properties.jpg>
 Package pdftex.def Info: Figures_and_Images/Ansys_Properties.jpg used on input 
-line 911.
+line 957.
 (pdftex.def)             Requested size: 339.26347pt x 177.46089pt.
- [26 <./Figures_and_Images/Ansys_Properties.jpg>]
-<Figures_and_Images/Rectangular_Set_up.png, id=160, 753.81625pt x 307.1475pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[25]
+<Figures_and_Images/Ansys_Deflection.png, id=164, 798.73407pt x 304.13625pt>
+File: Figures_and_Images/Ansys_Deflection.png Graphic file (type png)
+
+<use Figures_and_Images/Ansys_Deflection.png>
+Package pdftex.def Info: Figures_and_Images/Ansys_Deflection.png used on input 
+line 970.
+(pdftex.def)             Requested size: 359.42702pt x 136.86003pt.
+
+<Figures_and_Images/YZ_shear_strain.png, id=165, 786.68906pt x 295.1025pt>
+File: Figures_and_Images/YZ_shear_strain.png Graphic file (type png)
+
+<use Figures_and_Images/YZ_shear_strain.png>
+Package pdftex.def Info: Figures_and_Images/YZ_shear_strain.png used on input l
+ine 979.
+(pdftex.def)             Requested size: 354.0068pt x 132.79489pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[26 <./Figures_and_Images/Ansys_Properties.jpg> <./Figures_and_Images/Ansys_Def
+lection.png>]
+<Figures_and_Images/y_normal_strain.png, id=171, 813.0375pt x 286.82156pt>
+File: Figures_and_Images/y_normal_strain.png Graphic file (type png)
+
+<use Figures_and_Images/y_normal_strain.png>
+Package pdftex.def Info: Figures_and_Images/y_normal_strain.png used on input l
+ine 987.
+(pdftex.def)             Requested size: 365.8635pt x 129.0685pt.
+
+<Figures_and_Images/z_normal_strain.png, id=172, 796.47563pt x 287.57437pt>
+File: Figures_and_Images/z_normal_strain.png Graphic file (type png)
+
+<use Figures_and_Images/z_normal_strain.png>
+Package pdftex.def Info: Figures_and_Images/z_normal_strain.png used on input l
+ine 988.
+(pdftex.def)             Requested size: 358.41072pt x 129.40727pt.
+ [27 <./Figures_and_Images/YZ_shear_strain.png> <./Figures_and_Images/y_normal_
+strain.png> <./Figures_and_Images/z_normal_strain.png>]
+<Figures_and_Images/Rectangular_Set_up.png, id=179, 753.81625pt x 307.1475pt>
 File: Figures_and_Images/Rectangular_Set_up.png Graphic file (type png)
 
 <use Figures_and_Images/Rectangular_Set_up.png>
 Package pdftex.def Info: Figures_and_Images/Rectangular_Set_up.png used on inpu
-t line 930.
+t line 1008.
 (pdftex.def)             Requested size: 414.60022pt x 168.93164pt.
 
-Overfull \hbox (2.03526pt too wide) in paragraph at lines 930--931
+Overfull \hbox (2.03526pt too wide) in paragraph at lines 1008--1009
  [] 
  []
 
-<Figures_and_Images/Circular_Setup.png, id=161, 757.83125pt x 321.2pt>
+[28 <./Figures_and_Images/Rectangular_Set_up.png>]
+<Figures_and_Images/Circular_Setup.png, id=184, 757.83125pt x 321.2pt>
 File: Figures_and_Images/Circular_Setup.png Graphic file (type png)
 
 <use Figures_and_Images/Circular_Setup.png>
 Package pdftex.def Info: Figures_and_Images/Circular_Setup.png used on input li
-ne 951.
+ne 1029.
 (pdftex.def)             Requested size: 416.80847pt x 176.66054pt.
 
-Overfull \hbox (4.24352pt too wide) in paragraph at lines 951--952
+Overfull \hbox (4.24352pt too wide) in paragraph at lines 1029--1030
  [] 
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[27 <./Figures_and_Images/Rectangular_Set_up.png>]
-<Figures_and_Images/Round_Plate.jpg, id=166, 3925.66624pt x 1837.86626pt>
+<Figures_and_Images/Round_Plate.jpg, id=185, 3925.66624pt x 1837.86626pt>
 File: Figures_and_Images/Round_Plate.jpg Graphic file (type jpg)
 
 <use Figures_and_Images/Round_Plate.jpg>
 Package pdftex.def Info: Figures_and_Images/Round_Plate.jpg used on input line 
-963.
+1040.
 (pdftex.def)             Requested size: 392.58963pt x 183.7974pt.
- [28 <./Figures_and_Images/Circular_Setup.png> <./Figures_and_Images/Round_Plat
-e.jpg>]
-<Figures_and_Images/Gauge_Set_Up.png, id=171, 1021.8175pt x 697.60625pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[29 <./Figures_and_Images/Circular_Setup.png>]
+<Figures_and_Images/Gauge_Set_Up.png, id=190, 1042.89626pt x 697.60625pt>
 File: Figures_and_Images/Gauge_Set_Up.png Graphic file (type png)
 
 <use Figures_and_Images/Gauge_Set_Up.png>
 Package pdftex.def Info: Figures_and_Images/Gauge_Set_Up.png used on input line
- 983.
-(pdftex.def)             Requested size: 408.71976pt x 279.03755pt.
- [29 <./Figures_and_Images/Gauge_Set_Up.png>] <Figures_and_Images/MTS_Set-up.jp
-g, id=176, 3011.25pt x 2258.4375pt>
-File: Figures_and_Images/MTS_Set-up.jpg Graphic file (type jpg)
+ 1062.
+(pdftex.def)             Requested size: 417.15112pt x 279.03755pt.
 
-<use Figures_and_Images/MTS_Set-up.jpg>
-Package pdftex.def Info: Figures_and_Images/MTS_Set-up.jpg used on input line 1
-022.
-(pdftex.def)             Requested size: 301.14264pt x 225.85698pt.
- [30 <./Figures_and_Images/MTS_Set-up.jpg>] <Figures_and_Images/SETUP.jpg, id=1
-80, 888.31876pt x 638.385pt>
-File: Figures_and_Images/SETUP.jpg Graphic file (type jpg)
-
-<use Figures_and_Images/SETUP.jpg>
-Package pdftex.def Info: Figures_and_Images/SETUP.jpg used on input line 1050.
-(pdftex.def)             Requested size: 310.91621pt x 223.43808pt.
- [31 <./Figures_and_Images/SETUP.jpg>]
-<Figures_and_Images/Notch_Angles.png, id=185, 1019.81pt x 881.2925pt>
-File: Figures_and_Images/Notch_Angles.png Graphic file (type png)
-
-<use Figures_and_Images/Notch_Angles.png>
-Package pdftex.def Info: Figures_and_Images/Notch_Angles.png used on input line
- 1064.
-(pdftex.def)             Requested size: 407.91678pt x 352.51076pt.
- [32 <./Figures_and_Images/Notch_Angles.png>]
-<Figures_and_Images/Circular_Notch_Angles.png, id=190, 713.66624pt x 672.5125pt
->
-File: Figures_and_Images/Circular_Notch_Angles.png Graphic file (type png)
- <use Figures_and_Images/Circular_Notch_Angles.png>
-Package pdftex.def Info: Figures_and_Images/Circular_Notch_Angles.png used on i
-nput line 1076.
-(pdftex.def)             Requested size: 392.51764pt x 369.88301pt.
- [33 <./Figures_and_Images/Circular_Notch_Angles.png>]
-
-Package caption Warning: \captionsetup{type*=...} or \captionof
-(caption)                outside box or environment on input line 1086.
-See the caption package documentation for explanation.
-
-
-Overfull \hbox (1.0107pt too wide) in paragraph at lines 1117--1117
- []|\OT1/ptm/b/n/10.95 Member 
- []
-
-
-Overfull \hbox (3.93365pt too wide) in paragraph at lines 1117--1117
- \OT1/ptm/b/n/10.95 ($\OT1/ptmcm/m/n/10.95 10[]\OML/ptmcm/m/it/10.95 mm[]$\OT1/
-ptm/b/n/10.95 )|| 
- []
-
-
-Overfull \hbox (3.93365pt too wide) in paragraph at lines 1117--1117
- \OT1/ptm/b/n/10.95 ($\OT1/ptmcm/m/n/10.95 10[]\OML/ptmcm/m/it/10.95 mm[]$\OT1/
-ptm/b/n/10.95 )|| 
- []
-
-[34] (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omlptm.fd)
-
-LaTeX Warning: Command \textgreater invalid in math mode on input line 1192.
-
-
-LaTeX Warning: Command \textgreater invalid in math mode on input line 1192.
-
-
-LaTeX Warning: Command \textless invalid in math mode on input line 1192.
-
-
-LaTeX Warning: Command \textless invalid in math mode on input line 1192.
-
-
-Overfull \hbox (1.09888pt too wide) in paragraph at lines 1192--1192
- []|[]| 
- []
-
-
-Overfull \hbox (1.09888pt too wide) in paragraph at lines 1192--1192
- []|[]| 
- []
-
-
-Overfull \hbox (1.09888pt too wide) in paragraph at lines 1192--1192
- []|[]| 
- []
-
-
-Overfull \hbox (1.09888pt too wide) in paragraph at lines 1192--1192
- []|[]| 
- []
-
-[35] <Figures_and_Images/Rect_load.png, id=201, 552.0625pt x 387.4475pt>
-File: Figures_and_Images/Rect_load.png Graphic file (type png)
-
-<use Figures_and_Images/Rect_load.png>
-Package pdftex.def Info: Figures_and_Images/Rect_load.png used on input line 12
-03.
-(pdftex.def)             Requested size: 386.4411pt x 271.2114pt.
- [36 <./Figures_and_Images/Rect_load.png>] <Figures_and_Images/Rect_Crack_Open.
-png, id=206, 880.28876pt x 477.785pt>
-File: Figures_and_Images/Rect_Crack_Open.png Graphic file (type png)
-
-<use Figures_and_Images/Rect_Crack_Open.png>
-Package pdftex.def Info: Figures_and_Images/Rect_Crack_Open.png used on input l
-ine 1268.
-(pdftex.def)             Requested size: 440.1433pt x 238.8919pt.
-
-Overfull \hbox (27.57834pt too wide) in paragraph at lines 1268--1269
+Overfull \hbox (4.58617pt too wide) in paragraph at lines 1062--1063
  [] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[37]
-<Figures_and_Images/Rect_propegate.png, id=211, 1347.0325pt x 370.38374pt>
+[30 <./Figures_and_Images/Round_Plate.jpg>] [31 <./Figures_and_Images/Gauge_Set
+_Up.png>] <Figures_and_Images/SETUP.jpg, id=198, 888.31876pt x 638.385pt>
+File: Figures_and_Images/SETUP.jpg Graphic file (type jpg)
+
+<use Figures_and_Images/SETUP.jpg>
+Package pdftex.def Info: Figures_and_Images/SETUP.jpg used on input line 1114.
+(pdftex.def)             Requested size: 310.91621pt x 223.43808pt.
+ [32 <./Figures_and_Images/SETUP.jpg>]
+[33] <Figures_and_Images/Notch_Angles.png, id=206, 1019.81pt x 881.2925pt>
+File: Figures_and_Images/Notch_Angles.png Graphic file (type png)
+
+<use Figures_and_Images/Notch_Angles.png>
+Package pdftex.def Info: Figures_and_Images/Notch_Angles.png used on input line
+ 1138.
+(pdftex.def)             Requested size: 407.91678pt x 352.51076pt.
+ [34 <./Figures_and_Images/Notch_Angles.png>]
+<Figures_and_Images/Circular_Notch_Angles.png, id=211, 713.66624pt x 672.5125pt
+>
+File: Figures_and_Images/Circular_Notch_Angles.png Graphic file (type png)
+ <use Figures_and_Images/Circular_Notch_Angles.png>
+Package pdftex.def Info: Figures_and_Images/Circular_Notch_Angles.png used on i
+nput line 1150.
+(pdftex.def)             Requested size: 392.51764pt x 369.88301pt.
+ [35 <./Figures_and_Images/Circular_Notch_Angles.png>]
+
+Package caption Warning: \captionsetup{type*=...} or \captionof
+(caption)                outside box or environment on input line 1160.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (1.0107pt too wide) in paragraph at lines 1191--1191
+ []|\OT1/ptm/b/n/10.95 Member 
+ []
+
+
+Overfull \hbox (3.93365pt too wide) in paragraph at lines 1191--1191
+ \OT1/ptm/b/n/10.95 ($\OT1/ptmcm/m/n/10.95 10[]\OML/ptmcm/m/it/10.95 mm[]$\OT1/
+ptm/b/n/10.95 )|| 
+ []
+
+
+Overfull \hbox (3.93365pt too wide) in paragraph at lines 1191--1191
+ \OT1/ptm/b/n/10.95 ($\OT1/ptmcm/m/n/10.95 10[]\OML/ptmcm/m/it/10.95 mm[]$\OT1/
+ptm/b/n/10.95 )|| 
+ []
+
+[36] (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omlptm.fd)
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 1266.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 1266.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 1266.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 1266.
+
+
+Overfull \hbox (1.09888pt too wide) in paragraph at lines 1266--1266
+ []|[]| 
+ []
+
+
+Overfull \hbox (1.09888pt too wide) in paragraph at lines 1266--1266
+ []|[]| 
+ []
+
+
+Overfull \hbox (1.09888pt too wide) in paragraph at lines 1266--1266
+ []|[]| 
+ []
+
+
+Overfull \hbox (1.09888pt too wide) in paragraph at lines 1266--1266
+ []|[]| 
+ []
+
+[37] <Figures_and_Images/Rect_load.png, id=222, 552.0625pt x 387.4475pt>
+File: Figures_and_Images/Rect_load.png Graphic file (type png)
+
+<use Figures_and_Images/Rect_load.png>
+Package pdftex.def Info: Figures_and_Images/Rect_load.png used on input line 12
+77.
+(pdftex.def)             Requested size: 386.4411pt x 271.2114pt.
+ [38 <./Figures_and_Images/Rect_load.png>] <Figures_and_Images/Rect_Crack_Open.
+png, id=228, 880.28876pt x 477.785pt>
+File: Figures_and_Images/Rect_Crack_Open.png Graphic file (type png)
+
+<use Figures_and_Images/Rect_Crack_Open.png>
+Package pdftex.def Info: Figures_and_Images/Rect_Crack_Open.png used on input l
+ine 1342.
+(pdftex.def)             Requested size: 440.1433pt x 238.8919pt.
+
+Overfull \hbox (27.57834pt too wide) in paragraph at lines 1342--1343
+ [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[39]
+<Figures_and_Images/Rect_propegate.png, id=233, 1347.0325pt x 370.38374pt>
 File: Figures_and_Images/Rect_propegate.png Graphic file (type png)
 
 <use Figures_and_Images/Rect_propegate.png>
 Package pdftex.def Info: Figures_and_Images/Rect_propegate.png used on input li
-ne 1282.
+ne 1356.
 (pdftex.def)             Requested size: 417.57576pt x 114.81776pt.
 
-Overfull \hbox (5.0108pt too wide) in paragraph at lines 1282--1283
+Overfull \hbox (5.0108pt too wide) in paragraph at lines 1356--1357
  [] 
  []
 
-[38 <./Figures_and_Images/Rect_Crack_Open.png> <./Figures_and_Images/Rect_prope
+[40 <./Figures_and_Images/Rect_Crack_Open.png> <./Figures_and_Images/Rect_prope
 gate.png>]
-<Figures_and_Images/Rect_Shear.png, id=217, 1351.0475pt x 506.89375pt>
+<Figures_and_Images/Rect_Shear.png, id=239, 1351.0475pt x 506.89375pt>
 File: Figures_and_Images/Rect_Shear.png Graphic file (type png)
 
 <use Figures_and_Images/Rect_Shear.png>
 Package pdftex.def Info: Figures_and_Images/Rect_Shear.png used on input line 1
-296.
+370.
 (pdftex.def)             Requested size: 418.8204pt x 157.13544pt.
 
-Overfull \hbox (6.25545pt too wide) in paragraph at lines 1296--1297
+Overfull \hbox (6.25545pt too wide) in paragraph at lines 1370--1371
  [] 
  []
 
-<Figures_and_Images/Rect_Flexure.png, id=218, 1393.205pt x 755.82375pt>
+<Figures_and_Images/Rect_Flexure.png, id=240, 1393.205pt x 755.82375pt>
 File: Figures_and_Images/Rect_Flexure.png Graphic file (type png)
 
 <use Figures_and_Images/Rect_Flexure.png>
 Package pdftex.def Info: Figures_and_Images/Rect_Flexure.png used on input line
- 1309.
+ 1383.
 (pdftex.def)             Requested size: 417.96472pt x 226.74887pt.
 
-Overfull \hbox (5.39977pt too wide) in paragraph at lines 1309--1310
+Overfull \hbox (5.39977pt too wide) in paragraph at lines 1383--1384
  [] 
  []
 
-[39 <./Figures_and_Images/Rect_Shear.png> <./Figures_and_Images/Rect_Flexure.pn
-g>] <Figures_and_Images/Spec_2_flex.jpg, id=224, 3011.25pt x 4015.0pt>
+[41 <./Figures_and_Images/Rect_Shear.png> <./Figures_and_Images/Rect_Flexure.pn
+g>] <Figures_and_Images/Spec_2_flex.jpg, id=246, 3011.25pt x 4015.0pt>
 File: Figures_and_Images/Spec_2_flex.jpg Graphic file (type jpg)
 
 <use Figures_and_Images/Spec_2_flex.jpg>
 Package pdftex.def Info: Figures_and_Images/Spec_2_flex.jpg used on input line 
-1321.
+1395.
 (pdftex.def)             Requested size: 150.57132pt x 200.76176pt.
 
-<Figures_and_Images/Spec_2_Top.jpg, id=225, 3011.25pt x 2258.4375pt>
+<Figures_and_Images/Spec_2_Top.jpg, id=247, 3011.25pt x 2258.4375pt>
 File: Figures_and_Images/Spec_2_Top.jpg Graphic file (type jpg)
 
 <use Figures_and_Images/Spec_2_Top.jpg>
 Package pdftex.def Info: Figures_and_Images/Spec_2_Top.jpg used on input line 1
-322.
+396.
 (pdftex.def)             Requested size: 258.96245pt x 194.22183pt.
 
-<Figures_and_Images/Spec_2_wet.jpg, id=226, 3011.25pt x 2258.4375pt>
+<Figures_and_Images/Spec_2_wet.jpg, id=248, 3011.25pt x 2258.4375pt>
 File: Figures_and_Images/Spec_2_wet.jpg Graphic file (type jpg)
 
 <use Figures_and_Images/Spec_2_wet.jpg>
 Package pdftex.def Info: Figures_and_Images/Spec_2_wet.jpg used on input line 1
-333.
+407.
 (pdftex.def)             Requested size: 301.14264pt x 225.85698pt.
- [40 <./Figures_and_Images/Spec_2_flex.jpg> <./Figures_and_Images/Spec_2_Top.jp
-g> <./Figures_and_Images/Spec_2_wet.jpg>] [41] [42]
-<Figures_and_Images/Rect_Spec_Cap.png, id=236, 609.27625pt x 421.575pt>
+ [42 <./Figures_and_Images/Spec_2_flex.jpg> <./Figures_and_Images/Spec_2_Top.jp
+g> <./Figures_and_Images/Spec_2_wet.jpg>] [43] [44]
+<Figures_and_Images/Rect_Spec_Cap.png, id=259, 609.27625pt x 421.575pt>
 File: Figures_and_Images/Rect_Spec_Cap.png Graphic file (type png)
 
 <use Figures_and_Images/Rect_Spec_Cap.png>
 Package pdftex.def Info: Figures_and_Images/Rect_Spec_Cap.png used on input lin
-e 1444.
+e 1516.
 (pdftex.def)             Requested size: 396.02486pt x 274.0205pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[43] <Figures_and_Images/Rect_Time.png, id=241, 502.87875pt x 357.335pt>
+[45] <Figures_and_Images/Rect_Time.png, id=263, 502.87875pt x 357.335pt>
 File: Figures_and_Images/Rect_Time.png Graphic file (type png)
 
 <use Figures_and_Images/Rect_Time.png>
-Package pdftex.def Info: Figures_and_Images/Rect_Time.png used on input line 14
-67.
+Package pdftex.def Info: Figures_and_Images/Rect_Time.png used on input line 15
+39.
 (pdftex.def)             Requested size: 402.30354pt x 285.86838pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[44 <./Figures_and_Images/Rect_Spec_Cap.png>] [45 <./Figures_and_Images/Rect_Ti
+[46 <./Figures_and_Images/Rect_Spec_Cap.png>] [47 <./Figures_and_Images/Rect_Ti
 me.png>]
-<Figures_and_Images/Rect_10_Def.png, id=251, 506.89375pt x 323.2075pt>
+<Figures_and_Images/Rect_10_Def.png, id=272, 500.87125pt x 319.1925pt>
 File: Figures_and_Images/Rect_10_Def.png Graphic file (type png)
 
 <use Figures_and_Images/Rect_10_Def.png>
 Package pdftex.def Info: Figures_and_Images/Rect_10_Def.png used on input line 
-1489.
-(pdftex.def)             Requested size: 405.51555pt x 258.56635pt.
+1561.
+(pdftex.def)             Requested size: 350.60747pt x 223.43321pt.
 
-<Figures_and_Images/Rect_10_Centre.png, id=252, 529.98pt x 366.36874pt>
+<Figures_and_Images/Rect_10_Centre.png, id=273, 522.95375pt x 363.3575pt>
 File: Figures_and_Images/Rect_10_Centre.png Graphic file (type png)
 
 <use Figures_and_Images/Rect_10_Centre.png>
 Package pdftex.def Info: Figures_and_Images/Rect_10_Centre.png used on input li
-ne 1501.
-(pdftex.def)             Requested size: 397.48401pt x 274.77588pt.
+ne 1573.
+(pdftex.def)             Requested size: 366.06512pt x 254.3485pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[46 <./Figures_and_Images/Rect_10_Def.png>]
-<Figures_and_Images/Rect_10_Z.png, id=257, 499.8675pt x 348.30125pt>
-File: Figures_and_Images/Rect_10_Z.png Graphic file (type png)
+[48 <./Figures_and_Images/Rect_10_Def.png>]
+<Figures_and_Images/Rect_10_Z_Far.png, id=278, 497.86pt x 343.2825pt>
+File: Figures_and_Images/Rect_10_Z_Far.png Graphic file (type png)
 
-<use Figures_and_Images/Rect_10_Z.png>
-Package pdftex.def Info: Figures_and_Images/Rect_10_Z.png used on input line 15
-16.
-(pdftex.def)             Requested size: 399.89453pt x 278.64137pt.
+<use Figures_and_Images/Rect_10_Z_Far.png>
+Package pdftex.def Info: Figures_and_Images/Rect_10_Z_Far.png used on input lin
+e 1588.
+(pdftex.def)             Requested size: 273.82384pt x 188.80594pt.
 
+<Figures_and_Images/Rect_10_Z_Near.png, id=279, 493.845pt x 345.29pt>
+File: Figures_and_Images/Rect_10_Z_Near.png Graphic file (type png)
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[47 <./Figures_and_Images/Rect_10_Centre.png>]
-<Figures_and_Images/Rect_10_Y.png, id=262, 499.8675pt x 344.28625pt>
-File: Figures_and_Images/Rect_10_Y.png Graphic file (type png)
-
-<use Figures_and_Images/Rect_10_Y.png>
-Package pdftex.def Info: Figures_and_Images/Rect_10_Y.png used on input line 15
-35.
-(pdftex.def)             Requested size: 399.89453pt x 275.42937pt.
+<use Figures_and_Images/Rect_10_Z_Near.png>
+Package pdftex.def Info: Figures_and_Images/Rect_10_Z_Near.png used on input li
+ne 1589.
+(pdftex.def)             Requested size: 271.61559pt x 189.91008pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[48 <./Figures_and_Images/Rect_10_Z.png>]
-<Figures_and_Images/End_wedge.jpg, id=267, 3011.25pt x 2258.4375pt>
+[49 <./Figures_and_Images/Rect_10_Centre.png>]
+<Figures_and_Images/Hor_Near.png, id=284, 545.03625pt x 418.56375pt>
+File: Figures_and_Images/Hor_Near.png Graphic file (type png)
+
+<use Figures_and_Images/Hor_Near.png>
+Package pdftex.def Info: Figures_and_Images/Hor_Near.png used on input line 160
+3.
+(pdftex.def)             Requested size: 190.76555pt x 146.4995pt.
+
+<Figures_and_Images/Hor_Far.png, id=285, 509.905pt x 415.5525pt>
+File: Figures_and_Images/Hor_Far.png Graphic file (type png)
+
+<use Figures_and_Images/Hor_Far.png>
+Package pdftex.def Info: Figures_and_Images/Hor_Far.png used on input line 1604
+.
+(pdftex.def)             Requested size: 178.46942pt x 145.44554pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figures_and_Images/Ver_Near.png, id=286, 542.025pt x 420.57124pt>
+File: Figures_and_Images/Ver_Near.png Graphic file (type png)
+
+<use Figures_and_Images/Ver_Near.png>
+Package pdftex.def Info: Figures_and_Images/Ver_Near.png used on input line 161
+2.
+(pdftex.def)             Requested size: 189.71158pt x 147.20213pt.
+
+<Figures_and_Images/Ver_Far.png, id=287, 522.95375pt x 434.62375pt>
+File: Figures_and_Images/Ver_Far.png Graphic file (type png)
+
+<use Figures_and_Images/Ver_Far.png>
+Package pdftex.def Info: Figures_and_Images/Ver_Far.png used on input line 1613
+.
+(pdftex.def)             Requested size: 183.03654pt x 152.12059pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[50 <./Figures_and_Images/Rect_10_Z_Far.png> <./Figures_and_Images/Rect_10_Z_Ne
+ar.png>] <Figures_and_Images/Rect_10_Y_Far.png, id=294, 493.845pt x 345.29pt>
+File: Figures_and_Images/Rect_10_Y_Far.png Graphic file (type png)
+
+<use Figures_and_Images/Rect_10_Y_Far.png>
+Package pdftex.def Info: Figures_and_Images/Rect_10_Y_Far.png used on input lin
+e 1627.
+(pdftex.def)             Requested size: 271.61559pt x 189.91008pt.
+
+<Figures_and_Images/Rect_10_Y_Near.png, id=295, 485.815pt x 344.28625pt>
+File: Figures_and_Images/Rect_10_Y_Near.png Graphic file (type png)
+
+<use Figures_and_Images/Rect_10_Y_Near.png>
+Package pdftex.def Info: Figures_and_Images/Rect_10_Y_Near.png used on input li
+ne 1628.
+(pdftex.def)             Requested size: 267.19907pt x 189.35802pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[51 <./Figures_and_Images/Hor_Near.png> <./Figures_and_Images/Hor_Far.png> <./F
+igures_and_Images/Ver_Near.png> <./Figures_and_Images/Ver_Far.png>]
+<Figures_and_Images/End_wedge.jpg, id=303, 3011.25pt x 2258.4375pt>
 File: Figures_and_Images/End_wedge.jpg Graphic file (type jpg)
 
 <use Figures_and_Images/End_wedge.jpg>
-Package pdftex.def Info: Figures_and_Images/End_wedge.jpg used on input line 15
-48.
+Package pdftex.def Info: Figures_and_Images/End_wedge.jpg used on input line 16
+41.
 (pdftex.def)             Requested size: 195.73811pt x 146.80359pt.
 
-<Figures_and_Images/Top_wedge.jpg, id=268, 3011.25pt x 2258.4375pt>
+<Figures_and_Images/Top_wedge.jpg, id=304, 3011.25pt x 2258.4375pt>
 File: Figures_and_Images/Top_wedge.jpg Graphic file (type jpg)
 
 <use Figures_and_Images/Top_wedge.jpg>
-Package pdftex.def Info: Figures_and_Images/Top_wedge.jpg used on input line 15
-49.
+Package pdftex.def Info: Figures_and_Images/Top_wedge.jpg used on input line 16
+42.
 (pdftex.def)             Requested size: 195.73811pt x 146.80359pt.
- [49 <./Figures_and_Images/Rect_10_Y.png> <./Figures_and_Images/End_wedge.jpg> 
-<./Figures_and_Images/Top_wedge.jpg>]
-<Figures_and_Images/Rect_12_Def.png, id=274, 503.8825pt x 322.20375pt>
-File: Figures_and_Images/Rect_12_Def.png Graphic file (type png)
-
-<use Figures_and_Images/Rect_12_Def.png>
-Package pdftex.def Info: Figures_and_Images/Rect_12_Def.png used on input line 
-1566.
-(pdftex.def)             Requested size: 403.10655pt x 257.76334pt.
-
-<Figures_and_Images/Rect_12_Centre.png, id=275, 502.87875pt x 342.27875pt>
-File: Figures_and_Images/Rect_12_Centre.png Graphic file (type png)
-
-<use Figures_and_Images/Rect_12_Centre.png>
-Package pdftex.def Info: Figures_and_Images/Rect_12_Centre.png used on input li
-ne 1579.
-(pdftex.def)             Requested size: 377.15813pt x 256.70842pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[50 <./Figures_and_Images/Rect_12_Def.png>]
-<Figures_and_Images/Rect_12_Z.png, id=280, 497.86pt x 344.28625pt>
-File: Figures_and_Images/Rect_12_Z.png Graphic file (type png)
+[52 <./Figures_and_Images/Rect_10_Y_Far.png> <./Figures_and_Images/Rect_10_Y_Ne
+ar.png>]
+<Figures_and_Images/Rect_12_Z_Far.png, id=310, 499.8675pt x 348.30125pt>
+File: Figures_and_Images/Rect_12_Z_Far.png Graphic file (type png)
 
-<use Figures_and_Images/Rect_12_Z.png>
-Package pdftex.def Info: Figures_and_Images/Rect_12_Z.png used on input line 15
-97.
-(pdftex.def)             Requested size: 373.39407pt x 258.21405pt.
+<use Figures_and_Images/Rect_12_Z_Far.png>
+Package pdftex.def Info: Figures_and_Images/Rect_12_Z_Far.png used on input lin
+e 1667.
+(pdftex.def)             Requested size: 274.92796pt x 191.56627pt.
+
+<Figures_and_Images/Rect_12_Z_Near.png, id=311, 495.8525pt x 346.29375pt>
+File: Figures_and_Images/Rect_12_Z_Near.png Graphic file (type png)
+
+<use Figures_and_Images/Rect_12_Z_Near.png>
+Package pdftex.def Info: Figures_and_Images/Rect_12_Z_Near.png used on input li
+ne 1668.
+(pdftex.def)             Requested size: 272.71971pt x 190.46214pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[51 <./Figures_and_Images/Rect_12_Centre.png>]
-<Figures_and_Images/Cut_Top.jpg, id=285, 3011.25pt x 2258.4375pt>
+[53 <./Figures_and_Images/End_wedge.jpg> <./Figures_and_Images/Top_wedge.jpg>]
+<Figures_and_Images/Cut_Top.jpg, id=315, 3011.25pt x 2258.4375pt>
 File: Figures_and_Images/Cut_Top.jpg Graphic file (type jpg)
 
 <use Figures_and_Images/Cut_Top.jpg>
-Package pdftex.def Info: Figures_and_Images/Cut_Top.jpg used on input line 1611
+Package pdftex.def Info: Figures_and_Images/Cut_Top.jpg used on input line 1682
 .
 (pdftex.def)             Requested size: 195.73811pt x 146.80359pt.
 
-<Figures_and_Images/Cut_Side.jpg, id=286, 3011.25pt x 2258.4375pt>
+<Figures_and_Images/Cut_Side.jpg, id=316, 3011.25pt x 2258.4375pt>
 File: Figures_and_Images/Cut_Side.jpg Graphic file (type jpg)
 
 <use Figures_and_Images/Cut_Side.jpg>
-Package pdftex.def Info: Figures_and_Images/Cut_Side.jpg used on input line 161
-2.
+Package pdftex.def Info: Figures_and_Images/Cut_Side.jpg used on input line 168
+3.
 (pdftex.def)             Requested size: 195.73811pt x 146.80359pt.
- [52 <./Figures_and_Images/Rect_12_Z.png> <./Figures_and_Images/Cut_Top.jpg> <.
-/Figures_and_Images/Cut_Side.jpg>]
-<Figures_and_Images/Rect_12_Y.png, id=291, 494.84875pt x 343.2825pt>
-File: Figures_and_Images/Rect_12_Y.png Graphic file (type png)
 
-<use Figures_and_Images/Rect_12_Y.png>
-Package pdftex.def Info: Figures_and_Images/Rect_12_Y.png used on input line 16
-25.
-(pdftex.def)             Requested size: 395.87955pt x 274.62636pt.
 
-<Figures_and_Images/Rect_14_Def.png, id=292, 503.8825pt x 320.19624pt>
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[54 <./Figures_and_Images/Rect_12_Z_Far.png> <./Figures_and_Images/Rect_12_Z_Ne
+ar.png>] <Figures_and_Images/Rect_14_Def.png, id=322, 505.89pt x 326.21875pt>
 File: Figures_and_Images/Rect_14_Def.png Graphic file (type png)
 
 <use Figures_and_Images/Rect_14_Def.png>
 Package pdftex.def Info: Figures_and_Images/Rect_14_Def.png used on input line 
-1642.
-(pdftex.def)             Requested size: 403.10655pt x 256.15733pt.
- [53 <./Figures_and_Images/Rect_12_Y.png>] <Figures_and_Images/Rect_14_Centre.p
-ng, id=297, 500.87125pt x 348.30125pt>
-File: Figures_and_Images/Rect_14_Centre.png Graphic file (type png)
-
-<use Figures_and_Images/Rect_14_Centre.png>
-Package pdftex.def Info: Figures_and_Images/Rect_14_Centre.png used on input li
-ne 1653.
-(pdftex.def)             Requested size: 375.6525pt x 261.2253pt.
+1704.
+(pdftex.def)             Requested size: 354.12057pt x 228.35156pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[54 <./Figures_and_Images/Rect_14_Def.png>] [55 <./Figures_and_Images/Rect_14_C
-entre.png>]
-<Figures_and_Images/Rect_14_Z.png, id=307, 494.84875pt x 348.30125pt>
-File: Figures_and_Images/Rect_14_Z.png Graphic file (type png)
+[55 <./Figures_and_Images/Cut_Top.jpg> <./Figures_and_Images/Cut_Side.jpg>]
+[56 <./Figures_and_Images/Rect_14_Def.png>]
+<Figures_and_Images/Rect_14_Y_Far.png, id=331, 491.8375pt x 349.305pt>
+File: Figures_and_Images/Rect_14_Y_Far.png Graphic file (type png)
 
-<use Figures_and_Images/Rect_14_Z.png>
-Package pdftex.def Info: Figures_and_Images/Rect_14_Z.png used on input line 16
-68.
-(pdftex.def)             Requested size: 341.44601pt x 240.32813pt.
+<use Figures_and_Images/Rect_14_Y_Far.png>
+Package pdftex.def Info: Figures_and_Images/Rect_14_Y_Far.png used on input lin
+e 1724.
+(pdftex.def)             Requested size: 270.51146pt x 192.11833pt.
 
-<Figures_and_Images/Rect_14_Y.png, id=308, 494.84875pt x 348.30125pt>
-File: Figures_and_Images/Rect_14_Y.png Graphic file (type png)
+<Figures_and_Images/Rect_14_Y_Near.png, id=332, 492.84125pt x 346.29375pt>
+File: Figures_and_Images/Rect_14_Y_Near.png Graphic file (type png)
 
-<use Figures_and_Images/Rect_14_Y.png>
-Package pdftex.def Info: Figures_and_Images/Rect_14_Y.png used on input line 16
-69.
-(pdftex.def)             Requested size: 341.44601pt x 240.32813pt.
+<use Figures_and_Images/Rect_14_Y_Near.png>
+Package pdftex.def Info: Figures_and_Images/Rect_14_Y_Near.png used on input li
+ne 1725.
+(pdftex.def)             Requested size: 271.0635pt x 190.46214pt.
 
-<Figures_and_Images/Round_load.png, id=309, 550.055pt x 375.4025pt>
+<Figures_and_Images/Round_load.png, id=333, 550.055pt x 375.4025pt>
 File: Figures_and_Images/Round_load.png Graphic file (type png)
 
 <use Figures_and_Images/Round_load.png>
 Package pdftex.def Info: Figures_and_Images/Round_load.png used on input line 1
-683.
+739.
 (pdftex.def)             Requested size: 385.03587pt x 262.77995pt.
- [56 <./Figures_and_Images/Rect_14_Z.png> <./Figures_and_Images/Rect_14_Y.png>]
- [57 <./Figures_and_Images/Round_load.png>]
-Underfull \hbox (badness 3009) in paragraph at lines 1733--1733
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[57 <./Figures_and_Images/Rect_14_Y_Far.png> <./Figures_and_Images/Rect_14_Y_Ne
+ar.png>] [58 <./Figures_and_Images/Round_load.png>]
+Underfull \hbox (badness 3009) in paragraph at lines 1789--1789
 []|\OT1/ptm/m/n/10.95 Notch cracked at ul-ti-mate
  []
 
 
-Overfull \hbox (6.23872pt too wide) in paragraph at lines 1704--1738
+Overfull \hbox (6.23872pt too wide) in paragraph at lines 1760--1794
 [][]
  []
 
-[58]
-<Figures_and_Images/Roun_Crack_Open.jpg, id=322, 1020.81375pt x 569.12625pt>
+[59]
+<Figures_and_Images/Roun_Crack_Open.jpg, id=346, 1020.81375pt x 569.12625pt>
 File: Figures_and_Images/Roun_Crack_Open.jpg Graphic file (type jpg)
 
 <use Figures_and_Images/Roun_Crack_Open.jpg>
 Package pdftex.def Info: Figures_and_Images/Roun_Crack_Open.jpg used on input l
-ine 1791.
+ine 1847.
 (pdftex.def)             Requested size: 398.11577pt x 221.95834pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[59] <Figures_and_Images/Round_Fail.jpg, id=326, 1021.8175pt x 469.755pt>
+[60] <Figures_and_Images/Round_Fail.jpg, id=350, 1021.8175pt x 469.755pt>
 File: Figures_and_Images/Round_Fail.jpg Graphic file (type jpg)
 
 <use Figures_and_Images/Round_Fail.jpg>
 Package pdftex.def Info: Figures_and_Images/Round_Fail.jpg used on input line 1
-806.
+862.
 (pdftex.def)             Requested size: 408.71976pt x 187.89867pt.
- [60 <./Figures_and_Images/Roun_Crack_Open.jpg> <./Figures_and_Images/Round_Fai
+ [61 <./Figures_and_Images/Roun_Crack_Open.jpg> <./Figures_and_Images/Round_Fai
 l.jpg>]
-<Figures_and_Images/Round_knot.jpg, id=330, 3011.25pt x 2258.4375pt>
+<Figures_and_Images/Round_knot.jpg, id=354, 3011.25pt x 2258.4375pt>
 File: Figures_and_Images/Round_knot.jpg Graphic file (type jpg)
 
 <use Figures_and_Images/Round_knot.jpg>
 Package pdftex.def Info: Figures_and_Images/Round_knot.jpg used on input line 1
-823.
+879.
 (pdftex.def)             Requested size: 301.14264pt x 225.85698pt.
 
-<Figures_and_Images/Shear_knot.jpg, id=331, 1019.81pt x 319.1925pt>
+<Figures_and_Images/Shear_knot.jpg, id=355, 1019.81pt x 319.1925pt>
 File: Figures_and_Images/Shear_knot.jpg Graphic file (type jpg)
 
 <use Figures_and_Images/Shear_knot.jpg>
 Package pdftex.def Info: Figures_and_Images/Shear_knot.jpg used on input line 1
-836.
+892.
 (pdftex.def)             Requested size: 407.91678pt x 127.67473pt.
- [61 <./Figures_and_Images/Round_knot.jpg> <./Figures_and_Images/Shear_knot.jpg
->] [62]
-<Figures_and_Images/Round_Spec_Cap.png, id=339, 526.96875pt x 356.33125pt>
+ [62 <./Figures_and_Images/Round_knot.jpg> <./Figures_and_Images/Shear_knot.jpg
+>] [63]
+<Figures_and_Images/Round_Spec_Cap.png, id=363, 526.96875pt x 356.33125pt>
 File: Figures_and_Images/Round_Spec_Cap.png Graphic file (type png)
 
 <use Figures_and_Images/Round_Spec_Cap.png>
 Package pdftex.def Info: Figures_and_Images/Round_Spec_Cap.png used on input li
-ne 1896.
+ne 1952.
 (pdftex.def)             Requested size: 421.57556pt x 285.06537pt.
 
-Overfull \hbox (15.8106pt too wide) in paragraph at lines 1896--1897
+Overfull \hbox (15.8106pt too wide) in paragraph at lines 1952--1953
  [] 
  []
 
-<Figures_and_Images/Round_crack_fail.png, id=340, 496.85625pt x 379.4175pt>
+<Figures_and_Images/Round_crack_fail.png, id=364, 496.85625pt x 379.4175pt>
 File: Figures_and_Images/Round_crack_fail.png Graphic file (type png)
 
 <use Figures_and_Images/Round_crack_fail.png>
 Package pdftex.def Info: Figures_and_Images/Round_crack_fail.png used on input 
-line 1912.
+line 1968.
 (pdftex.def)             Requested size: 397.48553pt x 303.53441pt.
- [63 <./Figures_and_Images/Round_Spec_Cap.png>] [64 <./Figures_and_Images/Round
+ [64 <./Figures_and_Images/Round_Spec_Cap.png>] [65 <./Figures_and_Images/Round
 _crack_fail.png>]
-<Figures_and_Images/Round_10_def.png, id=349, 506.89375pt x 324.21124pt>
+<Figures_and_Images/Round_10_def.png, id=373, 503.8825pt x 319.1925pt>
 File: Figures_and_Images/Round_10_def.png Graphic file (type png)
 
 <use Figures_and_Images/Round_10_def.png>
 Package pdftex.def Info: Figures_and_Images/Round_10_def.png used on input line
- 1934.
-(pdftex.def)             Requested size: 405.51555pt x 259.36934pt.
+ 1990.
+(pdftex.def)             Requested size: 352.71535pt x 223.43321pt.
 
-<Figures_and_Images/Round_10_Centre.png, id=350, 502.87875pt x 345.29pt>
+<Figures_and_Images/Round_10_Centre.png, id=374, 500.87125pt x 348.30125pt>
 File: Figures_and_Images/Round_10_Centre.png Graphic file (type png)
 
 <use Figures_and_Images/Round_10_Centre.png>
 Package pdftex.def Info: Figures_and_Images/Round_10_Centre.png used on input l
-ine 1952.
-(pdftex.def)             Requested size: 402.30354pt x 276.23236pt.
+ine 2008.
+(pdftex.def)             Requested size: 350.60747pt x 243.8092pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[65 <./Figures_and_Images/Round_10_def.png>]
-<Figures_and_Images/Round_10_Z.png, id=355, 497.86pt x 349.305pt>
-File: Figures_and_Images/Round_10_Z.png Graphic file (type png)
+[66 <./Figures_and_Images/Round_10_def.png>]
+<Figures_and_Images/Round_10_Z_Far.png, id=379, 497.86pt x 346.29375pt>
+File: Figures_and_Images/Round_10_Z_Far.png Graphic file (type png)
 
-<use Figures_and_Images/Round_10_Z.png>
-Package pdftex.def Info: Figures_and_Images/Round_10_Z.png used on input line 1
-969.
-(pdftex.def)             Requested size: 348.49962pt x 244.51183pt.
+<use Figures_and_Images/Round_10_Z_Far.png>
+Package pdftex.def Info: Figures_and_Images/Round_10_Z_Far.png used on input li
+ne 2025.
+(pdftex.def)             Requested size: 273.82384pt x 190.46214pt.
+
+<Figures_and_Images/Round_10_Z_Near.png, id=380, 494.84875pt x 343.2825pt>
+File: Figures_and_Images/Round_10_Z_Near.png Graphic file (type png)
+
+<use Figures_and_Images/Round_10_Z_Near.png>
+Package pdftex.def Info: Figures_and_Images/Round_10_Z_Near.png used on input l
+ine 2026.
+(pdftex.def)             Requested size: 272.16765pt x 188.80594pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[66 <./Figures_and_Images/Round_10_Centre.png>]
-<Figures_and_Images/Spec_4.jpg, id=360, 3011.25pt x 2258.4375pt>
-File: Figures_and_Images/Spec_4.jpg Graphic file (type jpg)
+[67 <./Figures_and_Images/Round_10_Centre.png>]
+<Figures_and_Images/Round_10_Y_Far.png, id=385, 489.83pt x 345.29pt>
+File: Figures_and_Images/Round_10_Y_Far.png Graphic file (type png)
 
-<use Figures_and_Images/Spec_4.jpg>
-Package pdftex.def Info: Figures_and_Images/Spec_4.jpg used on input line 1983.
+<use Figures_and_Images/Round_10_Y_Far.png>
+Package pdftex.def Info: Figures_and_Images/Round_10_Y_Far.png used on input li
+ne 2040.
+(pdftex.def)             Requested size: 269.40732pt x 189.91008pt.
 
-(pdftex.def)             Requested size: 271.00081pt x 203.2506pt.
- [67 <./Figures_and_Images/Round_10_Z.png> <./Figures_and_Images/Spec_4.jpg>]
-<Figures_and_Images/Round_10_Y.png, id=366, 496.85625pt x 351.3125pt>
-File: Figures_and_Images/Round_10_Y.png Graphic file (type png)
+<Figures_and_Images/Round_10_Y_Near.png, id=386, 486.81876pt x 347.2975pt>
+File: Figures_and_Images/Round_10_Y_Near.png Graphic file (type png)
 
-<use Figures_and_Images/Round_10_Y.png>
-Package pdftex.def Info: Figures_and_Images/Round_10_Y.png used on input line 1
-996.
-(pdftex.def)             Requested size: 397.48553pt x 281.05037pt.
+<use Figures_and_Images/Round_10_Y_Near.png>
+Package pdftex.def Info: Figures_and_Images/Round_10_Y_Near.png used on input l
+ine 2041.
+(pdftex.def)             Requested size: 267.75114pt x 191.0142pt.
 
-<Figures_and_Images/Round_12_Centre.png, id=367, 503.8825pt x 345.29pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[68 <./Figures_and_Images/Round_10_Z_Far.png> <./Figures_and_Images/Round_10_Z_
+Near.png>]
+<Figures_and_Images/Round_12_Centre.png, id=393, 505.89pt x 349.305pt>
 File: Figures_and_Images/Round_12_Centre.png Graphic file (type png)
 
 <use Figures_and_Images/Round_12_Centre.png>
 Package pdftex.def Info: Figures_and_Images/Round_12_Centre.png used on input l
-ine 2013.
-(pdftex.def)             Requested size: 403.10655pt x 276.23236pt.
+ine 2058.
+(pdftex.def)             Requested size: 354.12057pt x 244.51183pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[68 <./Figures_and_Images/Round_10_Y.png>]
-<Figures_and_Images/Round_12_Z.png, id=372, 495.8525pt x 345.29pt>
-File: Figures_and_Images/Round_12_Z.png Graphic file (type png)
+[69 <./Figures_and_Images/Round_10_Y_Far.png> <./Figures_and_Images/Round_10_Y_
+Near.png>]
+<Figures_and_Images/Round_12_Y_Far.png, id=399, 498.86375pt x 342.27875pt>
+File: Figures_and_Images/Round_12_Y_Far.png Graphic file (type png)
 
-<use Figures_and_Images/Round_12_Z.png>
-Package pdftex.def Info: Figures_and_Images/Round_12_Z.png used on input line 2
-027.
-(pdftex.def)             Requested size: 297.5138pt x 207.17558pt.
+<use Figures_and_Images/Round_12_Y_Far.png>
+Package pdftex.def Info: Figures_and_Images/Round_12_Y_Far.png used on input li
+ne 2072.
+(pdftex.def)             Requested size: 274.37592pt x 188.25388pt.
 
-<Figures_and_Images/Round_12_Y.png, id=373, 499.8675pt x 348.30125pt>
-File: Figures_and_Images/Round_12_Y.png Graphic file (type png)
+<Figures_and_Images/Round_12_Y_Near.png, id=400, 495.8525pt x 350.30875pt>
+File: Figures_and_Images/Round_12_Y_Near.png Graphic file (type png)
 
-<use Figures_and_Images/Round_12_Y.png>
-Package pdftex.def Info: Figures_and_Images/Round_12_Y.png used on input line 2
-028.
-(pdftex.def)             Requested size: 299.9228pt x 208.98236pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[69 <./Figures_and_Images/Round_12_Centre.png>]
-<Figures_and_Images/Round_14_Z.png, id=378, 498.86375pt x 350.30875pt>
-File: Figures_and_Images/Round_14_Z.png Graphic file (type png)
-
-<use Figures_and_Images/Round_14_Z.png>
-Package pdftex.def Info: Figures_and_Images/Round_14_Z.png used on input line 2
-046.
-(pdftex.def)             Requested size: 299.32056pt x 210.18686pt.
-
-<Figures_and_Images/Round_14_Y.png, id=379, 498.86375pt x 344.28625pt>
-File: Figures_and_Images/Round_14_Y.png Graphic file (type png)
-
-<use Figures_and_Images/Round_14_Y.png>
-Package pdftex.def Info: Figures_and_Images/Round_14_Y.png used on input line 2
-047.
-(pdftex.def)             Requested size: 299.32056pt x 206.57333pt.
+<use Figures_and_Images/Round_12_Y_Near.png>
+Package pdftex.def Info: Figures_and_Images/Round_12_Y_Near.png used on input l
+ine 2073.
+(pdftex.def)             Requested size: 272.71971pt x 192.6704pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[70 <./Figures_and_Images/Round_12_Z.png> <./Figures_and_Images/Round_12_Y.png>
-] [71 <./Figures_and_Images/Round_14_Z.png> <./Figures_and_Images/Round_14_Y.pn
-g>] <Figures_and_Images/Com_Cap.png, id=390, 542.025pt x 342.27875pt>
+[70 <./Figures_and_Images/Round_12_Centre.png>]
+<Figures_and_Images/Round_14_Y_Far.png, id=405, 491.8375pt x 350.30875pt>
+File: Figures_and_Images/Round_14_Y_Far.png Graphic file (type png)
+
+<use Figures_and_Images/Round_14_Y_Far.png>
+Package pdftex.def Info: Figures_and_Images/Round_14_Y_Far.png used on input li
+ne 2091.
+(pdftex.def)             Requested size: 270.51146pt x 192.6704pt.
+
+<Figures_and_Images/Round_14_Y_Near.png, id=406, 497.86pt x 346.29375pt>
+File: Figures_and_Images/Round_14_Y_Near.png Graphic file (type png)
+
+<use Figures_and_Images/Round_14_Y_Near.png>
+Package pdftex.def Info: Figures_and_Images/Round_14_Y_Near.png used on input l
+ine 2092.
+(pdftex.def)             Requested size: 273.82384pt x 190.46214pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[71 <./Figures_and_Images/Round_12_Y_Far.png> <./Figures_and_Images/Round_12_Y_
+Near.png>] [72 <./Figures_and_Images/Round_14_Y_Far.png> <./Figures_and_Images/
+Round_14_Y_Near.png>]
+<Figures_and_Images/Com_Cap.png, id=417, 542.025pt x 342.27875pt>
 File: Figures_and_Images/Com_Cap.png Graphic file (type png)
 
 <use Figures_and_Images/Com_Cap.png>
-Package pdftex.def Info: Figures_and_Images/Com_Cap.png used on input line 2072
+Package pdftex.def Info: Figures_and_Images/Com_Cap.png used on input line 2118
 .
 (pdftex.def)             Requested size: 363.15486pt x 229.32556pt.
- [72 <./Figures_and_Images/Com_Cap.png>]
-<Figures_and_Images/Comp_Notch.png, id=395, 568.1225pt x 344.28625pt>
+ [73 <./Figures_and_Images/Com_Cap.png>]
+<Figures_and_Images/Comp_Notch.png, id=422, 566.115pt x 342.27875pt>
 File: Figures_and_Images/Comp_Notch.png Graphic file (type png)
 
 <use Figures_and_Images/Comp_Notch.png>
 Package pdftex.def Info: Figures_and_Images/Comp_Notch.png used on input line 2
-085.
-(pdftex.def)             Requested size: 369.27524pt x 223.7834pt.
+131.
+(pdftex.def)             Requested size: 367.97038pt x 222.47853pt.
 
-<Figures_and_Images/AS_notch.png, id=396, 559.08875pt x 426.59375pt>
+<Figures_and_Images/AS_notch.png, id=423, 563.10374pt x 423.5825pt>
 File: Figures_and_Images/AS_notch.png Graphic file (type png)
 
 <use Figures_and_Images/AS_notch.png>
-Package pdftex.def Info: Figures_and_Images/AS_notch.png used on input line 209
-8.
-(pdftex.def)             Requested size: 391.35945pt x 298.61357pt.
+Package pdftex.def Info: Figures_and_Images/AS_notch.png used on input line 214
+4.
+(pdftex.def)             Requested size: 394.16994pt x 296.50572pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[73 <./Figures_and_Images/Comp_Notch.png>]
-<Figures_and_Images/Eurocode.png, id=402, 514.92375pt x 367.3725pt>
+[74 <./Figures_and_Images/Comp_Notch.png>] [75 <./Figures_and_Images/AS_notch.p
+ng>] <Figures_and_Images/Eurocode.png, id=433, 516.93124pt x 363.3575pt>
 File: Figures_and_Images/Eurocode.png Graphic file (type png)
 
 <use Figures_and_Images/Eurocode.png>
-Package pdftex.def Info: Figures_and_Images/Eurocode.png used on input line 211
-4.
-(pdftex.def)             Requested size: 360.44417pt x 257.15898pt.
- [74 <./Figures_and_Images/AS_notch.png>]
-<Figures_and_Images/CSA.png, id=407, 515.9275pt x 398.48875pt>
+Package pdftex.def Info: Figures_and_Images/Eurocode.png used on input line 216
+1.
+(pdftex.def)             Requested size: 361.8494pt x 254.3485pt.
+ [76 <./Figures_and_Images/Eurocode.png>]
+<Figures_and_Images/CSA.png, id=438, 573.14125pt x 401.5pt>
 File: Figures_and_Images/CSA.png Graphic file (type png)
 
 <use Figures_and_Images/CSA.png>
-Package pdftex.def Info: Figures_and_Images/CSA.png used on input line 2129.
-(pdftex.def)             Requested size: 361.14679pt x 278.94022pt.
- [75 <./Figures_and_Images/Eurocode.png>]
-[76 <./Figures_and_Images/CSA.png>]
-Overfull \hbox (17.5515pt too wide) detected at line 2163
+Package pdftex.def Info: Figures_and_Images/CSA.png used on input line 2176.
+(pdftex.def)             Requested size: 401.19614pt x 281.04808pt.
+ [77 <./Figures_and_Images/CSA.png>]
+Overfull \hbox (17.5515pt too wide) detected at line 2210
 \OML/ptmcm/m/it/10.95 I[] \OT1/ptmcm/m/n/10.95 = \OML/ptmcm/m/it/10.95 ^^YR[][]
 [][][][] \OT1/ptmcm/m/n/10.95 + \OML/ptmcm/m/it/10.95 k[][] \OMS/pzccm/m/n/10.9
 5 ^^@ [][]\OML/ptmcm/m/it/10.95 m \OT1/ptmcm/m/n/10.95 + 2 [](2\OML/ptmcm/m/it/
@@ -1429,33 +1485,40 @@ Overfull \hbox (17.5515pt too wide) detected at line 2163
 m/m/n/10.95 + 2\OML/ptmcm/m/it/10.95 R[][][] \OMS/pzccm/m/n/10.95 ^^@ [][]
  []
 
-[77] <Figures_and_Images/Shear_Des.png, id=419, 475.7775pt x 352.31625pt>
+[78] <Figures_and_Images/Shear_Des.png, id=446, 481.8pt x 356.33125pt>
 File: Figures_and_Images/Shear_Des.png Graphic file (type png)
 
 <use Figures_and_Images/Shear_Des.png>
 Package pdftex.def Info: Figures_and_Images/Shear_Des.png used on input line 22
-02.
-(pdftex.def)             Requested size: 333.04196pt x 246.61969pt.
- [78 <./Figures_and_Images/Shear_Des.png>] <Figures_and_Images/Bend_Des.png, id
-=424, 495.8525pt x 361.35pt>
+49.
+(pdftex.def)             Requested size: 337.25769pt x 249.43016pt.
+ [79 <./Figures_and_Images/Shear_Des.png>] <Figures_and_Images/Bend_Des.png, id
+=451, 494.84875pt x 363.3575pt>
 File: Figures_and_Images/Bend_Des.png Graphic file (type png)
 
 <use Figures_and_Images/Bend_Des.png>
-Package pdftex.def Info: Figures_and_Images/Bend_Des.png used on input line 223
-4.
-(pdftex.def)             Requested size: 347.09438pt x 252.94327pt.
- [79 <./Figures_and_Images/Bend_Des.png>]
-<Figures_and_Images/Des_Comp.png, id=430, 582.175pt x 399.4925pt>
+Package pdftex.def Info: Figures_and_Images/Bend_Des.png used on input line 228
+1.
+(pdftex.def)             Requested size: 346.39177pt x 254.3485pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[80] <Figures_and_Images/Des_Comp.png, id=456, 582.175pt x 399.4925pt>
 File: Figures_and_Images/Des_Comp.png Graphic file (type png)
 
 <use Figures_and_Images/Des_Comp.png>
-Package pdftex.def Info: Figures_and_Images/Des_Comp.png used on input line 225
-0.
+Package pdftex.def Info: Figures_and_Images/Des_Comp.png used on input line 229
+7.
 (pdftex.def)             Requested size: 378.40927pt x 259.66704pt.
- [80 <./Figures_and_Images/Des_Comp.png>]
-[81] [82] (./ThesisWHY.bbl [83] [84]) [85]
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[81 <./Figures_and_Images/Bend_Des.png>] [82 <./Figures_and_Images/Des_Comp.png
+>] [83] [84] (./ThesisWHY.bbl [85] [86]) [87]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 2288.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 2339.
 
  [1
 
@@ -1465,13 +1528,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 6769 strings out of 493089
- 108414 string characters out of 6134843
- 189631 words of memory out of 5000000
- 9984 multiletter control sequences out of 15000+600000
+ 6782 strings out of 493089
+ 109125 string characters out of 6134843
+ 189693 words of memory out of 5000000
+ 9994 multiletter control sequences out of 15000+600000
  45084 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,12n,75p,2058b,470s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,12n,75p,2045b,470s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
 xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
@@ -1482,10 +1545,10 @@ f-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fon
 ts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/
 urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/
 utmri8a.pfb>
-Output written on ThesisWHY.pdf (94 pages, 47120611 bytes).
+Output written on ThesisWHY.pdf (101 pages, 40811907 bytes).
 PDF statistics:
- 495 PDF objects out of 1000 (max. 8388607)
- 238 compressed objects within 3 object streams
+ 525 PDF objects out of 1000 (max. 8388607)
+ 253 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 421 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 436 words of extra memory for PDF output out of 10000 (max. 10000000)
 
